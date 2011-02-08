@@ -1,0 +1,62 @@
+html
+
+body
+  :font
+    :family Verdana, Arial, sans-serif
+    :size 8pt
+    :style normal
+
+*
+  :margin 0
+  :padding 0 
+  
+ul.nav_menu
+  :list-style-type none
+  :height 80px
+
+  li
+    :float left
+    :padding-right 20px
+    :padding-left 20px
+    :line-height 80px
+    :text-decoration none
+    :font-size 21px
+
+.content
+  :margin-left 20px
+
+  .list
+    :display table
+    .list_row
+      :display table-row
+      .list_cell
+        :display table-cell
+        :padding 3px
+
+  form
+    .form_row
+      :padding 5px
+
+      label.collection_check_boxes
+        :width auto
+        :text-align left
+        input[type=checkbox]
+          :margin-right 10px
+        :float none
+      
+      label
+        :width 8em
+        :float left
+        :text-align right
+        :display block
+        :padding-right 20px
+
+    .buttons
+      :padding-left 8em
+      :margin-left 25px
+      :margin-bottom 10px
+
+  .left
+    :float left
+    :min-width 300px
+  .right

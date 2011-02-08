@@ -13,11 +13,11 @@ class PointcloudsController < ApplicationController
   def create
     @pointcloud = Pointcloud.new(params[:pointcloud])
     if @pointcloud.save
-      flash[:notice] = "PointCloud added successfully."
+      flash[:notice] = "Point cloud added successfully."
+      @pointcloud.move_to_scan_db
       redirect_to @pointcloud
     else
       flash[:notice] = "You have some errors.."
-      @pointcloud.move_to_scan_db
       render :new
     end
   end
@@ -30,5 +30,27 @@ class PointcloudsController < ApplicationController
     @pointcloud = Pointcloud.find(params[:id])
     sl = Slam6D.new({:pointcloud_id => params[:id]})
     render :inline => sl.runShow
+  end
+  
+  def edit
+    @pointcloud = Pointcloud.find(params[:id])
+  end
+  
+  def update
+    @pointcloud = Pointcloud.find(params[:id])
+    if @pointcloud.update_attributes(params[:pointcloud])
+      flash[:notice] = "Point cloud updated successfully."
+      @pointcloud.move_to_scan_db
+      redirect_to @pointcloud
+    else
+      flash[:notice] = "You have some errors.."
+      render :edit
+    end
+  end
+  
+  def destroy
+    @pointcloud = Pointcloud.find(params[:id])
+    @pointcloud.destroy
+    redirect_to pointclouds_path
   end
 end

@@ -1,0 +1,50 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 8pt;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+ul.nav_menu {
+  list-style-type: none;
+  height: 80px; }
+  ul.nav_menu li {
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 21px; }
+
+.content {
+  margin-left: 20px; }
+  .content .list {
+    display: table; }
+    .content .list .list_row {
+      display: table-row; }
+      .content .list .list_row .list_cell {
+        display: table-cell;
+        padding: 3px; }
+  .content form .form_row {
+    padding: 5px; }
+    .content form .form_row label.collection_check_boxes {
+      width: auto;
+      text-align: left;
+      float: none; }
+      .content form .form_row label.collection_check_boxes input[type=checkbox] {
+        margin-right: 10px; }
+    .content form .form_row label {
+      width: 8em;
+      float: left;
+      text-align: right;
+      display: block;
+      padding-right: 20px; }
+  .content form .buttons {
+    padding-left: 8em;
+    margin-left: 25px;
+    margin-bottom: 10px; }
+  .content .left {
+    float: left;
+    min-width: 300px; }

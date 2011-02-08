@@ -1,0 +1,18 @@
+= form_for @pointcloud do |f|
+  .form_row
+    = f.label :name
+    = f.text_field :name
+  .form_row
+    = f.label :path
+    = f.text_field :path
+  .form_row
+    = f.label :source
+    = f.text_field :source
+  .form_row
+    = f.label :format
+    = f.select :format, ["riegl_txt", "uos", "xyzr"]
+  .form_row
+    = f.label :description
+    = f.text_area :description
+  .buttons
+    = f.submit

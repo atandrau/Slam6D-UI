@@ -1,4 +1,10 @@
-- @pointclouds.each do |p|
-  = p.name
 
-= link_to "New Point Cloud", new_pointcloud_path
+.list
+  - @pointclouds.each do |p|
+    .list_row
+      .list_cell= link_to p.name, p
+      .list_cell= p.format
+      .list_cell= link_to "Edit", edit_pointcloud_path(p)
+      .list_cell= link_to "Delete", p, :method => :delete, :confirm => "Are you sure?"
+
+= link_to "New Point Cloud", new_pointcloud_path, :class => "button"
