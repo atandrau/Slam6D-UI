@@ -11,3 +11,5 @@ rescue Bundler::GemNotFound => e
   STDERR.puts "Try running `bundle install`."
   exit!
 end if File.exist?(gemfile)
+
+require File.expand_path('../../lib/Slam6D.rb', __FILE__)

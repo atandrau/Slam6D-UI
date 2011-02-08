@@ -1,0 +1,23 @@
+= link_to "Index", pointclouds_path
+
+%p
+  Name:
+  = @pointcloud.name
+
+%p
+  Path:
+  = @pointcloud.path
+
+%p
+  Source:
+  = @pointcloud.source
+
+%p
+  Format:
+  = @pointcloud.format
+
+%p
+  Description:
+  = @pointcloud.description
+
+= link_to "Slam6D Show", slam6d_show_pointcloud_path(@pointcloud)

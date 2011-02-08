@@ -1,0 +1,4 @@
+development:
+  settings:
+    slam6dPath: "/Users/alexthero/University/Thesis/slam6dMac/trunk/"
+    scanDB: "/Users/alexthero/University/Thesis/scanDB/"

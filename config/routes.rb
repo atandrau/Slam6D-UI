@@ -12,6 +12,11 @@ Slam6DUI::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  resources :pointclouds do
+    member do
+      get 'slam6d_show'
+    end
+  end
 
   # Sample resource route with options:
   #   resources :products do
@@ -48,7 +53,7 @@ Slam6DUI::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "pointclouds#index"
 
   # See how all your routes lay out with "rake routes"
 

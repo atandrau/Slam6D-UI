@@ -1,0 +1,20 @@
+New Point Cloud
+
+= form_for @pointcloud do |f|
+  %p
+    = f.label :name
+    = f.text_field :name
+  %p
+    = f.label :path
+    = f.text_field :path
+  %p
+    = f.label :source
+    = f.text_field :source
+  %p
+    = f.label :format
+    = f.select :format, ["Riegl", "3D Warehouse"]
+  %p
+    = f.label :description
+    = f.text_area :description
+  %p
+    = f.submit
