@@ -35,7 +35,7 @@ class Slam6D < Struct.new(:options)
       `echo "0 0 0\n-0 0 -0\n" > #{path}dat/ui/scan00#{i}.pose`
     end
     
-    output = run("slam6d --anim=1 -r 5 -d 500 ../dat/ui")
+    output = run("slam6D --anim=1 -r 10 -d 500 -i 1000 ../dat/ui")
     run("show ../dat/ui")
     return output
   end
