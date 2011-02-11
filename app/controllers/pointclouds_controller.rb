@@ -22,13 +22,19 @@ class PointcloudsController < ApplicationController
     end
   end
   
+  def scale_and_center
+    @pointcloud = Pointcloud.find(params[:id])
+    new_p = @pointcloud.scale_and_center_xyz(500)
+    redirect_to new_p
+  end
+  
   def show
     @pointcloud = Pointcloud.find(params[:id])
   end
   
   def slam6d_show
     @pointcloud = Pointcloud.find(params[:id])
-    sl = Slam6D.new({:pointcloud_id => params[:id]})
+    sl = Slam6D.new({:pointcloud_id => @pointcloud.id})
     render :inline => sl.runShow
   end
   

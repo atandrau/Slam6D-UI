@@ -4,7 +4,7 @@
 
 %p
   Path:
-  = @pointcloud.path
+  = @pointcloud.complete_path
 
 %p
   Source:
@@ -18,4 +18,6 @@
   Description:
   = @pointcloud.description
 
-= link_to "Slam6D Show", slam6d_show_pointcloud_path(@pointcloud)
+%br
+= link_to "Slam6D Show", slam6d_show_pointcloud_path(@pointcloud), :class => "button"
+= link_to "Scale and Center", scale_and_center_pointcloud_path(@pointcloud), :class => "button"

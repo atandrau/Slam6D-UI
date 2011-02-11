@@ -1,0 +1,17 @@
+%p
+  Name:
+  = @icp.name
+
+%p
+  Parameters:
+  = @icp.parameters
+
+%p
+  Pointclouds:
+  %ul
+    - @icp.pointclouds.each do |p|
+      %li= p.name
+
+%br
+= link_to "Run", run_icp_path(@icp), :class => "button"
+= link_to "View", run_icp_path(@icp), :class => "button"

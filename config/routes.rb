@@ -15,6 +15,14 @@ Slam6DUI::Application.routes.draw do
   resources :pointclouds do
     member do
       get 'slam6d_show'
+      get 'scale_and_center'
+    end
+  end
+  
+  resources :icps do
+    member do
+      get 'run'
+      get 'view'
     end
   end
 

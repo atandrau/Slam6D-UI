@@ -10,7 +10,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110208105239) do
+ActiveRecord::Schema.define(:version => 20110211153217) do
+
+  create_table "icps", :force => true do |t|
+    t.string   "name"
+    t.string   "parameters"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "icps_pointclouds", :id => false, :force => true do |t|
+    t.integer "icp_id"
+    t.integer "pointcloud_id"
+  end
 
   create_table "pointclouds", :force => true do |t|
     t.string   "name"
