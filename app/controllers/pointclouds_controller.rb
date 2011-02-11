@@ -14,7 +14,7 @@ class PointcloudsController < ApplicationController
     @pointcloud = Pointcloud.new(params[:pointcloud])
     if @pointcloud.save
       flash[:notice] = "Point cloud added successfully."
-      @pointcloud.move_to_scan_db
+      @pointcloud.move_to_scan_db(params[:pointcloud])
       redirect_to @pointcloud
     else
       flash[:notice] = "You have some errors.."

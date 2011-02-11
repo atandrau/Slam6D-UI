@@ -1,10 +1,10 @@
-= form_for @pointcloud do |f|
+= form_for @pointcloud, :html => {:multipart => true } do |f|
   .form_row
     = f.label :name
     = f.text_field :name
   .form_row
     = f.label :path
-    = f.text_field :path
+    = f.file_field :path
   .form_row
     = f.label :source
     = f.text_field :source
