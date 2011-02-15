@@ -1,0 +1,8 @@
+%br
+%strong Scale and Center
+= form_tag scale_and_center_pointcloud_path(@pointcloud) do
+  .form_row
+    = label_tag "All coordinates smaller than"
+    = text_field_tag "bounded", 500
+  .buttons
+    = submit_tag "Scale and Center"

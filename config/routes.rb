@@ -15,7 +15,7 @@ Slam6DUI::Application.routes.draw do
   resources :pointclouds do
     member do
       get 'slam6d_show'
-      get 'scale_and_center'
+      post 'scale_and_center'
     end
   end
   

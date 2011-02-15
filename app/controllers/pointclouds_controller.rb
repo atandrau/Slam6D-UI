@@ -24,7 +24,7 @@ class PointcloudsController < ApplicationController
   
   def scale_and_center
     @pointcloud = Pointcloud.find(params[:id])
-    new_p = @pointcloud.scale_and_center_xyz(500)
+    new_p = @pointcloud.scale_and_center_xyz(params[:bounded].to_f)
     redirect_to new_p
   end
   

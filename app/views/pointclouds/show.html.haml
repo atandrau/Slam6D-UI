@@ -1,23 +1,25 @@
 %p
-  Name:
+  %strong Name:
   = @pointcloud.name
 
 %p
-  Path:
+  %strong Path:
   = @pointcloud.complete_path
 
 %p
-  Source:
+  %strong Source:
   = @pointcloud.source
 
 %p
-  Format:
+  %strong Format:
   = @pointcloud.format
 
 %p
-  Description:
+  %strong Description:
   = @pointcloud.description
 
 %br
 = link_to "Slam6D Show", slam6d_show_pointcloud_path(@pointcloud), :class => "button"
-= link_to "Scale and Center", scale_and_center_pointcloud_path(@pointcloud), :class => "button"
+
+- if ["uos", "xyzr"].include? @pointcloud.format
+  = render :partial => "scale_and_center_form"
