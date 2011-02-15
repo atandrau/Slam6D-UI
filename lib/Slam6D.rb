@@ -30,10 +30,15 @@ class Slam6D < Struct.new(:options)
     `mkdir #{path}dat/ui`
     
     icp = Icp.find(options[:icp_id])
-    icp.pointclouds.each_with_index do |p, i|
-      `cp #{p.complete_path} #{path}dat/ui/scan00#{i}.3d`
-      `echo "0 0 0\n-0 0 -0\n" > #{path}dat/ui/scan00#{i}.pose`
-    end
+    
+    first_scan = icp.first_scan
+    second_scan = icp.second_scan
+    
+    `cp #{first_scan.complete_path} #{path}dat/ui/scan000.3d`
+    `cp #{second_scan.complete_path} #{path}dat/ui/scan001.3d`
+    
+    `echo "#{icp.first_scan_position}\n#{icp.first_scan_rotation}\n" > #{path}dat/ui/scan000.pose`
+    `echo "#{icp.second_scan_position}\n#{icp.second_scan_rotation}\n" > #{path}dat/ui/scan001.pose`
     
     output = run("slam6D #{icp.parameters} --anim=1 ../dat/ui")
     run("show ../dat/ui")

@@ -1,16 +1,14 @@
 %p
-  Name:
+  %strong Name:
   = @icp.name
 
 %p
-  Parameters:
+  %strong Parameters:
   = @icp.parameters
 
 %p
-  Pointclouds:
-  %ul
-    - @icp.pointclouds.each do |p|
-      %li= p.name
+  %strong Pointclouds:
+  = raw(@icp.pointclouds.map { |p| "<u>#{p.name}</u>" }.join(" vs. "))
 
 %br
 = link_to "Run", run_icp_path(@icp), :class => "button"
