@@ -16,6 +16,7 @@ Slam6DUI::Application.routes.draw do
     member do
       get 'slam6d_show'
       post 'scale_and_center'
+      post 'reduce'
     end
   end
   

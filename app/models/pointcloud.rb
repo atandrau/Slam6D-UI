@@ -1,8 +1,6 @@
 class Pointcloud < ActiveRecord::Base
   before_destroy :clean_files
   
-  # has_and_belongs_to_many :icps
-  
   def move_to_scan_db(upload)
     `mkdir #{self.directory}`
     File.open(self.complete_path, "wb") { |f| f.write(upload['path'].read) }
@@ -19,6 +17,28 @@ class Pointcloud < ActiveRecord::Base
   
   def complete_path
     complete = "#{directory}/scan000#{extension}"
+  end
+  
+  def reduce_with_frequency(frequency = 2)
+    p = Pointcloud.create(:name => "#{self.name}, reduced with frequency #{frequency}",
+                          :format => self.format)
+    `mkdir #{p.directory}`
+    
+    in_file = File.new(self.complete_path, "r")
+    in_file.gets
+    
+    out_points = []
+    while (line = in_file.gets) do
+      out_points << line if rand(frequency) == 0
+    end
+    in_file.close
+    
+    out_file = File.new(p.complete_path, "w")
+    out_file.write(out_points.size.to_s + "\n")
+    out_points.each { |line| out_file.write(line) }
+    out_file.close
+    
+    p
   end
   
   def scale_and_center_xyz(base = 1000)
@@ -55,14 +75,13 @@ class Pointcloud < ActiveRecord::Base
     end
     
     p = Pointcloud.create(:name => "#{self.name}, bounded: #{base}, centered",
-                         :format => "uos")
+                          :format => "uos")
     `mkdir #{p.directory}`
     File.open("#{p.complete_path}", "w") { |f| f.write(points.map { |p| p.join(" ")}.join("\n")) }
     p
   end
   
   protected
-  
   def clean_files
     `rm -fdr #{self.directory}`
   end

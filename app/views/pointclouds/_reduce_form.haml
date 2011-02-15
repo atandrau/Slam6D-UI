@@ -1,0 +1,9 @@
+%br
+%strong Reduce Pointcloud
+= form_tag reduce_pointcloud_path(@pointcloud) do
+  .form_row
+    = label_tag "frequency"
+    = text_field_tag "frequency", 3
+    Keep 1 out of [x] points in pointcloud
+  .buttons
+    = submit_tag "Reduce"

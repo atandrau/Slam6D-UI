@@ -1,0 +1,22 @@
+%p
+  %strong Name:
+  = pointcloud.name
+
+%p
+  %strong Path:
+  = pointcloud.complete_path
+
+%p
+  %strong Source:
+  = pointcloud.source
+
+%p
+  %strong Format:
+  = pointcloud.format
+
+%p
+  %strong Description:
+  = pointcloud.description
+
+%br
+= link_to "Slam6D Show", slam6d_show_pointcloud_path(pointcloud), :class => "button"

@@ -20,7 +20,7 @@ class Slam6D < Struct.new(:options)
       `cp #{pointcloud.complete_path} #{path}dat/ui/scan000.txt`
       `echo "1 -0 0 0\n-0 1 -0 -0\n0 -0 1 0\n0 -0 0 1" > #{path}dat/ui/scan000.dat`
       `echo "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 2\n" > #{path}dat/ui/scan000.frames`
-      run("show -s 0 -e 0 -f riegl_txt ../dat/ui", true)
+      run("show -s 0 -e 0 -f riegl_txt ../dat/ui")
     end
   end
   

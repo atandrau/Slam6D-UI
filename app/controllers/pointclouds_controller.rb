@@ -1,9 +1,9 @@
 class PointcloudsController < ApplicationController
   
+  before_filter :load_pointcloud, :except => [:index, :new, :create]
+  
   def index
     @pointclouds = Pointcloud.all
-    # slam = Slam6D.new({})
-    # render :inline => slam.testOpen
   end
 
   def new
@@ -23,27 +23,21 @@ class PointcloudsController < ApplicationController
   end
   
   def scale_and_center
-    @pointcloud = Pointcloud.find(params[:id])
     new_p = @pointcloud.scale_and_center_xyz(params[:bounded].to_f)
     redirect_to new_p
   end
   
-  def show
-    @pointcloud = Pointcloud.find(params[:id])
+  def reduce
+    new_p = @pointcloud.reduce_with_frequency(params[:frequency].to_f)
+    redirect_to new_p
   end
   
   def slam6d_show
-    @pointcloud = Pointcloud.find(params[:id])
     sl = Slam6D.new({:pointcloud_id => @pointcloud.id})
     render :inline => sl.runShow
   end
   
-  def edit
-    @pointcloud = Pointcloud.find(params[:id])
-  end
-  
   def update
-    @pointcloud = Pointcloud.find(params[:id])
     if @pointcloud.update_attributes(params[:pointcloud])
       flash[:notice] = "Point cloud updated successfully."
       @pointcloud.move_to_scan_db
@@ -55,8 +49,13 @@ class PointcloudsController < ApplicationController
   end
   
   def destroy
-    @pointcloud = Pointcloud.find(params[:id])
     @pointcloud.destroy
     redirect_to pointclouds_path
   end
+  
+  protected
+  def load_pointcloud
+    @pointcloud = Pointcloud.find(params[:id])
+  end
+
 end
