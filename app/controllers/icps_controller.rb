@@ -22,7 +22,8 @@ class IcpsController < ApplicationController
   
   def run
     sl = Slam6D.new({:icp_id => @icp})
-    render :inline => sl.runIcp.gsub("\n", "<br>")
+    @console_output = sl.runIcp
+    render :show
   end
   
   def destroy

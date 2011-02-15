@@ -13,3 +13,7 @@
 %br
 = link_to "Run", run_icp_path(@icp), :class => "button"
 = link_to "Edit", edit_icp_path(@icp), :class => "button"
+
+%br
+- if @console_output
+  = text_area_tag "console", @console_output, {:size => "150x25"}

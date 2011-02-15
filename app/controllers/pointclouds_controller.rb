@@ -34,7 +34,8 @@ class PointcloudsController < ApplicationController
   
   def slam6d_show
     sl = Slam6D.new({:pointcloud_id => @pointcloud.id})
-    render :inline => sl.runShow(params[:reflectance] == "yes")
+    @console_output = sl.runShow(params[:reflectance] == "yes")
+    render :show
   end
   
   def update

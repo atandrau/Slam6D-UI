@@ -5,3 +5,6 @@
 
 - if ["riegl_txt"].include? @pointcloud.format
   = render :partial => "reduce_form"
+
+- if @console_output
+  = text_area_tag "console", @console_output, {:size => "150x25"}
