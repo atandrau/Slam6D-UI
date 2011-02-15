@@ -10,13 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110211153217) do
+ActiveRecord::Schema.define(:version => 20110215103932) do
 
   create_table "icps", :force => true do |t|
     t.string   "name"
     t.string   "parameters"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "first_scan_id"
+    t.integer  "second_scan_id"
   end
 
   create_table "icps_pointclouds", :id => false, :force => true do |t|

@@ -1,5 +1,7 @@
 class Pointcloud < ActiveRecord::Base
-  has_and_belongs_to_many :icps
+  before_destroy :clean_files
+  
+  # has_and_belongs_to_many :icps
   
   def move_to_scan_db(upload)
     `mkdir #{self.directory}`
@@ -57,5 +59,11 @@ class Pointcloud < ActiveRecord::Base
     `mkdir #{p.directory}`
     File.open("#{p.complete_path}", "w") { |f| f.write(points.map { |p| p.join(" ")}.join("\n")) }
     p
+  end
+  
+  protected
+  
+  def clean_files
+    `rm -fdr #{self.directory}`
   end
 end

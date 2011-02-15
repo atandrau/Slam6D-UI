@@ -1,6 +1,7 @@
 = simple_form_for @icp do |f|
   = f.input :name
   = f.input :parameters
-  = f.association :pointclouds, :as => :check_boxes
+  = f.association :first_scan, :as => :select
+  = f.association :second_scan, :as => :select
   .buttons
     = f.submit
