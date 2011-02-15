@@ -1,0 +1,36 @@
+= simple_form_for @icp do |f|
+  = f.input :name
+  = f.association :first_scan, :as => :select
+  = f.association :second_scan, :as => :select
+  
+  %strong Parameters
+  .form_row
+    = f.label :param_a, "-a"
+    = f.select :param_a, [["unit quaternion based method by Horn", "1"],
+                          ["singular value decomposition by Arun et al.", "2"],
+                          ["orthonomral matrices by Horn et al.", "3"],
+                          ["dual quaternion method by Walker et al.", "4"],
+                          ["helix approximation by Hofer & Potmann", "5"],
+                          ["small angle approximation", "6"],
+                          ["Lu & Milios style - uncertainty based, with Euler angles", "7"],
+                          ["Lu & Milios style - uncertainty based, with Quaternion", "8"],
+                          ["Unit quaternion with scale method by Horn", "9"]]
+    selects the minimization method for the ICP matching algorithm
+  .form_row
+    = f.label :param_d, "-d"
+    = f.text_field :param_d
+    sets the maximal point-to-point distance for matching with ICP to <NR> 'units'
+  .form_row
+    = f.label :param_epsICP, "--epsICP"
+    = f.text_field :param_epsICP
+    stop ICP iteration if difference is smaller than NR
+  .form_row
+    = f.label :param_i, "-i"
+    = f.text_field :param_i
+    sets the maximal number of ICP iterations to <NR>
+  .form_row
+    = f.label :param_r, "-r"
+    = f.text_field :param_r
+    turns on octree based point reduction (voxel size <NR>)
+  .buttons
+    = f.submit

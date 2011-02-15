@@ -10,11 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110215103932) do
+ActiveRecord::Schema.define(:version => 20110215160057) do
 
   create_table "icps", :force => true do |t|
     t.string   "name"
-    t.string   "parameters"
+    t.string   "parameters",     :default => "-a 9 -r 10 -d 500 -i 1000"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "first_scan_id"

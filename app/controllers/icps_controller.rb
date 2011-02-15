@@ -1,4 +1,5 @@
 class IcpsController < ApplicationController
+  before_filter :load_icp, :except => [:index, :new, :create]
   
   def index
     @icps = Icp.all
@@ -14,23 +15,27 @@ class IcpsController < ApplicationController
     redirect_to @icp
   end
   
-  def show
-    @icp = Icp.find(params[:id])
+  def update
+    @icp.update_attributes(params[:icp])
+    redirect_to @icp
   end
   
   def run
-    @icp = Icp.find(params[:id])
     sl = Slam6D.new({:icp_id => @icp})
     render :inline => sl.runIcp.gsub("\n", "<br>")
   end
   
   def destroy
-    @icp = Icp.find(params[:id])
     @icp.destroy
     redirect_to icps_path
   end
   
   def view
     render :inline => "View"
+  end
+  
+  protected
+  def load_icp
+    @icp = Icp.find(params[:id])
   end
 end
