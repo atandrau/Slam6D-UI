@@ -27,6 +27,16 @@ class PointcloudsController < ApplicationController
     redirect_to new_p
   end
   
+  def get_object
+    new_p = @pointcloud.get_object_around(params[:center].split(" "))
+    redirect_to new_p
+  end
+  
+  def convert_to_uos
+    new_p = @pointcloud.convert_to_uos
+    redirect_to new_p
+  end
+  
   def reduce
     new_p = @pointcloud.reduce_with_frequency(params[:frequency].to_f)
     redirect_to new_p

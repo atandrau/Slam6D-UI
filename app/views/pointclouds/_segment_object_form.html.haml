@@ -1,0 +1,8 @@
+%br
+%strong Get Object Around Point
+= form_tag get_object_pointcloud_path(@pointcloud) do
+  .form_row
+    = label_tag "Base Point"
+    = text_field_tag "center", "0 0 0"
+  .buttons
+    = submit_tag "Get Object"

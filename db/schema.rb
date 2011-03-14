@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110215182753) do
+ActiveRecord::Schema.define(:version => 20110313085526) do
 
   create_table "icps", :force => true do |t|
     t.string   "name"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(:version => 20110215182753) do
   end
 
   create_table "pointclouds", :force => true do |t|
-    t.string   "name"
+    t.string   "label"
     t.string   "path"
     t.string   "source"
     t.string   "format"

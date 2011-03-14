@@ -17,6 +17,8 @@ Slam6DUI::Application.routes.draw do
       post 'slam6d_show'
       post 'scale_and_center'
       post 'reduce'
+      post 'convert_to_uos'
+      post 'get_object'
     end
   end
   
