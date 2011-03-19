@@ -1,0 +1,11 @@
+= form_for @model, :html => {:multipart => true } do |f|
+  .form_row
+    = f.label :name
+    = f.text_field :name
+  - f.fields_for :pointclouds do |p|
+    .form_row
+      = p.label :path
+      = p.file_field :path
+    = p.hidden_field :format
+  .buttons
+    = f.submit

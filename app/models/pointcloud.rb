@@ -22,7 +22,7 @@ class Pointcloud < ActiveRecord::Base
   end
   
   def name
-    id.to_s + " : " + self.label
+    "#{id} : #{self.label}"
   end
   
   def reduce_with_frequency(frequency = 2)
