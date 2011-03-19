@@ -22,6 +22,9 @@ Slam6DUI::Application.routes.draw do
     end
   end
   
+  resources :sketchupmodels do
+  end
+  
   resources :icps do
     member do
       get 'run'

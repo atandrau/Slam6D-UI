@@ -1,0 +1,9 @@
+.list
+  - @models.each do |p|
+    .list_row
+      .list_cell= link_to p.name, p
+      .list_cell= p.google_id
+      .list_cell= link_to "Edit", edit_sketchupmodel_path(p)
+      .list_cell= link_to "Delete", p, :method => :delete
+
+= link_to "New Google Sketchup Model", new_sketchupmodel_path, :class => "button"

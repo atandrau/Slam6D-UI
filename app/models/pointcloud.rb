@@ -1,4 +1,6 @@
 class Pointcloud < ActiveRecord::Base
+  belongs_to :sketchupmodel
+  
   before_destroy :clean_files
   
   def move_to_scan_db(upload)
@@ -71,7 +73,6 @@ class Pointcloud < ActiveRecord::Base
   end
   
   def get_object(center)
-    epsilon = 300
     require 'kd-tree'
     
     in_file = File.new(self.complete_path, "r")
@@ -85,7 +86,7 @@ class Pointcloud < ActiveRecord::Base
       point = line.split(" ")
       point = point[0..2] if point.size > 3
       point = point.map { |p| p.to_f }
-      points << point
+      points << (point + [points.size])
       
       this_distance = distance_between(center, point)
       closest, closest_dist = points.size - 1, this_distance if this_distance < closest_dist
@@ -93,35 +94,51 @@ class Pointcloud < ActiveRecord::Base
     
     puts "Found closest point to center"
     
-    crt_point = points[closest]
-    puts crt_point.to_json
-    out_points = []
-    points.each do |p|
-      a = (0.upto(2).map { |i| (crt_point[i] - p[i]).abs }).max
-      out_points << p if a < epsilon
+    variant = 1
+    if variant == 0
+      epsilon = 250
+      crt_point = points[closest]
+      puts crt_point.to_json
+      out_points = []
+      points.each do |p|
+        a = (0.upto(2).map { |i| (crt_point[i] - p[i]).abs }).max
+        out_points << p if a < epsilon
+      end
     end
     
-    #tree = KDTree.new(points, 3)
-    #puts "Created KD Tree"
+    if variant == 1
+      epsilon = 5
+      tree = KDTree.new(points, 3)
+      puts "Created KD Tree"
     
-    #out_points = [points[closest]]
-    #i = 0
-    #while(i < out_points.size)
-    #  crt_point = out_points[i]
-    #  ranger = crt_point.map{ |p| [p - epsilon, p + epsilon] }
-    #  new_points = tree.find(ranger[0], ranger[1], ranger[2])
-    #  new_points.each { |p| out_points << p if !out_points.include? p }
-    #  
-    #  i += 1
-    #  puts out_points.size
-    #  break
-    #end
+      v = points.map { |p| false }
+      out_points = [points[closest]]
+      v[closest] = true
+      i = 0
+      while(i < out_points.size)
+        crt_point = out_points[i]
+        # puts "Expanding from #{crt_point[3]}"
+        ranger = crt_point.map{ |p| [p - epsilon, p + epsilon] }
+        new_points = tree.find(ranger[0], ranger[1], ranger[2])
+        
+        new_points.each do |p|
+          # puts "Candidate: #{p[3]}"
+          unless v[p[3]]
+            out_points << p 
+            v[p[3]] = true
+          end
+        end
+      
+        i += 1
+        puts out_points.size
+      end
+    end
 
     puts "writing points = #{out_points.size}"
     p = Pointcloud.create(:label => "#{self.label}, points around #{center.join(" ")}, epsilon #{epsilon}",
                           :format => "uos")
     `mkdir #{p.directory}`
-    File.open("#{p.complete_path}", "w") { |f| f.write(out_points.map { |p| p.join(" ")}.join("\n")) }
+    File.open("#{p.complete_path}", "w") { |f| f.write(out_points.map { |p| p[0..2].join(" ")}.join("\n")) }
     p
   end
   

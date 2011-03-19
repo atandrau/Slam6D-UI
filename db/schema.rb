@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110313085526) do
+ActiveRecord::Schema.define(:version => 20110319104058) do
 
   create_table "icps", :force => true do |t|
     t.string   "name"
@@ -36,6 +36,14 @@ ActiveRecord::Schema.define(:version => 20110313085526) do
     t.string   "source"
     t.string   "format"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "sketchupmodel_id"
+  end
+
+  create_table "sketchupmodels", :force => true do |t|
+    t.string   "name"
+    t.string   "google_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
