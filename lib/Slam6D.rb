@@ -24,6 +24,21 @@ class Slam6D < Struct.new(:options)
     end
   end
   
+  def runMatching
+    path = AppConfig["settings"]["slam6dPath"]
+    `rm -fdr #{path}dat/ui`
+    `mkdir #{path}dat/ui`
+    
+    `cp #{options[:first_scan_path]} #{path}dat/ui/scan000.3d`
+    `cp #{options[:second_scan_path]} #{path}dat/ui/scan001.3d`
+
+    `echo "0 0 0\n0 0 0\n" > #{path}dat/ui/scan000.pose`
+    `echo "0 0 0\n#{options[:second_scan_rotation]}\n" > #{path}dat/ui/scan001.pose`
+    
+    output = run("slam6D -s 0 -e 1 -a 9 -d 500 --epsICP=0 -i 1000 -r 10 --anim=1 ../dat/ui")
+    return output
+  end
+  
   def runIcp
     path = AppConfig["settings"]["slam6dPath"]
     `rm -fdr #{path}dat/ui`

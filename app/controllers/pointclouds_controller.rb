@@ -22,6 +22,12 @@ class PointcloudsController < ApplicationController
     end
   end
   
+  def multiply_frames
+    @pointcloud.multiply_inverse(params[:file_path])
+    flash[:notice] = "Multipled frames file by inverse matrix"
+    redirect_to @pointcloud
+  end
+  
   def scale_and_center
     new_p = @pointcloud.scale_and_center_xyz(params[:bounded].to_f)
     redirect_to new_p

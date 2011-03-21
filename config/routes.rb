@@ -19,11 +19,12 @@ Slam6DUI::Application.routes.draw do
       post 'reduce'
       post 'convert_to_uos'
       post 'get_object'
+      post 'multiply_frames'
     end
   end
   
-  resources :sketchupmodels do
-  end
+  resources :sketchupmodels 
+  resources :matchings
   
   resources :icps do
     member do

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  pointcloud_id: 1
+  best_model_id: 1
+
+two:
+  name: MyString
+  pointcloud_id: 1
+  best_model_id: 1

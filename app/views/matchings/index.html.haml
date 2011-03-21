@@ -1,0 +1,10 @@
+%h2 Matchings
+
+.list
+  - @matchings.each do |m|
+    .list_row
+      .list_cell= link_to m.name, m
+      .list_cell= link_to "Edit", edit_matching_path(m)
+      .list_cell= link_to "Delete", m, :method => :delete
+
+= link_to "New Matching", new_matching_path, :class => "button"

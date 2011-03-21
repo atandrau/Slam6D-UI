@@ -1,8 +1,11 @@
+%h2 Sketchup Models
+
 .list
   - @models.each do |p|
     .list_row
+      .list_cell= p.id
       .list_cell= link_to p.name, p
-      .list_cell= p.google_id
+      .list_cell= link_to p.google_id, p.google_link
       .list_cell= link_to "Edit", edit_sketchupmodel_path(p)
       .list_cell= link_to "Delete", p, :method => :delete
 

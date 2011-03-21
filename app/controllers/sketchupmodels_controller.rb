@@ -1,5 +1,6 @@
 class SketchupmodelsController < ApplicationController
   before_filter :load_sketchupmodel, :except => [:new, :create, :index]
+  skip_before_filter :verify_authenticity_token, :only => [:create]
   
   def update
     if @model.update_attributes(params[:sketchupmodel])

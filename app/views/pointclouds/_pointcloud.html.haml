@@ -18,6 +18,14 @@
   %strong Description:
   = pointcloud.description
 
+%p
+  %strong Transformation Matrix
+  = pointcloud.transf_matrix
+
+%p
+  %strong Inverse Transformation Matrix
+  = pointcloud.inverse_transf_matrix
+
 %br
 %strong Visualize in Slam6D Show Utility
 = form_tag slam6d_show_pointcloud_path(pointcloud), :class => "button" do
@@ -26,3 +34,12 @@
     = check_box_tag "reflectance", "yes", true
   .buttons
     = submit_tag "Show"
+
+%br
+%strong Multiply frames file with inverse matrix
+= form_tag multiply_frames_pointcloud_path(pointcloud), :class => "button" do
+  .form_row
+    = label_tag "File Name"
+    = text_field_tag "file_path", "#{AppConfig["settings"]["slam6dPath"]}dat/ui/scan001.frames", :size => 100
+  .buttons
+    = submit_tag "Multiply"

@@ -25,6 +25,59 @@ class Pointcloud < ActiveRecord::Base
     "#{id} : #{self.label}"
   end
   
+  def inverse_transf_matrix
+    return nil unless self.transf_matrix
+    a = self.transf_matrix.gsub("[", "").gsub("]", "").split(", ").map { |b| b.to_f }
+    a[0] = 1 / a[0]
+    a[5] = 1 / a[5]
+    a[10] = 1 / a[10]
+    a[12] = - a[12] * a[0]
+    a[13] = - a[13] * a[0]
+    a[14] = - a[14] * a[0]
+    
+    a.to_s
+  end
+  
+  def inverse_times(other)
+    a = self.inverse_transf_matrix.gsub("[", "").gsub("]", "").split(", ").map { |b| b.to_f }
+    b = other.split(" ")[0..15].map { |a| a.to_f }
+  
+    # Compute a * b
+    a1 = [[a[0], a[4], a[8], a[12]],
+          [a[1], a[5], a[9], a[13]],
+          [a[2], a[6], a[10], a[14]],
+          [a[3], a[7], a[11], a[15]]]
+    b1 = [[b[0], b[4], b[8], b[12]],
+          [b[1], b[5], b[9], b[13]],
+          [b[2], b[6], b[10], b[14]],
+          [b[3], b[7], b[11], b[15]]]
+
+    c = 0.upto(3).map { |i| 0.upto(3).map { |j| 0 }}
+    0.upto(3) {|i|
+      0.upto(3) { |j|
+        0.upto(3) { |k|
+          c[i][j] += a1[i][k] * b1[k][j]
+          }
+        }
+      }
+    
+    (0.upto(3).map { |i| 0.upto(3).map { |j| c[j][i] }}.flatten << 1).to_s.gsub("[", "").gsub("]", "").gsub(",", "")
+  end
+  
+  def multiply_inverse(file)
+    out = []
+    
+    in_file = File.new(file, "r")
+    while (line = in_file.gets) do
+      out << inverse_times(line)
+    end
+    in_file.close
+    
+    out_file = File.new(file, "w")
+    out.each { |line| out_file.write(line + "\n") }
+    out_file.close
+  end
+  
   def reduce_with_frequency(frequency = 2)
     p = Pointcloud.create(:name => "#{self.name}, reduced with frequency #{frequency}",
                           :format => self.format)
@@ -143,6 +196,8 @@ class Pointcloud < ActiveRecord::Base
   end
   
   def scale_and_center_xyz(base = 1000)
+    transf = 1.upto(16).map { |i| 0 }
+    
     points = []
     file = File.new(self.complete_path, "r")
     n, sumx, sumy, sumz = 0, 0, 0, 0
@@ -169,11 +224,20 @@ class Pointcloud < ActiveRecord::Base
       maximum = [maximum, p[0].abs, p[1].abs, p[2].abs].max
     end
     
+    transf[12] = -centroidX.to_f * base / maximum
+    transf[13] = -centroidY.to_f * base / maximum
+    transf[14] = -centroidZ.to_f * base / maximum
+    transf[15] = 1
+    
     points.each do |p|
       p[0] = p[0] * base / maximum
       p[1] = p[1] * base / maximum
       p[2] = p[2] * base / maximum
     end
+    
+    transf[0] = base / maximum
+    transf[5] = base / maximum
+    transf[10] = base / maximum
     
     # points.each do |p|
     #   p[0] -= 775.585
@@ -182,7 +246,7 @@ class Pointcloud < ActiveRecord::Base
     # end
     
     p = Pointcloud.create(:label => "#{self.label}, bounded: #{base}, centered",
-                          :format => "uos")
+                          :format => "uos", :transf_matrix => transf.to_s)
     `mkdir #{p.directory}`
     File.open("#{p.complete_path}", "w") { |f| f.write(points.map { |p| p.join(" ")}.join("\n")) }
     p

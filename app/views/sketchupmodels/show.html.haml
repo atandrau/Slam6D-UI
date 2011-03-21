@@ -1,0 +1,8 @@
+%h2
+  = @model.name
+  = "[#{@model.google_id}]"
+.list
+  - @model.pointclouds.each do |p|
+    .list_row
+      .list_cell
+        = link_to p.name, p

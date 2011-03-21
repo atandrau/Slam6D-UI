@@ -1,0 +1,5 @@
+= simple_form_for @matching do |f|
+  = f.input :name
+  = f.association :pointcloud, :as => :select
+  .buttons
+    = f.submit
