@@ -3,6 +3,8 @@ class Pointcloud < ActiveRecord::Base
   
   before_destroy :clean_files
   
+  scope :independent, :conditions => { :sketchupmodel_id => nil }
+  
   def move_to_scan_db(upload)
     `mkdir #{self.directory}`
     File.open(self.complete_path, "wb") { |f| f.write(upload['path'].read) }
@@ -76,6 +78,68 @@ class Pointcloud < ActiveRecord::Base
     out_file = File.new(file, "w")
     out.each { |line| out_file.write(line + "\n") }
     out_file.close
+  end
+  
+  def triangleArea(a, b, c)
+    (0.5 * (a[0] * b[1] * c[2] + b[0] * c[1] * a[2] + c[0] * a[1] * b[2] - c[0] * b[1] * a[2] - b[0] * a[1] * c[2] - a[0] * c[1] * b[2])).abs
+  end
+  
+  def resample(points_per_area)
+    points = []
+    
+    puts "Reading points"
+    in_file = File.new(self.complete_path, "r")
+    while(line = in_file.gets) do
+      next if line.include?("#")
+      point = line.split(" ")
+      point = point[0..2] if point.size > 3
+      point = point.map { |p| p.to_f }
+      points << point
+    end
+    in_file.close
+    puts "Finished reading #{points.size} points"
+    puts "Starting to resample"
+    
+    final_points = []
+    index = 0
+    total_slices = points.size / 3
+    points.each_slice(3) do |p|
+      index += 1
+      puts "Slice #{index} out of #{total_slices}"
+      final_points << p[0]
+      final_points << p[1]
+      final_points << p[2]
+      
+      area = triangleArea(p[0], p[1], p[2])
+      0.upto((area * points_per_area).to_i) do |i|
+        a = rand()
+        b = rand()
+        c = 1 - a - b
+        while c < 0 do
+          a = rand()
+          b = rand()
+          
+          c = 1 - a - b
+        end
+        r = [a, b, c].shuffle
+        a, b, c = r[0], r[1], r[2]
+        
+        new_point = [p[0][0] * a + p[1][0] * b + p[2][0] * c,
+                     p[0][1] * a + p[1][1] * b + p[2][1] * c,
+                     p[0][2] * a + p[1][2] * b + p[2][2] * c]
+        final_points << new_point
+      end
+      
+      puts "Now #{final_points.size} points.."
+    end
+    # final_points.uniq!
+    
+    puts "writing points = #{final_points.size}"
+    p = Pointcloud.create(:label => "#{self.label}, resampled #{points_per_area} points per area unit",
+                          :format => "uos")
+    `mkdir #{p.directory}`
+    File.open("#{p.complete_path}", "w") { |f| f.write(final_points.map { |p| p[0..2].join(" ")}.join("\n")) }
+    p
   end
   
   def reduce_with_frequency(frequency = 2)

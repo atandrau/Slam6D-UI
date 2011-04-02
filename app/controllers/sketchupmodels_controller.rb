@@ -17,6 +17,11 @@ class SketchupmodelsController < ApplicationController
     @model.pointclouds.build(:format => "uos")
   end
   
+  def resample
+    @model.resample(params[:points_per_area].to_f)
+    redirect_to @model, :notice => "Resampled"
+  end
+  
   def create
     @model = Sketchupmodel.new(params[:sketchupmodel])
     if @model.save
@@ -24,8 +29,7 @@ class SketchupmodelsController < ApplicationController
       @model.update_attribute(:google_id, params[:sketchupmodel][:pointclouds_attributes]["0"]['path'].original_filename.gsub(".3d", "").split("_")[0])
       
       @model.pointclouds.map { |p| p.update_attribute(:label, @model.name) }
-      @model.pointclouds << @model.pointclouds.first.scale_and_center_xyz(500)
-      @model.save
+      @model.delay.add_scaled_and_centered
       
       flash[:notice] = "Sketchup model saved successfully."
       redirect_to sketchupmodels_path

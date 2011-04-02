@@ -4,3 +4,16 @@
 %p
   %strong Pointcloud Name:
   = @matching.pointcloud.name
+
+%p
+  %strong Sketchup Model Name:
+  = @matching.model_name
+
+%p
+  %strong Results
+  = @matching.results
+
+%br
+= form_tag run_matching_path(@matching) do
+  .buttons
+    = submit_tag "Run"

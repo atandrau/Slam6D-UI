@@ -8,9 +8,9 @@
     = javascript_include_tag :all
     = csrf_meta_tag
   %body
-    - if flash[:notice]
-      = flash[:notice] 
-      %hr
     = render :partial => "shared/nav"
     .content
       = yield
+    - if flash[:notice]
+      %hr
+      .flash_notice= flash[:notice]   

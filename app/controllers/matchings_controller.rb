@@ -19,6 +19,11 @@ class MatchingsController < ApplicationController
   def index
     @matchings = Matching.all
   end
+  
+  def run
+    @matching.delay.run
+    redirect_to @matching, :notice => "Running matching scheduled"
+  end
 
   protected
   def load_matching

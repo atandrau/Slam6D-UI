@@ -23,8 +23,16 @@ Slam6DUI::Application.routes.draw do
     end
   end
   
-  resources :sketchupmodels 
-  resources :matchings
+  resources :sketchupmodels  do
+    member do
+      post "resample"
+    end
+  end
+  resources :matchings do
+    member do
+      post "run"
+    end
+  end
   
   resources :icps do
     member do

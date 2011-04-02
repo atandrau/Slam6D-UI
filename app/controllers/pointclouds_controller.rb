@@ -3,7 +3,7 @@ class PointcloudsController < ApplicationController
   before_filter :load_pointcloud, :except => [:index, :new, :create]
   
   def index
-    @pointclouds = Pointcloud.all
+    @pointclouds = Pointcloud.independent
   end
 
   def new
@@ -34,7 +34,7 @@ class PointcloudsController < ApplicationController
   end
   
   def get_object
-    new_p = @pointcloud.get_object_around(params[:center].split(" "))
+    new_p = @pointcloud.get_object(params[:center])
     redirect_to new_p
   end
   

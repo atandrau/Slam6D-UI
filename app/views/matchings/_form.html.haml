@@ -1,5 +1,6 @@
 = simple_form_for @matching do |f|
   = f.input :name
-  = f.association :pointcloud, :as => :select
+  = f.association :pointcloud, :as => :select, :collection => Pointcloud.independent
+  = f.input :model_name, :as => :select, :collection => Sketchupmodel.all.map { |p| p.name }.uniq
   .buttons
     = f.submit

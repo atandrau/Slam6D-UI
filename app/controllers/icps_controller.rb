@@ -7,6 +7,7 @@ class IcpsController < ApplicationController
   
   def new
     @icp = Icp.new
+    @icp.set_parameter_value("--epsICP", "0.0")
   end
   
   def create

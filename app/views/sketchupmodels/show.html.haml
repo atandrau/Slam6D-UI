@@ -6,3 +6,12 @@
     .list_row
       .list_cell
         = link_to p.name, p
+
+%br
+%strong Resample Model
+= form_tag resample_sketchupmodel_path(@model) do
+  .form_row
+    = label_tag "Points per Area Unit"
+    = text_field_tag "points_per_area", "0.0001"
+  .buttons
+    = submit_tag "Resample"
