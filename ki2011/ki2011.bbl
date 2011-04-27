@@ -39,6 +39,19 @@ Kevin Lai and Dieter Fox.
 \newblock {\em The International Journal of Robotics Research (IJRR '10)}, May
   2010.
 
+\bibitem{Li:2009}
+Li-Jia Li, R.~Socher, and Li~Fei-Fei.
+\newblock {Towards Total Scene Understanding: Classification, Annotation and
+  Segmentation in an Automatic Framework}.
+\newblock In {\em Proceedings of IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR '08)}, Miami, FL, USA, June 2009.
+
+\bibitem{Meger:2008}
+D.~Meger, P.-E. Forssen, K.~Lai, S.~Helmer, S.~McCann, T.~Southey, M.~Baumann,
+  J.J. Little, and D.G. Lowe.
+\newblock {Curious George: An Attentive Semantic Robot}.
+\newblock {\em Robotics and Autonomous System Journal}, June 2008.
+
 \bibitem{Nuechter:2010}
 Andreas Nuechter, Jan Elseberg, Peter Schneider, and Dietrich Paulus.
 \newblock Study of parameterizations of the rigid body transformations of the

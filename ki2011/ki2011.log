@@ -1,24 +1,27 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.9.3)  27 APR 2011 10:41
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  27 APR 2011 11:31
 entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **ki2011.tex
 (./ki2011.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
-abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
-h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
-greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
-rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
-lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
-ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
 (./llncs.cls
 Document Class: llncs 2004/08/17 v2.14 
  LaTeX document class for Lecture Notes in Computer Science
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,7 +36,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/multicol.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -131,52 +134,52 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 370.
 \c@remark=\count114
 \headlineindent=\dimen123
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/makeidx.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 \Gread@gobject=\count115
 ))
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen126
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen127
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count116
@@ -220,29 +223,29 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/bbm-macros/bbm.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip48
 \LTright=\skip49
@@ -260,14 +263,14 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count132
 \LT@p@ftn=\toks24
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
 \captionmargin=\dimen136
 \captionmargin@=\dimen137
 \captionwidth=\dimen138
@@ -275,7 +278,7 @@ Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \caption@parindent=\dimen140
 \caption@hangindent=\dimen141
 Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used on input line 1068.
+(caption)             standard defaults will be used on input line 1084.
 )
 
 Package caption Warning: Unsupported document class (or package) detected,
@@ -288,7 +291,7 @@ p \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\bfseries
 a \hfil }\fi \vskip \belowcaptionskip .
 \c@ContinuedFloat=\count133
 Package caption Info: longtable package is loaded.
-(/usr/local/texlive/2009/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
 ))
 \c@KVtest=\count134
@@ -305,191 +308,367 @@ Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
 \sf@top=\skip55
 \sf@bottom=\skip56
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/cite/cite.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 285.
 LaTeX Info: Redefining \nocite on input line 356.
 Package: cite 2009/08/29  v 5.2
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/units/nicefrac.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip57
 \L@UnitsRaiseTextstyle=\skip58
 \L@UnitsRaiseScriptstyle=\skip59
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)) (./ki2011.aux)
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2010/06/18 v6.81g Hypertext links for LaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdfescape.sty
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/letltxmacro.sty
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count141
+\Hy@pagecounter=\count142
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2010/06/18 v6.81g Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 3658.
+Package hyperref Info: Link nesting OFF on input line 3663.
+Package hyperref Info: Hyper index ON on input line 3666.
+Package hyperref Info: Plain pages OFF on input line 3673.
+Package hyperref Info: Backreferencing OFF on input line 3678.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3874.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4159.
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count143
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+\Field@toks=\toks25
+Package hyperref Info: Hyper figures OFF on input line 5137.
+Package hyperref Info: Link nesting OFF on input line 5142.
+Package hyperref Info: Hyper index ON on input line 5145.
+Package hyperref Info: backreferencing OFF on input line 5152.
+Package hyperref Info: Link coloring OFF on input line 5157.
+Package hyperref Info: Link coloring with OCG OFF on input line 5162.
+Package hyperref Info: PDF/A mode OFF on input line 5167.
+LaTeX Info: Redefining \ref on input line 5207.
+LaTeX Info: Redefining \pageref on input line 5211.
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
+\Hy@abspage=\count144
+\c@Item=\count145
+\c@Hfootnote=\count146
+)
+* hyperref using driver hpdftex *
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2010/06/18 v6.81g Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/atveryend.sty
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+\Fld@listcount=\count147
+\c@bookmark@seq@number=\count148
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/uniquecounter.sty
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+71.
+)
+\Hy@SectionHShift=\skip60
+)
+(./ki2011.aux)
 \openout1 = `ki2011.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
-(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen143
+\scratchcounter=\count149
+\scratchdimen=\dimen146
 \scratchbox=\box60
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen144
-\MPnumerator=\count145
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen147
+\MPnumerator=\count153
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 50.
+LaTeX Info: Redefining \subref on input line 52.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
- (/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 52.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
+
+(./ki2011.out) (./ki2011.out)
+\@outlinefile=\write3
+\openout3 = `ki2011.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 55.
 
-LaTeX Font Info:    No file OMScmtt.fd. on input line 52.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 55.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 52.
+(Font)              for symbol `textbraceleft' on input line 55.
 
-<model_scan.png, id=1, 757.83125pt x 300.12125pt>
+
+Package hyperref Warning: bookmark level for unknown title defaults to 0.
+
+
+Package hyperref Warning: bookmark level for unknown author defaults to 0.
+
+<model_scan.png, id=14, 757.83125pt x 300.12125pt>
 File: model_scan.png Graphic file (type png)
- <use model_scan.png> [1
+ <use model_scan.png>
+[1
 
-{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./m
-odel_scan.png (PNG copy)>] <AudiA4_pointcloud.png, id=15, 632.3625pt x 478.7887
-6pt>
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./model_scan.png (PNG copy)>]
+<AudiA4_pointcloud.png, id=57, 632.3625pt x 478.78876pt>
 File: AudiA4_pointcloud.png Graphic file (type png)
 
 <use AudiA4_pointcloud.png>
-<AudiA4_resampled.png, id=17, 632.3625pt x 478.78876pt>
+<AudiA4_resampled.png, id=59, 632.3625pt x 478.78876pt>
 File: AudiA4_resampled.png Graphic file (type png)
 
 <use AudiA4_resampled.png> [3 <./AudiA4_pointcloud.png> <./AudiA4_resampled.png
- (PNG copy)>] <ground-removed.png, id=24, 713.66624pt x 574.145pt>
+ (PNG copy)>] <ground-removed.png, id=73, 713.66624pt x 574.145pt>
 File: ground-removed.png Graphic file (type png)
 
-<use ground-removed.png> <audi_segmented.png, id=25, 711.65875pt x 570.13pt>
+<use ground-removed.png> <audi_segmented.png, id=75, 711.65875pt x 570.13pt>
 File: audi_segmented.png Graphic file (type png)
 
-<use audi_segmented.png> <step4.png, id=26, 662.475pt x 527.9725pt>
+<use audi_segmented.png> <step4.png, id=76, 662.475pt x 527.9725pt>
 File: step4.png Graphic file (type png)
 
 <use step4.png>
-<recovery_model_in_big_scan.png, id=27, 710.655pt x 556.0775pt>
+<recovery_model_in_big_scan.png, id=77, 710.655pt x 556.0775pt>
 File: recovery_model_in_big_scan.png Graphic file (type png)
 
-<use recovery_model_in_big_scan.png> [4 <./ground-removed.png (PNG copy)>]
-[5 <./audi_segmented.png (PNG copy)> <./step4.png (PNG copy)> <./recovery_model
-_in_big_scan.png (PNG copy)>]
-<chapter5_pictures/Mercedes.png, id=42, 458.71375pt x 360.34625pt>
+<use recovery_model_in_big_scan.png>
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+ [4 <./ground-removed.png (PNG copy)>] [5 <./audi_segmented.png (PNG copy)> <./
+step4.png (PNG copy)> <./recovery_model_in_big_scan.png (PNG copy)>]
+<chapter5_pictures/Mercedes.png, id=100, 458.71375pt x 360.34625pt>
 File: chapter5_pictures/Mercedes.png Graphic file (type png)
 
 <use chapter5_pictures/Mercedes.png>
-<chapter5_pictures/Mercedes_matched.png, id=43, 589.20125pt x 360.34625pt>
+<chapter5_pictures/Mercedes_matched.png, id=101, 589.20125pt x 360.34625pt>
 File: chapter5_pictures/Mercedes_matched.png Graphic file (type png)
 
 <use chapter5_pictures/Mercedes_matched.png>
-<chapter5_pictures/Mercedes_matched_scan.png, id=44, 493.845pt x 360.34625pt>
+<chapter5_pictures/Mercedes_matched_scan.png, id=102, 493.845pt x 360.34625pt>
 File: chapter5_pictures/Mercedes_matched_scan.png Graphic file (type png)
 
 <use chapter5_pictures/Mercedes_matched_scan.png>
-<models/1c5a350ea0f55f793fbce9ec40e1f047.jpg, id=45, 100.375pt x 75.28125pt>
+<models/1c5a350ea0f55f793fbce9ec40e1f047.jpg, id=106, 100.375pt x 75.28125pt>
 File: models/1c5a350ea0f55f793fbce9ec40e1f047.jpg Graphic file (type jpg)
 
 <use models/1c5a350ea0f55f793fbce9ec40e1f047.jpg>
-<models/689346b4812ead699bdae02f855f706c.jpg, id=46, 100.375pt x 61.22874pt>
+<models/689346b4812ead699bdae02f855f706c.jpg, id=107, 100.375pt x 61.22874pt>
 File: models/689346b4812ead699bdae02f855f706c.jpg Graphic file (type jpg)
 
 <use models/689346b4812ead699bdae02f855f706c.jpg>
-<models/875bc6efc7f33c052e877e82c90c24d.jpg, id=47, 100.375pt x 75.28125pt>
+<models/875bc6efc7f33c052e877e82c90c24d.jpg, id=108, 100.375pt x 75.28125pt>
 File: models/875bc6efc7f33c052e877e82c90c24d.jpg Graphic file (type jpg)
 
 <use models/875bc6efc7f33c052e877e82c90c24d.jpg> [6 <./chapter5_pictures/Merced
 es.png> <./chapter5_pictures/Mercedes_matched.png (PNG copy)> <./chapter5_pictu
-res/Mercedes_matched_scan.png> <./models/1c5a350ea0f55f793fbce9ec40e1f047.jpg> 
-<./models/689346b4812ead699bdae02f855f706c.jpg>]
-<models/c023011d5ada6bd9b1bb46d2556ba67d.jpg, id=54, 100.375pt x 75.28125pt>
+res/Mercedes_matched_scan.png> <./models/1c5a350ea0f55f793fbce9ec40e1f047.jpg>]
+<models/c023011d5ada6bd9b1bb46d2556ba67d.jpg, id=120, 100.375pt x 75.28125pt>
 File: models/c023011d5ada6bd9b1bb46d2556ba67d.jpg Graphic file (type jpg)
 
 <use models/c023011d5ada6bd9b1bb46d2556ba67d.jpg>
-<models/951b1572b316980de341b5704aa568bd.jpg, id=55, 100.375pt x 75.28125pt>
+<models/951b1572b316980de341b5704aa568bd.jpg, id=121, 100.375pt x 75.28125pt>
 File: models/951b1572b316980de341b5704aa568bd.jpg Graphic file (type jpg)
 
 <use models/951b1572b316980de341b5704aa568bd.jpg>
-<chapter5_pictures/Audi.png, id=56, 669.50125pt x 427.5975pt>
+<chapter5_pictures/Audi.png, id=122, 669.50125pt x 427.5975pt>
 File: chapter5_pictures/Audi.png Graphic file (type png)
 
 <use chapter5_pictures/Audi.png>
-<chapter5_pictures/Audi_matched.png, id=57, 649.42625pt x 427.5975pt>
+<chapter5_pictures/Audi_matched.png, id=123, 649.42625pt x 427.5975pt>
 File: chapter5_pictures/Audi_matched.png Graphic file (type png)
 
 <use chapter5_pictures/Audi_matched.png>
-<chapter5_pictures/Audi_matched_scan.png, id=58, 752.8125pt x 427.5975pt>
+<chapter5_pictures/Audi_matched_scan.png, id=124, 752.8125pt x 427.5975pt>
 File: chapter5_pictures/Audi_matched_scan.png Graphic file (type png)
 
-<use chapter5_pictures/Audi_matched_scan.png> [7 <./models/875bc6efc7f33c052e87
-7e82c90c24d.jpg> <./models/c023011d5ada6bd9b1bb46d2556ba67d.jpg> <./models/951b
-1572b316980de341b5704aa568bd.jpg> <./chapter5_pictures/Audi.png (PNG copy)> <./
-chapter5_pictures/Audi_matched.png> <./chapter5_pictures/Audi_matched_scan.png>
-] <chapter5_pictures/Golf.png, id=65, 489.83pt x 359.3425pt>
+<use chapter5_pictures/Audi_matched_scan.png> [7 <./models/689346b4812ead699bda
+e02f855f706c.jpg> <./models/875bc6efc7f33c052e877e82c90c24d.jpg> <./models/c023
+011d5ada6bd9b1bb46d2556ba67d.jpg> <./models/951b1572b316980de341b5704aa568bd.jp
+g> <./chapter5_pictures/Audi.png (PNG copy)> <./chapter5_pictures/Audi_matched.
+png> <./chapter5_pictures/Audi_matched_scan.png>]
+<chapter5_pictures/Golf.png, id=134, 489.83pt x 359.3425pt>
 File: chapter5_pictures/Golf.png Graphic file (type png)
 
 <use chapter5_pictures/Golf.png>
-<chapter5_pictures/Golf_matched.png, id=66, 667.49374pt x 451.6875pt>
+<chapter5_pictures/Golf_matched.png, id=135, 667.49374pt x 451.6875pt>
 File: chapter5_pictures/Golf_matched.png Graphic file (type png)
 
 <use chapter5_pictures/Golf_matched.png>
-<chapter5_pictures/Golf_matched_scan.png, id=67, 705.63625pt x 449.68pt>
+<chapter5_pictures/Golf_matched_scan.png, id=136, 705.63625pt x 449.68pt>
 File: chapter5_pictures/Golf_matched_scan.png Graphic file (type png)
 
 <use chapter5_pictures/Golf_matched_scan.png>
-Underfull \hbox (badness 7925) in paragraph at lines 416--416
-[]\OT1/cmr/m/n/9 (c) |Scan with matched
- []
-
-<chapter5_pictures/Renault.png, id=68, 575.14874pt x 431.6125pt>
+<chapter5_pictures/Renault.png, id=138, 575.14874pt x 431.6125pt>
 File: chapter5_pictures/Renault.png Graphic file (type png)
 
 <use chapter5_pictures/Renault.png>
-Underfull \hbox (badness 10000) in paragraph at lines 431--431
-[]\OT1/cmr/m/n/9 (a) |Seg-mented Re-nault
- []
-
-<chapter5_pictures/Renault_matched.png, id=69, 592.2125pt x 472.76625pt>
+<chapter5_pictures/Renault_matched.png, id=139, 592.2125pt x 472.76625pt>
 File: chapter5_pictures/Renault_matched.png Graphic file (type png)
 
 <use chapter5_pictures/Renault_matched.png>
-<chapter5_pictures/Renault_matched_scan.png, id=70, 680.5425pt x 524.96124pt>
+<chapter5_pictures/Renault_matched_scan.png, id=140, 680.5425pt x 524.96124pt>
 File: chapter5_pictures/Renault_matched_scan.png Graphic file (type png)
 
 <use chapter5_pictures/Renault_matched_scan.png>
-<chapter5_pictures/Citroen.png, id=71, 709.65125pt x 554.07pt>
+<chapter5_pictures/Citroen.png, id=142, 709.65125pt x 554.07pt>
 File: chapter5_pictures/Citroen.png Graphic file (type png)
 
 <use chapter5_pictures/Citroen.png>
-<chapter5_pictures/Citroen_matched.png, id=72, 685.56125pt x 427.5975pt>
+<chapter5_pictures/Citroen_matched.png, id=143, 685.56125pt x 427.5975pt>
 File: chapter5_pictures/Citroen_matched.png Graphic file (type png)
 
 <use chapter5_pictures/Citroen_matched.png>
-<chapter5_pictures/Citroen_matched_scan.png, id=73, 718.685pt x 468.75125pt>
+<chapter5_pictures/Citroen_matched_scan.png, id=144, 718.685pt x 468.75125pt>
 File: chapter5_pictures/Citroen_matched_scan.png Graphic file (type png)
 
 <use chapter5_pictures/Citroen_matched_scan.png> [8 <./chapter5_pictures/Golf.p
@@ -503,80 +682,78 @@ File: models/1c5a350ea0f55f793fbce9ec40e1f047.jpg Graphic file (type jpg)
 File: models/875bc6efc7f33c052e877e82c90c24d.jpg Graphic file (type jpg)
 
 <use models/875bc6efc7f33c052e877e82c90c24d.jpg>
-<models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg, id=77, 100.375pt x 75.28125pt>
+<models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg, id=154, 100.375pt x 75.28125pt>
 File: models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg Graphic file (type jpg)
 
 <use models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg>
-<models/a0c60115f83f1f77b1bb46d2556ba67d.jpg, id=78, 100.375pt x 75.28125pt>
+<models/a0c60115f83f1f77b1bb46d2556ba67d.jpg, id=155, 100.375pt x 75.28125pt>
 File: models/a0c60115f83f1f77b1bb46d2556ba67d.jpg Graphic file (type jpg)
 
 <use models/a0c60115f83f1f77b1bb46d2556ba67d.jpg>
-<models/5bab0881b7a18b12733269057ed164db.jpg, id=79, 100.375pt x 75.28125pt>
+<models/5bab0881b7a18b12733269057ed164db.jpg, id=156, 100.375pt x 75.28125pt>
 File: models/5bab0881b7a18b12733269057ed164db.jpg Graphic file (type jpg)
 
 <use models/5bab0881b7a18b12733269057ed164db.jpg> [9 <./chapter5_pictures/Citro
 en.png (PNG copy)> <./chapter5_pictures/Citroen_matched.png (PNG copy)> <./chap
-ter5_pictures/Citroen_matched_scan.png (PNG copy)>]
-<objects/audi.png, id=83, 422.57875pt x 234.8775pt>
+ter5_pictures/Citroen_matched_scan.png (PNG copy)> <./models/eb5a5eb751cca94a3f
+bce9ec40e1f047.jpg>] <objects/audi.png, id=163, 422.57875pt x 234.8775pt>
 File: objects/audi.png Graphic file (type png)
- <use objects/audi.png>
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 525--525
-[][] 
- []
 
-<objects/other_car.png, id=84, 523.9575pt x 302.12875pt>
+<use objects/audi.png>
+<objects/other_car.png, id=164, 523.9575pt x 302.12875pt>
 File: objects/other_car.png Graphic file (type png)
 
 <use objects/other_car.png>
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 526--526
-[][] 
- []
-
-<objects/other_car_2.png, id=85, 310.15875pt x 202.7575pt>
+<objects/other_car_2.png, id=165, 310.15875pt x 202.7575pt>
 File: objects/other_car_2.png Graphic file (type png)
 
-<use objects/other_car_2.png>
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 527--527
-[][] 
- []
+<use objects/other_car_2.png> [10 <./models/a0c60115f83f1f77b1bb46d2556ba67d.jp
+g> <./models/5bab0881b7a18b12733269057ed164db.jpg> <./objects/audi.png> <./obje
+cts/other_car.png (PNG copy)> <./objects/other_car_2.png (PNG copy)>]
+(./ki2011.bbl [11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+ (./ki2011.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package rerunfilecheck Info: File `ki2011.out' has not changed.
+(rerunfilecheck)             Checksum: 0575AA6671A37C237E313F6A172038D9;178.
 
-[10 <./models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg> <./models/a0c60115f83f1f77b
-1bb46d2556ba67d.jpg> <./models/5bab0881b7a18b12733269057ed164db.jpg> <./objects
-/audi.png> <./objects/other_car.png (PNG copy)>] [11 <./objects/other_car_2.png
- (PNG copy)>] (./ki2011.bbl) [12] (./ki2011.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3576 strings out of 493848
- 53482 string characters out of 3149208
- 124129 words of memory out of 3000000
- 6783 multiletter control sequences out of 15000+200000
- 8577 words of font info for 33 fonts, out of 3000000 for 9000
+ 7316 strings out of 493747
+ 112522 string characters out of 3143546
+ 201732 words of memory out of 3000000
+ 10385 multiletter control sequences out of 15000+200000
+ 8745 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 44i,13n,45p,502b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb>
-</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
-l/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
-009/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-09/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2009
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ki2011.pdf (12 pages, 1882525 bytes).
+ 44i,13n,45p,504b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
+10/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on ki2011.pdf (12 pages, 1883312 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

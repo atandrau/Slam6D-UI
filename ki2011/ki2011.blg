@@ -3,50 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ki2011.aux
 The style file: plain.bst
 I couldn't open database file andreas_publication.bib
----line 93 of file ki2011.aux
+---line 85 of file ki2011.aux
  : \bibdata{lit,andreas_publication
  :                                 }
 I'm skipping whatever remains of this command
 Database file #1: lit.bib
-You've used 12 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            586 strings with 6844 characters,
-and the built_in function-call counts, 4011 in all, are:
-= -- 367
-> -- 245
+            597 strings with 7328 characters,
+and the built_in function-call counts, 4778 in all, are:
+= -- 432
+> -- 311
 < -- 0
-+ -- 97
-- -- 84
-* -- 309
-:= -- 710
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 78
++ -- 123
+- -- 108
+* -- 373
+:= -- 850
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 96
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 145
-empty$ -- 292
-format.name$ -- 84
-if$ -- 808
+cite$ -- 14
+duplicate$ -- 169
+empty$ -- 335
+format.name$ -- 108
+if$ -- 956
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 12
-newline$ -- 63
-num.names$ -- 24
-pop$ -- 86
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 82
 quote$ -- 0
-skip$ -- 79
+skip$ -- 91
 stack$ -- 0
-substring$ -- 152
-swap$ -- 12
+substring$ -- 162
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 56
 warning$ -- 0
-while$ -- 30
-width$ -- 14
-write$ -- 133
+while$ -- 34
+width$ -- 16
+write$ -- 154
 (There was 1 error message)

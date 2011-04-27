@@ -137,26 +137,29 @@ achieve semantic mapping. After determining the coarse scene features
 objects. Our work improves the semantic map by creating an even finer
 differentiation between objects in the environment.
 
-Object localization is another application of 3D models. The robot is
-given a precise target to detect in an unknown environment. Kestler et
-al. use a probabilistic representation. The targets are modeled in a
-knowledge base (descriptive identifiers and attributes) and spatial
-inference. Feature detection and hierarchical neural net
-classification are used for object identification, while robot
-localization is solved through sensor fusion, spatial abstraction and
-multi-level spatial representations~\cite{Kestler:2000}. The drawback
-of this approach is the need to maintain internal, neural net trained
-data. Recently, Lai and Fox treat the aforementioned problem and
-propose the use of Google Warehouse for training classifiers in order
-to improve and extend object detection~\cite{Lai:2010}. The classifier
-is based on a distance function for image features, which are obtained
-via spin images implemented by Johnson and
-Hebert~\cite{Hebert:1999}. The objects in the outdoor environment are
-classified in seven categories: cars, people, trees, street signs, fences,
-buildings and background. The paper does not give a solution for
-identifying very precise targets, e.g., a BMW Z3. We solve this
-problem, thus taking an extra step within the field of object
-recognition and localization.
+Object localization is another application of 3D models. The robot is given a
+precise target to detect in an unknown environment. This topic is thoroughly
+studied in the 2D field. Li-Jia Li et al. propose a hierarchical generative
+model to classify, label and thus recognize objects in a 2D scene using both a
+visual and a textual model~\cite{Li:2009}. Similar approaches are implemented
+during the Semantic Robot Vision Challenge, where Meger et al. designed a
+robot capable of detecting objects in images collected directly from its
+camera\cite{Meger:2008}. In the 3D field, Kestler et al. use a probabilistic
+representation. The targets are modeled in a knowledge base (descriptive
+identifiers and attributes) and spatial inference. Feature detection and
+hierarchical neural net classification are used for object identification,
+while robot localization is solved through sensor fusion, spatial abstraction
+and multi-level spatial representations~\cite{Kestler:2000}. The drawback of
+this approach is the need to maintain internal, neural net trained data.
+Recently, Lai and Fox treat the aforementioned problem and propose the use of
+Google Warehouse for training classifiers in order to improve and extend
+object detection~\cite{Lai:2010}. The classifier is based on a distance
+function for image features, which are obtained via spin images implemented by
+Johnson and Hebert~\cite{Hebert:1999}. The objects in the outdoor environment
+are classified in seven categories: cars, people, trees, street signs, fences,
+buildings and background. The paper does not give a solution for identifying
+very precise targets, e.g., a BMW Z3. We solve this problem, thus taking an
+extra step within the field of object recognition and localization.
 
 Hertzberg et al. use CAD models to introduce semantics in maps obtained with SLAM ~\cite{Hertzberg:2011}. They created an ontology modeling relationships between objects in an indoor environment scene and use standard ICP to match objects with their corresponding CAD models. The main disadvantage of this approach is the need to store size information in the ontology about the scan components, problem mitigated in this work through our implementation of ICP with scale.
 
@@ -533,7 +536,7 @@ The best matching object is the Audi A4. The next two best-matching
 objects are also cars, but different brands. The rest of the objects
 have error values of $2000$ to $77000$ and are thus very poor matches.
 
-For the purpose of this evaluation, we have used the following constants and thresholds: $\alpha=500$, $\Delta=500$, $\delta=25$, $\epsilon=5$. Matching animations are visible at 
+For the purpose of this evaluation, we have used the following constants and thresholds: $\alpha=500$, $\Delta=500$, $\delta=25$, $\epsilon=5$. Matching animations are available at 
 \url{http://www.youtube.com/watch?v=uVz8yzUn4FA} and
 \url{http://www.youtube.com/watch?v=8VRvmgmQV4g}
 
