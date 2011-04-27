@@ -12,7 +12,7 @@
 \usepackage{subfig}
 \usepackage{cite}
 \usepackage{nicefrac}
-\usepackage{refcheck}
+%\usepackage{refcheck}
 
 
 % math definitions
@@ -38,7 +38,7 @@
 
 \author{Flavia Grosan, Alexandu Tandrau, and Andreas N{\"u}chter}
 
-\authorrunning{Flavia Grosan et al.}
+\authorrunning{F.Grosan, A.Tandrau, A.N{\"u}chter}
 
 
 \institute{Jacobs University Bremen gGmbH\\
@@ -362,11 +362,11 @@ reliable collection of 3D models.
   	\centering $49.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics{models/875bc6efc7f33c052e877e82c90c24d.jpg}}\end{minipage}\\
   \end{longtable}
 
-  \begin{longtable}{ccc}
+  \begin{longtable}{p{25mm}p{35mm}c}
   \caption[Mercedes C350]{Mercedes C350 - Models with high error (2)}\\
   \label{mercedes_results_bad}\\
 
-  \multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+  \multicolumn{1}{c}{\centering \textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\[1.2ex]
   \endfirsthead
 
   \multicolumn{3}{c}%
@@ -380,8 +380,8 @@ reliable collection of 3D models.
   \endfoot
 
   \endlastfoot
-  	$19865.0$ & 0 270 0 & \includegraphics{models/c023011d5ada6bd9b1bb46d2556ba67d.jpg}\\
-  	$21221.0$ & 0 0 0 & \includegraphics{models/951b1572b316980de341b5704aa568bd.jpg}\\
+  	\centering $19865.0$ & \centering 0 270 0 & \begin{minipage}{40mm}{\includegraphics{models/c023011d5ada6bd9b1bb46d2556ba67d.jpg}}\end{minipage}\\
+  	\centering $21221.0$ & \centering 0 0 0 & \begin{minipage}{40mm}{\includegraphics{models/951b1572b316980de341b5704aa568bd.jpg}}\end{minipage}\\
   \end{longtable}
 
   \begin{figure}
@@ -473,11 +473,11 @@ models were similar in shape and size with the segmented car, which
 gives us an insight in similar shapes and objects that share
 particular properties as observed in table \ref{mercedes_vs_all}.
 
-  \begin{longtable}{ccc}
+  \begin{longtable}{p{25mm}p{35mm}c}
   \caption[Mercedes C350]{Mercedes C350 vs different car brand models (10)}\\
   \label{mercedes_vs_all}\\
 
-  \multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+  \multicolumn{1}{c}{\centering \textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\[1.2ex]
   \endfirsthead
 
   \multicolumn{3}{c}%
@@ -492,27 +492,22 @@ particular properties as observed in table \ref{mercedes_vs_all}.
 
   \endlastfoot
 
-  	$49.0$ & 0 90 0 & \includegraphics{models/1c5a350ea0f55f793fbce9ec40e1f047.jpg}\\
-  	$49.0$ & 0 90 0 & \includegraphics{models/689346b4812ead699bdae02f855f706c.jpg}\\
-  	$49.0$ & 0 90 0 & \includegraphics{models/875bc6efc7f33c052e877e82c90c24d.jpg}\\
-  	$50.0$ & 0 0 0 & \includegraphics{models/a43971c2beee03403fbce9ec40e1f047.jpg}\\
-  	$52.0$ & 0 90 0 & \includegraphics{models/618e8b78bfa803dab1bb46d2556ba67d.jpg}\\
-  	$57.0$ & 0 90 0 & \includegraphics{models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg}\\
-  	$59.0$ & 0 0 0 & \includegraphics{models/a0c60115f83f1f77b1bb46d2556ba67d.jpg}\\
-  	$60.0$ & 0 0 0 & \includegraphics{models/5bab0881b7a18b12733269057ed164db.jpg}\\
-  	$62.0$ & 0 180 0 & \includegraphics{models/2fb672709e5ad6fcf9175fe1c361ba4b.jpg}\\
-  	$64.0$ & 0 0 0 & \includegraphics{models/b8195274e20909a39972a46f964becf.jpg}\\
+  	\centering $49.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics{models/1c5a350ea0f55f793fbce9ec40e1f047.jpg}}\end{minipage}\\
+  	\centering $49.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics{models/875bc6efc7f33c052e877e82c90c24d.jpg}}\end{minipage}\\
+  	\centering $57.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics{models/eb5a5eb751cca94a3fbce9ec40e1f047.jpg}}\end{minipage}\\
+  	\centering $59.0$ & \centering 0 0 0 & \begin{minipage}{40mm}{\includegraphics{models/a0c60115f83f1f77b1bb46d2556ba67d.jpg}}\end{minipage}\\
+  	\centering $60.0$ & \centering 0 0 0 & \begin{minipage}{40mm}{\includegraphics{models/5bab0881b7a18b12733269057ed164db.jpg}}\end{minipage}\\
   \end{longtable}
 
 We matched an Audi A4 with all objects automatically segmented by
 using the best matched Audi A4 as the model. By applying the growing
-regions algorithm we identified $67$ candidate objects (Table~\ref{audi_big_scan}).
+regions algorithm we identified $67$ candidate objects and the best matches are shown in Table~\ref{audi_big_scan}.
 
-\begin{longtable}{ccc}
+\begin{longtable}{p{25mm}p{35mm}c}
 \caption[Find Audi A4 in entire scan]{Find Audi A4 in entire scan}\\
 \label{audi_big_scan}\\
 
-\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Object}} \\
+\multicolumn{1}{c}{\centering \textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Object}} \\[1.2ex]
 \endfirsthead
 
 \multicolumn{3}{c}%
@@ -527,9 +522,9 @@ regions algorithm we identified $67$ candidate objects (Table~\ref{audi_big_scan
 
 \endlastfoot
 
-	$105.0$ & 0 90 0 & \includegraphics[width=50mm]{objects/audi}\\
-	$178.0$ & 0 90 0 & \includegraphics[width=50mm]{objects/other_car}\\
-	$400.0$ & 0 90 0 & \includegraphics[width=50mm]{objects/other_car_2}\\
+	\centering $105.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/audi}}\end{minipage}\\
+	\centering $178.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/other_car}}\end{minipage}\\
+	\centering $400.0$ & \centering 0 90 0 & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/other_car_2}}\end{minipage}\\
 \end{longtable}
 
 The best matching object is the Audi A4. The next two best-matching
