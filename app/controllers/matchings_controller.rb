@@ -20,9 +20,21 @@ class MatchingsController < ApplicationController
     @matchings = Matching.all
   end
   
+  def show
+    respond_to do |format|
+      format.text
+      format.html
+    end
+  end
+  
   def run
     @matching.delay.run
     redirect_to @matching, :notice => "Running matching scheduled"
+  end
+  
+  def destroy
+    @matching.destroy
+    redirect_to matchings_path, :notice => "Matching destroyed"
   end
 
   protected

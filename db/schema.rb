@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110402115920) do
+ActiveRecord::Schema.define(:version => 20110415100636) do
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -45,6 +45,14 @@ ActiveRecord::Schema.define(:version => 20110402115920) do
     t.integer "pointcloud_id"
   end
 
+  create_table "inversematchings", :force => true do |t|
+    t.string   "name"
+    t.integer  "scan_id"
+    t.integer  "sketchupmodel_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "matchings", :force => true do |t|
     t.string   "name"
     t.integer  "pointcloud_id"
@@ -53,6 +61,10 @@ ActiveRecord::Schema.define(:version => 20110402115920) do
     t.datetime "updated_at"
     t.string   "model_name"
     t.text     "results"
+    t.integer  "top_models"
+    t.integer  "scan_id"
+    t.integer  "sketchupmodel_id"
+    t.string   "category",         :default => "best_model"
   end
 
   create_table "pointclouds", :force => true do |t|
@@ -65,6 +77,15 @@ ActiveRecord::Schema.define(:version => 20110402115920) do
     t.datetime "updated_at"
     t.integer  "sketchupmodel_id"
     t.string   "transf_matrix"
+    t.integer  "scan_id"
+    t.integer  "pointcount"
+  end
+
+  create_table "scans", :force => true do |t|
+    t.string   "name"
+    t.integer  "scan_no_ground_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "sketchupmodels", :force => true do |t|
@@ -72,6 +93,7 @@ ActiveRecord::Schema.define(:version => 20110402115920) do
     t.string   "google_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image_link"
   end
 
 end

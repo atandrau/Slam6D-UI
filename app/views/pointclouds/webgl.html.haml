@@ -1,0 +1,133 @@
+
+:javascript
+  var points = #{@pointcloud.points_js};
+  var container, stats;
+  var camera, scene, renderer, particle;
+  var mouseX = 0, mouseY = 0;
+
+  var windowHalfX = window.innerWidth / 2;
+  var windowHalfY = window.innerHeight / 2;
+
+  init();
+  animate();
+  
+  function init() {
+    container = document.createElement( 'div' );
+    document.body.appendChild( container );
+
+    camera = new THREE.Camera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
+    camera.position.z = 1000;
+
+    scene = new THREE.Scene();
+
+    var PI2 = Math.PI * 2;
+    var material = new THREE.ParticleCanvasMaterial( {
+    	color: 0x000000,
+    	program: function ( context ) {
+    		context.beginPath();
+    		context.arc( 0, 0, 2, 0, PI2, true );
+    		context.closePath();
+    		context.fill();
+    	}
+    } );
+
+    for (var i = 0; i < points.length; i++) {
+    	particle = new THREE.Particle( material );
+    	particle.position.x = points[i][0];
+    	particle.position.y = points[i][1];
+    	particle.position.z = points[i][2];
+    	scene.addObject( particle );
+    }
+
+    renderer = new THREE.CanvasRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    container.appendChild( renderer.domElement );
+
+    document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+    document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+    document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+  }
+  
+  function onDocumentMouseMove(event) {
+  	mouseX = event.clientX - windowHalfX;
+  	mouseY = event.clientY - windowHalfY;
+  }
+
+  function onDocumentTouchStart( event ) {
+  	if ( event.touches.length > 1 ) {
+  		event.preventDefault();
+  		mouseX = event.touches[ 0 ].pageX - windowHalfX;
+  		mouseY = event.touches[ 0 ].pageY - windowHalfY;
+  	}
+  }
+
+  function onDocumentTouchMove( event ) {
+  	if ( event.touches.length == 1 ) {
+  		event.preventDefault();
+  		mouseX = event.touches[ 0 ].pageX - windowHalfX;
+  		mouseY = event.touches[ 0 ].pageY - windowHalfY;
+  	}
+  }
+  
+  function render() {
+    camera.position.x += ( mouseX - camera.position.x ) * .05;
+    camera.position.y += ( - mouseY - camera.position.y ) * .05;
+
+    renderer.render( scene, camera );
+  }
+  
+  function animate() {
+    requestAnimationFrame(animate);
+    render();
+  }
+/
+  :javascript
+    var points = #{@pointcloud.points_js};
+    var camera, scene, renderer,
+    geometry, material, mesh;
+
+    init();
+    render();
+    // animate();
+
+    function init() {
+
+        camera = new THREE.Camera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
+        camera.position.z = 1000;
+
+        scene = new THREE.Scene();
+      
+        for (var i = 0; i < points.length; i++) {
+          geometry = new Sphere(1, 1);
+          material = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe: true } );
+
+          mesh = new THREE.Mesh( geometry, material );
+          mesh.position.x = points[i][0];
+          mesh.position.y = points[i][1];
+          mesh.position.z = points[i][2];
+          scene.addObject( mesh );
+        }
+
+        renderer = new THREE.CanvasRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+        document.body.appendChild( renderer.domElement );
+
+    }
+
+    function animate() {
+
+        // Include examples/js/RequestAnimationFrame.js for cross-browser compatibility.
+        requestAnimationFrame( animate );
+        render();
+
+    }
+
+    function render() {
+
+        mesh.rotation.x += 0.01;
+        mesh.rotation.y += 0.02;
+
+        renderer.render( scene, camera );
+
+    }

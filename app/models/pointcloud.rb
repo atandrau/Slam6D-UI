@@ -1,5 +1,6 @@
 class Pointcloud < ActiveRecord::Base
   belongs_to :sketchupmodel
+  belongs_to :scan
   
   before_destroy :clean_files
   
@@ -84,6 +85,22 @@ class Pointcloud < ActiveRecord::Base
     (0.5 * (a[0] * b[1] * c[2] + b[0] * c[1] * a[2] + c[0] * a[1] * b[2] - c[0] * b[1] * a[2] - b[0] * a[1] * c[2] - a[0] * c[1] * b[2])).abs
   end
   
+  def points_js
+    in_file = File.new(self.complete_path, "r")
+    points = []
+    while(line = in_file.gets) do
+      next if line.include?("#")
+      point = line.split(" ")
+      point = point[0..2] if point.size > 3
+      point = point.map { |p| p.to_i }
+      points << point
+    end
+    in_file.close
+    
+    puts points.size
+    points.sort_by {rand}[0..5000].to_json
+  end
+  
   def resample(points_per_area)
     points = []
     
@@ -103,34 +120,39 @@ class Pointcloud < ActiveRecord::Base
     final_points = []
     index = 0
     total_slices = points.size / 3
-    points.each_slice(3) do |p|
-      index += 1
-      puts "Slice #{index} out of #{total_slices}"
-      final_points << p[0]
-      final_points << p[1]
-      final_points << p[2]
+    if points.size < 300000
+      points.each_slice(3) do |p|
+        index += 1
+        final_points << p[0]
+        final_points << p[1]
+        final_points << p[2]
       
-      area = triangleArea(p[0], p[1], p[2])
-      0.upto((area * points_per_area).to_i) do |i|
-        a = rand()
-        b = rand()
-        c = 1 - a - b
-        while c < 0 do
+        area = triangleArea(p[0], p[1], p[2])
+        0.upto((area * points_per_area).to_i) do |i|
           a = rand()
           b = rand()
-          
           c = 1 - a - b
-        end
-        r = [a, b, c].shuffle
-        a, b, c = r[0], r[1], r[2]
+          while c < 0 do
+            a = rand()
+            b = rand()
+          
+            c = 1 - a - b
+          end
+          r = [a, b, c].shuffle
+          a, b, c = r[0], r[1], r[2]
         
-        new_point = [p[0][0] * a + p[1][0] * b + p[2][0] * c,
-                     p[0][1] * a + p[1][1] * b + p[2][1] * c,
-                     p[0][2] * a + p[1][2] * b + p[2][2] * c]
-        final_points << new_point
-      end
+          new_point = [p[0][0] * a + p[1][0] * b + p[2][0] * c,
+                       p[0][1] * a + p[1][1] * b + p[2][1] * c,
+                       p[0][2] * a + p[1][2] * b + p[2][2] * c]
+          final_points << new_point
+        end
       
-      puts "Now #{final_points.size} points.."
+        if final_points.size > 600000
+          return resample(points_per_area / 10)
+        end
+      end
+    else
+      final_points = points
     end
     # final_points.uniq!
     
@@ -211,44 +233,28 @@ class Pointcloud < ActiveRecord::Base
     
     puts "Found closest point to center"
     
-    variant = 1
-    if variant == 0
-      epsilon = 250
-      crt_point = points[closest]
-      puts crt_point.to_json
-      out_points = []
-      points.each do |p|
-        a = (0.upto(2).map { |i| (crt_point[i] - p[i]).abs }).max
-        out_points << p if a < epsilon
-      end
-    end
-    
-    if variant == 1
-      epsilon = 5
-      tree = KDTree.new(points, 3)
-      puts "Created KD Tree"
-    
-      v = points.map { |p| false }
-      out_points = [points[closest]]
-      v[closest] = true
-      i = 0
-      while(i < out_points.size)
-        crt_point = out_points[i]
-        # puts "Expanding from #{crt_point[3]}"
-        ranger = crt_point.map{ |p| [p - epsilon, p + epsilon] }
-        new_points = tree.find(ranger[0], ranger[1], ranger[2])
-        
-        new_points.each do |p|
-          # puts "Candidate: #{p[3]}"
-          unless v[p[3]]
-            out_points << p 
-            v[p[3]] = true
-          end
-        end
+    epsilon = 5
+    tree = KDTree.new(points, 3)
+    puts "Created KD Tree"
+  
+    v = points.map { |p| false }
+    out_points = [points[closest]]
+    v[closest] = true
+    i = 0
+    while(i < out_points.size)
+      crt_point = out_points[i]
+      ranger = crt_point.map{ |p| [p - epsilon, p + epsilon] }
+      new_points = tree.find(ranger[0], ranger[1], ranger[2])
       
-        i += 1
-        puts out_points.size
+      new_points.each do |p|
+        unless v[p[3]]
+          out_points << p 
+          v[p[3]] = true
+        end
       end
+    
+      i += 1
+      puts out_points.size
     end
 
     puts "writing points = #{out_points.size}"
@@ -259,7 +265,22 @@ class Pointcloud < ActiveRecord::Base
     p
   end
   
-  def scale_and_center_xyz(base = 1000)
+  def switch_y_z
+    file = File.new(self.complete_path, "r")
+    points = []
+    while(line = file.gets)
+      next if line.include?("#")
+      point = line.split(" ")
+      point = point[0..2] if point.size > 3
+      point[1], point[2] = point[2], point[1]
+      point[1] = -1 * point[1].to_f
+      points << point
+    end
+    
+    File.open("#{self.complete_path}", "w") { |f| f.write(points.map { |p| p.join(" ")}.join("\n")) }
+  end
+  
+  def scale_and_center_xyz(base = 500)
     transf = 1.upto(16).map { |i| 0 }
     
     points = []
@@ -303,14 +324,9 @@ class Pointcloud < ActiveRecord::Base
     transf[5] = base / maximum
     transf[10] = base / maximum
     
-    # points.each do |p|
-    #   p[0] -= 775.585
-    #   p[1] -= 38.7895
-    #   p[2] -= 110.747
-    # end
-    
     p = Pointcloud.create(:label => "#{self.label}, bounded: #{base}, centered",
-                          :format => "uos", :transf_matrix => transf.to_s)
+                          :format => "uos", :transf_matrix => transf.to_s, :scan_id => self.scan_id,
+                          :pointcount => self.pointcount)
     `mkdir #{p.directory}`
     File.open("#{p.complete_path}", "w") { |f| f.write(points.map { |p| p.join(" ")}.join("\n")) }
     p

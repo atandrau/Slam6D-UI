@@ -20,6 +20,8 @@ Slam6DUI::Application.routes.draw do
       post 'convert_to_uos'
       post 'get_object'
       post 'multiply_frames'
+      
+      get 'webgl'
     end
   end
   
@@ -38,6 +40,12 @@ Slam6DUI::Application.routes.draw do
     member do
       get 'run'
       get 'view'
+    end
+  end
+  
+  resources :scans do
+    member do
+      post 'segment'
     end
   end
 

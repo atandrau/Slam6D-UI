@@ -3,6 +3,6 @@
     .list_row
       .list_cell= link_to i.name, i
       .list_cell= link_to "Edit", edit_icp_path(i)
-      .list_cell= link_to "Delete", i, :method => :delete, :confirm => "Are you sure?"
+      .list_cell= link_to "Delete", i, :method => :delete
 
 = link_to "New ICP", new_icp_path, :class => "button"

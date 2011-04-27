@@ -8,5 +8,7 @@
       .list_cell= link_to p.google_id, p.google_link
       .list_cell= link_to "Edit", edit_sketchupmodel_path(p)
       .list_cell= link_to "Delete", p, :method => :delete
-
+      .list_cell
+        = image_tag "http://sketchup.google.com/3dwarehouse/download?mid=#{p.google_id}&rtyp=st&ctyp=other"
+        
 = link_to "New Google Sketchup Model", new_sketchupmodel_path, :class => "button"

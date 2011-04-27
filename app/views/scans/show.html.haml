@@ -1,0 +1,22 @@
+%p
+  %strong Name:
+  = @scan.name
+%p
+  %strong Base Scan:
+  = link_to @scan.scan_no_ground.name, @scan.scan_no_ground
+
+%br
+%strong Segment Scan
+= form_tag segment_scan_path(@scan) do
+  .buttons
+    = submit_tag "Segment"
+
+.list
+  - @scan.pointclouds.each do |s|
+    .list_row
+      .list_cell
+        = link_to s.name, s
+      .list_cell
+        = s.pointcount
+      .list_cell
+        = link_to "Delete", s, :method => :delete

@@ -1,11 +1,17 @@
 %h2
   = @model.name
-  = "[#{@model.google_id}]"
+  [
+  = link_to @model.google_id, @model.google_link
+  ]
+
 .list
   - @model.pointclouds.each do |p|
     .list_row
       .list_cell
         = link_to p.name, p
+      .list_cell
+        = link_to "Delete", p, :method => :delete
+        
 
 %br
 %strong Resample Model

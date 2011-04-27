@@ -1,0 +1,25 @@
+\begin{longtable}{ccc}
+\caption[<%= @matching.name%>]{<%= @matching.name%>}\\
+
+\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\tablename\ \thetable{} -- continued from previous page}} \\
+\multicolumn{1}{c}{\textbf{Error}} &
+\multicolumn{1}{c}{\textbf{Rotation}} &
+\multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endhead
+
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\endlastfoot
+
+<% @matching.sorted_results.each do |r| %>
+	<% begin %>
+	<%= raw("$#{r[0]}$ & #{r[2]} & #{figure_latex(Sketchupmodel.find(r[1]))}\\\\") %>
+	<% rescue %>
+	<% end %>
+<% end %>
+\end{longtable}

@@ -2,32 +2,63 @@ class Matching < ActiveRecord::Base
   belongs_to :pointcloud
   belongs_to :best_model, :class_name => :model
   
+  belongs_to :scan
+  belongs_to :sketchupmodel
+  
   serialize :results
   
-  def run
-    best_error, best_model = -1, 0
+  def sorted_results
+    return [] if results.nil?
     
-    rotations = ["0 0 0", "180 0 0", "180 0 180"]
-    res = []
-    
-    Sketchupmodel.find_all_by_name(self.model_name).each do |m|
-      rotations.each do |r|
-        crt_error = error_with_model(m, r)
-        puts "#{m.id} - #{r} - #{m.google_id} - #{crt_error}"
-        res << [crt_error, m.id, r]
-        file = File.new("/Users/alexthero/slam6d.txt", "a")
-        file.puts("Model ID: #{m.id}  Rotation: #{r}  Error: #{crt_error}")
-        file.close
-        best_error, best_model = crt_error, m.id if (crt_error < best_error) || (best_model == 0)
+    r = results.sort.reject { |r| r[0] < 0 }
+    models = []
+    results = []
+    r.map do |p|
+      unless models.include?(p[1])
+        results << p
+        models << p[1]
       end
     end
+    results
+  end
+  
+  def rotation_count
+    rotations = ["0 0 0", "0 90 0", "0 180 0", "0 270 0"]
+    rotations.map { |r| 
+      [r, sorted_results.map { |i| i[2] == r ? 1 : 0 }.sum]
+    }
+  end
+  
+  def run
+    rotations = ["0 0 0", "0 90 0", "0 180 0", "0 270 0"]
+    self.update_attribute(:results, [])
+    res = []
     
-    puts "Done!"
-    puts best_error
-    puts best_model
+    if self.category == "best_model"
+      sketchups = []
+      sketchups += Matching.all.map { |m| m.sorted_results[0..top_models - 1].map { |p| Sketchupmodel.find(p[1]) } }.flatten if top_models    
+      sketchups += Sketchupmodel.find_all_by_name(model_name) if model_name
     
+      return sketchups.each { |m| rotations.each { |r| self.delay.error_with_model(m, r) } }
+    else
+      pointclouds = self.scan.pointclouds.reject { |r| !r.name.include?("bounded") }
+      
+      return pointclouds.each { |p| rotations.each { |r| self.delay.error_with_pointcloud(p, r) }}
+    end
+  end
+  
+  def error_with_pointcloud(pointcloud, rotation = "0 0 0")
+    sl = Slam6D.new({:first_scan_path => pointcloud.complete_path,
+                     :second_scan_path => self.sketchupmodel.pointclouds.last.complete_path,
+                     :second_scan_rotation => rotation })
+    output = sl.runMatching
+    crt_error = output.split("F&A\n")[1].split("\n")[0].to_f
+    
+    puts "#{pointcloud.id} - #{rotation} - #{crt_error}"
+    
+    res = Matching.find(self.id).results
+    res << [crt_error, pointcloud.id, rotation]
     self.update_attribute(:results, res)
-    res
   end
   
   def error_with_model(model, rotation = "0 0 0")
@@ -40,6 +71,12 @@ class Matching < ActiveRecord::Base
                      :second_scan_path => model.pointclouds.last.complete_path,
                      :second_scan_rotation => rotation })
     output = sl.runMatching
-    return output.split("F&A\n")[1].split("\n")[0].to_f
+    crt_error = output.split("F&A\n")[1].split("\n")[0].to_f
+    
+    puts "#{model.id} - #{rotation} - #{model.google_id} - #{crt_error}"
+    
+    res = Matching.find(self.id).results
+    res << [crt_error, model.id, rotation]
+    self.update_attribute(:results, res)    
   end
 end

@@ -35,7 +35,7 @@ class Slam6D < Struct.new(:options)
     `echo "0 0 0\n0 0 0\n" > #{path}dat/ui/scan000.pose`
     `echo "0 0 0\n#{options[:second_scan_rotation]}\n" > #{path}dat/ui/scan001.pose`
     
-    output = run("slam6D -s 0 -e 1 -a 9 -d 500 --epsICP=0 -i 1000 -r 10 --anim=1 ../dat/ui")
+    output = run("slam6D -s 0 -e 1 -a 9 -d 500 -i 500 -r 10 --anim=1 ../dat/ui")
     return output
   end
   

@@ -1,0 +1,6 @@
+.list
+  - @scans.each do |s|
+    .list_row
+      .list_cell= link_to s.name, s
+      .list_cell= link_to "Edit", edit_scan_path(s)
+      .list_cell= link_to "Delete", s, :method => :delete

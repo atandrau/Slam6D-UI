@@ -1,17 +1,70 @@
 %h2
   = @matching.name
 
-%p
-  %strong Pointcloud Name:
-  = @matching.pointcloud.name
+- if @matching.category == "best_model"
+  %p
+    %strong Pointcloud Name:
+    = @matching.pointcloud.name
+- else
+  %p
+    %strong Scan Name:
+    = @matching.scan.name
+
+- if @matching.category == "best_model"
+  %p
+    %strong Sketchup Model Name:
+    = @matching.model_name
+- else
+  %p
+    %strong Sketchup Model Name:
+    = @matching.sketchupmodel.name
 
 %p
-  %strong Sketchup Model Name:
-  = @matching.model_name
+  %strong Rotation counter
+  = @matching.rotation_count
+  
+%p
+  %strong Last Update
+  = @matching.updated_at.strftime("%Y-%m-%d %H:%M")
 
 %p
-  %strong Results
-  = @matching.results
+  %strong Now
+  = Time.now.strftime("%Y-%m-%d %H:%M")
+- unless @matching.results.blank?
+  %table
+    %tr
+      %th Error
+      %th Rotation
+      %th Model
+      %th Actions
+    - @matching.sorted_results.each do |r|
+      - if @matching.category == "best_model"
+        - ms = Sketchupmodel.find_all_by_id(r[1])
+        - next if ms.blank?
+        - m = ms[0]
+        %tr.with_border
+          %td= r[0]
+          %td= r[2]
+          %td
+            %center
+              = m.name
+              %br
+              = link_to m do
+                = image_tag m.image_link || "http://sketchup.google.com/3dwarehouse/download?mid=#{m.google_id}&rtyp=st&ctyp=other", :class => "sketchup"
+          %td
+            = link_to new_icp_path(:icp => {:name => "ICP", :first_scan_id => @matching.pointcloud.id, :second_scan_id => m.pointclouds.last.id, :second_scan_rotation => r[2], :parameters => "-a 9 -d 500 -i 500 -r 10 --anim=1"}) do
+              See ICP
+      - else
+        - ps = Pointcloud.find_all_by_id(r[1])
+        - next if ps.blank?
+        - p = ps[0]
+        %tr.with_border
+          %td= r[0]
+          %td= r[2]
+          %td= link_to p.name, p
+          %td
+            = link_to new_icp_path(:icp => {:name => "ICP", :first_scan_id => p.id, :second_scan_id => @matching.sketchupmodel.pointclouds.last.id, :second_scan_rotation => r[2], :parameters => "-a 9 -d 500 -i 500 -r 10 --anim=1"}) do
+              See ICP
 
 %br
 = form_tag run_matching_path(@matching) do

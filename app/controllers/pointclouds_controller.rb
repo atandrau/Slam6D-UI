@@ -5,6 +5,10 @@ class PointcloudsController < ApplicationController
   def index
     @pointclouds = Pointcloud.independent
   end
+  
+  def webgl
+    
+  end
 
   def new
     @pointcloud = Pointcloud.new
