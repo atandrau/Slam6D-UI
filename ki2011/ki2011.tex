@@ -12,6 +12,8 @@
 \usepackage{subfig}
 \usepackage{cite}
 \usepackage{nicefrac}
+\usepackage[pdftex]{hyperref}
+\usepackage{url}
 %\usepackage{refcheck}
 
 
@@ -386,15 +388,15 @@ reliable collection of 3D models.
 
   \begin{figure}
     \centering
-    \subfloat[Segmented Audi A4]{\includegraphics[height=23mm]{chapter5_pictures/Audi}}
+    \includegraphics[height=23mm]{chapter5_pictures/Audi}
     \hfill
-    \subfloat[Best match]{\includegraphics[height=23mm]{chapter5_pictures/Audi_matched}}
+    \includegraphics[height=23mm]{chapter5_pictures/Audi_matched}
     \hfill
-    \subfloat[Scan with matched Audi A4]{\includegraphics[height=23mm]{chapter5_pictures/Audi_matched_scan}}
+    \includegraphics[height=23mm]{chapter5_pictures/Audi_matched_scan}
     \caption{Segmented Audi A4 and its best SICP match.}
     \label{audi_trio}
   \end{figure}
-
+	
 We extracted an Audi A4 from the environment scan containing 18801
 points and we found 80 models responding to the equivalent search
 query. Unlike the Mercedes, the models vary more and have additional
@@ -409,11 +411,11 @@ respects (Fig.~\ref{audi_trio}).
 
   \begin{figure}
     \centering
-    \subfloat[Segmented Volkswagen Golf]{\includegraphics[height=25mm]{chapter5_pictures/Golf}}
-    \hspace{3 mm}
-    \subfloat[Best match]{\includegraphics[height=25mm]{chapter5_pictures/Golf_matched}}
-    \hspace{3 mm}
-    \subfloat[Scan with matched Volkswagen Golf]{\includegraphics[height=25mm]{chapter5_pictures/Golf_matched_scan}}
+    \includegraphics[height=25mm]{chapter5_pictures/Golf}
+    \hfill
+    \includegraphics[height=25mm]{chapter5_pictures/Golf_matched}
+    \hfill
+    \includegraphics[height=25mm]{chapter5_pictures/Golf_matched_scan}
     \caption{Segmented Volkswagen Golf and its best SICP match.}
     \label{golf_trio}
   \end{figure}
@@ -428,11 +430,11 @@ newer versions of the same car (Fig.~\ref{golf_trio}).
  
   \begin{figure}
     \centering
-    \subfloat[Segmented Renault Kangoo]{\includegraphics[height=29mm]{chapter5_pictures/Renault}}
-    \hspace{3 mm}
-    \subfloat[Best match]{\includegraphics[height=29mm]{chapter5_pictures/Renault_matched}}
-    \hspace{3 mm}
-    \subfloat[Scan with matched Renault Kangoo]{\includegraphics[height=29mm]{chapter5_pictures/Renault_matched_scan}}
+    \includegraphics[height=29mm]{chapter5_pictures/Renault}
+    \hfill
+    \includegraphics[height=29mm]{chapter5_pictures/Renault_matched}
+    \hfill
+    \includegraphics[height=29mm]{chapter5_pictures/Renault_matched_scan}
     \caption{Segmented Renault Kangoo and its best SICP match.}
     \label{renault_trio}
   \end{figure}
@@ -446,11 +448,11 @@ also for larger objects such as vans (Fig.~\ref{renault_trio}).
 
   \begin{figure}[Ht]
     \centering
-    \subfloat[Segmented Citroen C5]{\includegraphics[height=25mm]{chapter5_pictures/Citroen}}
-    \hspace{3 mm}
-    \subfloat[Best match]{\includegraphics[height=25mm]{chapter5_pictures/Citroen_matched}}
-    \hspace{3 mm}
-    \subfloat[Scan with matched Citroen C5]{\includegraphics[height=25mm]{chapter5_pictures/Citroen_matched_scan}}
+    \includegraphics[height=25mm]{chapter5_pictures/Citroen}
+    \hfill
+    \includegraphics[height=25mm]{chapter5_pictures/Citroen_matched}
+    \hfill
+    \includegraphics[height=25mm]{chapter5_pictures/Citroen_matched_scan}
     \caption{Segmented Citroen C5 and its best SICP match.}
     \label{citroen_trio}
   \end{figure}
@@ -522,14 +524,18 @@ regions algorithm we identified $67$ candidate objects and the best matches are 
 
 \endlastfoot
 
-	\centering $105.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/audi}}\end{minipage}\\
-	\centering $178.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/other_car}}\end{minipage}\\
-	\centering $400.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=50mm]{objects/other_car_2}}\end{minipage}\\
+	\centering $105.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=35mm]{objects/audi}}\end{minipage}\\
+	\centering $178.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=35mm]{objects/other_car}}\end{minipage}\\
+	\centering $400.0$ & \centering $\nicefrac{\pi}{2}$ & \begin{minipage}{40mm}{\includegraphics[width=35mm]{objects/other_car_2}}\end{minipage}\\
 \end{longtable}
 
 The best matching object is the Audi A4. The next two best-matching
 objects are also cars, but different brands. The rest of the objects
 have error values of $2000$ to $77000$ and are thus very poor matches.
+
+For the purpose of this evaluation, we have used the following constants and thresholds: $\alpha=500$, $\Delta=500$, $\delta=25$, $\epsilon=5$. Matching animations are visible at 
+\url{http://www.youtube.com/watch?v=uVz8yzUn4FA} and
+\url{http://www.youtube.com/watch?v=8VRvmgmQV4g}
 
 \section{Conclusion and Future Work}
 
