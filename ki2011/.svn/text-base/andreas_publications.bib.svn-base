@@ -1,0 +1,1090 @@
+% --- In press ---
+
+@Book{Lehrbuch_2011,
+  author = 	  {J. Hertzberg and K. Lingemann and A. N{\"u}chter},
+  title = 	  {Mobile Roboter: Eine Einführung aus Sicht der Informatik},
+  publisher = 	  {Springer},
+  year = 		  {2011 (accepted)},
+  OPTkey = 	  {},
+  OPTvolume = 	  {},
+  OPTnumber = 	  {},
+  OPTseries = 	  {},
+  OPTtype = 	  {},
+  address =   {Heidelberg},
+  OPTedition =   {},
+  OPTmonth = 	  {},
+  OPTpages = 	  {},
+  OPTnote = 	  {},
+  OPTannote = 	  {}
+}
+
+@InProceedings{SIMPAR2010,
+  author = 	  {E. Digor and A. Birk and A. N{\"u}chter},
+  title = 	  {Exploration Strategies for a Robot with a Continously Rotating 3D Scanner},
+  OPTcrossref =  {},
+  OPTkey = 	  {},
+  booktitle = {Proceedings of the Second International Conference on Simulation, Modeling and Programming for Autonomous Robots (SIMPAR '10)},
+  OPTpages = 	  {},
+  year = 	  {2010, (accepted)},
+  OPTeditor = 	  {},
+  OPTvolume = 	  {},
+  OPTnumber = 	  {},
+  OPTseries = 	  {},
+  address =   {Darmstadt, Germany},
+  OPTmonth = 	  {},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTnote = 	  {},
+  OPTannote = 	  {}
+}
+
+% --- 2010 ---
+
+@InProceedings{WREM2010,
+  author = 	  {D. Borrmann and J. Elseberg and S. S. Raunyar and A. N{\"u}chter},
+  title = 	  {Lifelong 3D Mapping -– Monitoring with a 3D Scanner},
+  booktitle = {Proceedings of the IROS Workshop on Robotics for Environmental Monitoring (WREM '10)},
+  year = 	  {2010},
+  address =   {Taipei, Taiwan},
+  month = 	  {October},
+}
+
+@InProceedings{IROS2010_1,
+  author = 	  {J. Elseberg and D. Borrmann and A. N{\"u}chter and K. Lingemann},
+  title = 	  {{Non-Rigid Registration and Rectification of 3D Laser Scans}},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '10)},
+  pages = 	  {1546--1552},
+  year = 	  {2010},
+  address =   {Taipei, Taiwan},
+  month = 	  {October},
+}
+
+
+
+@InProceedings{IROS2010_2,
+  author = 	  {K. Pathak and D. Borrmann and J. Elseberg and N. Vaskevicius and A. Birk and A. N{\"u}chter},
+  title = 	  {{Evaluation of the Robustness of Planar-Patches based 3D-Registration using Marker-based Ground-Truth in an Outdoor Urban Scenario}},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '10)},
+  pages = 	  {5725--5730},
+  year = 	  {2010},
+  address =   {Taipei, Taiwan},
+  month = 	  {October},
+}
+
+@Article{KI2009,
+  author = 	  {J. Hertzberg and K. Lingemann and C. L{\"o}rken and A. N{\"u}chter and S. Stiene and T. Wiemann},
+  title = 	  {{3D-Roboterkartenbau in Osnabr{\"u}ck}},
+  journal = 	  {KI -- K{\"u}nstliche Intelligenz: Themenschwerpunk Simultaneous Localization and Mapping (SLAM)},
+  year = 		  {2010},
+  volume = 	  {24},
+  number = 	  {3},
+  pages = 	  {245--248},
+  month = 	  {September},
+}
+
+
+@InProceedings{IAV2010_2,
+  author = 	  {J. W{\"u}lfing and J. Hertzberg and K. Lingemann and A. N{\"u}chter and T. Wiemann and S. Stiene},
+  title = 	  {{Towards Real Time Robot 6D Localization in a Polygonal Indoor Map Based on 3D ToF Camera Data}},
+  booktitle = {Proceedings of the 5th IFAC Symposium on Intelligent Autonomous Vehicles (IAV '10)},
+  year = 	  {2010},
+  address =   {Lecce, Italy},
+  month = 	  {September},
+}
+
+@InProceedings{IAV2010_1,
+  author = 	  {D. Borrmann and J. Elseberg and K. Lingemann and A. N{\"u}chter},
+  title = 	  {{A Data Structure for the 3D Hough Transform for Plane Detection}},
+  booktitle = {Proceedings of the 5th IFAC Symposium on Intelligent Autonomous Vehicles (IAV '10)},
+  year = 	  {2010},
+  address =   {Lecce, Italy},
+  month = 	  {September},
+}
+
+@InProceedings{SSRR2010,
+  author = 	  {T. Wiemann and A. N{\"u}chter and K. Lingemann and S. Stiene and J. Hertzberg},
+  title = 	  {{Automatic Construction of Polygonal Maps From Point Cloud Data}},
+  booktitle = {Proceedings of the IEEE International Workshop on Safety, Security and Rescue Robotics (SSRR '10)},
+  year = 	  {2010},
+  address =   {Bremen, Germany},
+  month = 	  {July},
+}
+
+@Article{CVIU2010,
+  author = 	  {A. N{\"u}chter and J. Elseberg and P. Schneider and D. Paulus},
+  title = 	  {{Study of Parameterizations for the Rigid Body Transformations of The Scan Registration Problem}},
+  journal = 	  {Journal Computer Vision and Image Understanding (CVIU)},
+  year = 		  {2010},
+  volume = 	  {114},
+  number = 	  {8},
+  pages = 	  {963--980},
+  month = 	  {August},
+}
+
+@InProceedings{3DTage2010,
+  author = 	  {A. N{\"u}chter and J. Elseberg},
+  title = 	  {{Verbesserte Kartenqualität durch Thin Plate Splines und Hough-Transformatio}},
+  booktitle = {Photogrammetrie Laserscanning Optische 3D-Messtechnik, Beitr{\"a}ge der Oldenburger 3D-Tage 2010, Fachhochschule Oldenburg/Ostfr./Whv.},
+  month = "January",
+  pages = {134--141},
+  year = 	  {2010 (accepted)},
+}
+
+@InProceedings{ICRA2010,
+  author = 	  {A. N{\"u}chter and J. Elseberg and P. Schneider and D. Paulus},
+  title = 	  {{Linearization of Rotations for Globally Consistent $n$-Scan Matching}},
+  booktitle = {Proceedings of the IEEE International Conference Robotics and Automation (ICRA '09)},
+  address =   {Anchorage, Alaska, USA},
+  pages = 	  {1373--1379},
+  year = 	  {2010 (accepted)},
+  month = 	  {May},
+}
+
+% --- 2009 ---
+
+@Article{JFR2009_2,
+  author = 	  {M. Magnusson and H. Andreasson and A. N{\"u}chter and A. J. Lilienthal},
+  title = 	  {{Automatic Appearance-Based Loop Detection from 3D Laser Data Using the Normal Distributions Transform}},
+  journal = 	  {Journal of Field Robotics (JFR), Special Issue on Three-Dimensional Mapping},
+  year = 		  {2009},
+  volume = 	  {26},
+  number = 	  {11--12},
+  pages = 	  {934--965},
+}
+
+@Article{JFR2009_1,
+  author = 	  {S. May and D. Dr{\"o}schel and D. Holz and S. Fuchs and E. Malis and A. N{\"u}chter and J. Hertzberg},
+  title = 	  {{3D Mapping with Time-of-Flight Cameras}},
+  journal = 	  {Journal of Field Robotics (JFR), Special Issue on Three-Dimensional Mapping},
+  year = 		  {2009},
+  volume = 	  {26},
+  number = 	  {11--12},
+  pages = 	  {892--914},
+}
+
+@InProceedings{ICVS2009,
+  author = 	  {D. Qiu and S. May and A. N{\"u}chter},
+  title = 	  {{GPU-accelerated Nearest Neighbor Search for 3D Registration}},
+  booktitle = {Proceedings of the 7th International Conference on Computer Vision Systems (ICVS '09)},
+  pages = 	  {194--203},
+  year = 	  {2009 (accepted)},
+  number = 	  {5815},
+  series = 	  {LNCS},
+  address =   {Li\`{e}ge, Belgium},
+  month = 	  {October},
+}
+
+@InProceedings{TLS2009,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{6D SLAM mit Global Konsistentem Scanmatching}},
+  booktitle = {Terrestrisches Laserscanning (TLS 2009) Beitr{\"a}ge zum DVW-Seminar am 18. und 19. November in Fulda},
+  pages = 	  {69--92},
+  year = 	  {2009},
+  address =   {Fulda, Germany},
+  month = 	  {November},
+}
+
+@InProceedings{IROS2009,
+  author = 	  {S. May and D. Dr{\"o}schel and D. Holz and S. Fuchs and A. N{\"u}chter},
+  title = 	  {{Robust 3D-Mapping with Time-of-Flight Cameras}},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '09)},
+  pages = 	  {1673--1678},
+  year = 	  {2009},
+  address =   {St. Louis, MO, USA},
+  month = 	  {October},
+}
+
+@InProceedings{ECMR2009,
+  author = 	  {J. Sprickerhof and A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{An Explicit Loop Closing Technique for 6D SLAM}},
+  booktitle = {Proceedings of the 4th European Conference on Mobile Robots (ECMR '09)},
+  year = 	  {2009},
+  address =   {Mlini/Dubrovnic, Croatia,},
+  month = 	  {September},
+}
+
+@InProceedings{ICRA2009_2,
+  author = 	  {M. Magnusson and A. N{\"u}chter and C. L{\"o}rken and A. J. Lilienthal and J. Hertzberg},
+  title = 	  {{Evaluation of 3D Registration Reliability and Speed -- A Comparison of ICP and NDT}},
+  booktitle = {Proceedings of the IEEE International Conference Robotics and Automation (ICRA '09)},
+  address =   {Kobe, Japan},
+  pages = "3907--3912",
+  month = "May",
+  year = 	  {2009},
+}
+
+@InProceedings{ICRA2009_1,
+  author = 	  {M. Magnusson and H. Andreasson and A. N{\"u}chter and A. J. Lilienthal},
+  title = 	  {{Appearance-Based Place Recognition from 3D Laser Data Using the Normal Distributions Transform}},
+  booktitle = {Proceedings of the IEEE International Conference Robotics and Automation (ICRA '09)},
+  address =   {Kobe, Japan},
+  pages = "23--28",
+  month = "May",
+  year = 	  {2009},
+}
+
+
+@InProceedings{3DTage2009,
+  author = 	  {A. N{\"u}chter and J. Elseberg},
+  title = 	  {{Linearisierte L{\"o}sung der ICP-Fehlerfunktion f{"u}r global konsistentes Scanmatching}},
+  booktitle = {Photogrammetrie Laserscanning Optische 3D-Messtechnik, Beitr{\"a}ge der Oldenburger 3D-Tage 2009, Fachhochschule Oldenburg/Ostfr./Whv.},
+  month = "January",
+  pages = {74--81},
+  year = 	  {2009},
+}
+
+
+@Article{eCIT2009,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{Parallel and Cached Scan Matching for Robotic 3D Mapping}},
+  journal = 	  {Journal of Computing and Information Technology (eCIT)},
+  year = 		  {2009},
+  volume = 	  {17},
+  number = 	  {1},
+  pages = 	  {51--65},
+  month = 	  {March},
+}
+
+@Book{3DMAPPING,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {3D Robotic Mapping: The Simultaneous Localization
+                  and Mapping Problem with Six Degrees of Freedom},
+  publisher = 	  {Springer},
+  year = 		  {2009},
+  number = 	  {52},
+  series = 	  {Springer Tracts in Advanced Robotics},
+  month = 	  {February},
+}
+
+
+% --- 2008 ---
+
+
+@InProceedings{WS3DMAP1_2008,
+  author = 	  {M. Magnusson and A. N{\"u}chter and C. L{\"o}rken and A. J. Lilienthal and J. Hertzberg},
+  title = 	  {3D Mapping the Kvarntorp Mine: A Field Experiment
+                  for Evaluation of 3D Scan Matching Algorithms},
+  booktitle = {Proceedings of the Workshop on 3D-Mapping at the IEEE
+                  International Conference on Intelligent Robots and
+                  Systems (IROS '08)},
+  year = 	  {2008},
+  address =   {Nice, France},
+  month = 	  {September},
+}
+
+@InProceedings{WS3DMAP2_2008,
+  author = 	  {T. Wiemann and A. N{\"u}chter and K. Lingemann and S. Stiene and J. Hertzberg},
+  title = 	  {Surface Reconstruction for 3D Robotic Mapping},
+  booktitle = {Proceedings of the Workshop on 3D-Mapping at the IEEE
+                  International Conference on Intelligent Robots and
+                  Systems (IROS '08)},
+  year = 	  {2008},
+  address =   {Nice, France},
+  month = 	  {September},
+}
+
+@Article{RAS2008,
+  author = 	  {A. N{\"u}chter and J. Hertzberg},
+  title = 	  {{Towards Semantic 3D Maps}},
+  journal = 	  {Journal Robotics and Autonomous Systems (JRAS),
+                  Special Issue on Semantic Knowledge in Robotics},
+  year = 		  {2008},
+  volume = 	  {56},
+  number = 	  {11},
+  pages = 	  {915--926},
+  month = 	  {November},
+}
+
+@InProceedings{3DPVT2008,
+  author = 	  {D. Borrmann and J. Elseberg and K. Lingemann and Andreas N{\"u}chter and J. Hertzberg},
+  title = 	  {{The Efficient Extension of Globally Consistent Scan Matching to 6 DoF}},
+  booktitle = {Proceedings of the 4th International Symposium on 3D Data Processing, Visualization and Transmission (3DPVT '08)},
+  pages = 	  {29--36},
+  year = 	  {2008},
+  address =   {Atlanta, USA},
+  month = 	  {June},
+}
+
+
+@InProceedings{SICE2008,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{Evaluating a 3D Camera for RoboCup Rescue}},
+  booktitle = {Proceedings of the SICE Annual Conference 2008: International Conference on Instrumentation, Control and Information Technology (SICE '08)},
+  pages = 	  {2070--2075},
+  year = 	  {2008},
+  address =   {Tokyo, Japan},
+  month = 	  {August},
+}
+
+@InProceedings{3DTage2008,
+  author = 	  {A. N{\"u}chter and K. Lingemann and D. Bormann and J. Elseberg and J. B{\"o}hm},
+  title = 	  {{Global Konsistente 3D-Kartierung mit Scanmatching}},
+  booktitle = {Photogrammetrie Laserscanning Optische 3D-Messtechnik, Beitr{\"a}ge der Oldenburger 3D-Tage 2008, Fachhochschule Oldenburg/Ostfr./Whv.},
+  month = "January",
+  year = 	  {2008},
+}
+
+@Article{JFR2007,
+  author = 	  {O. Wulf and A. N{\"u}chter and J. Hertzberg and B. Wagner},
+  journal =      {Journal of Field Robotics (JFR)},
+  title = 	  {{Benchmarking Urban 6D SLAM}},
+  volume = 	  {25},
+  number = 	  {3},
+  pages = 	  {148--163},
+  month = 	  {March},
+  year = 		  {2008},
+}
+
+@Article{RAS2007,
+  author = 	  {D. Borrmann and J. Elseberg and K. Lingemann and A. N{\"u}chter and J. Hertzberg},
+  title = 	  {Globally consistent 3D mapping with scan matching},
+  journal = 	  {Journal Robotics and Autonomous Systems (JRAS)},
+  volume = 	  {56},
+  number = 	  {2},
+  pages = 	  {130--142},
+  month = 	  {February},
+  year = 		  {2008},
+}
+
+@InCollection{Dagstuhl2008,
+  author = 	  {J. Hertzberg and K. Lingemann and C. L{\"o}rken and A. N{\"u}chter and S. Stiene},
+  booktitle = 	  {Towards Affordance-Based Robot Control. Proceedings of Dagstuhl Seminar 06231,
+                  Dagstuhl Castle},
+  title = 	  {Does it help a robot navigate to call navigability an affordance?},
+  publisher = 	  {Springer LNAI},
+  pages       =  {16--26},
+  year = 	       {2008},
+}
+
+% --- 2007 ---
+
+@InProceedings{IROS2007,
+  author = 	  {O. Wulf and A. N{\"u}chter and J. Hertzberg and B. Wagner},
+  title = 	  {Ground Truth Evaluation of Large Urban 6D SLAM},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '07)},
+  pages = 	  {650--657},
+  year = 	  {2007},
+  address =   {San Diego, CA, USA},
+  month = 	  {October},
+}
+
+@Article{JFR2006,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann},
+  title = 	  {{6D SLAM -- 3D Mapping Outdoor Environments}},
+  journal = 	  {Journal of Field Robotics (JFR), Special Issue on Quantitative Performance Evaluation of Robotic and Intelligent Systems},
+  volume = 	  {24},
+  number = 	  {8--9},
+  pages = 	  {699--722},
+  month = 	  {August / September},
+  year = 		  {2007},
+}
+
+
+@InProceedings{ECMR2007,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{Parallelization of Scan Matching for Robotic 3D Mapping}},
+  booktitle = {Proceedings of the 3rd European Conference on Mobile Robots (ECMR '07)},
+  year = 	  {2007},
+  address =   {Freiburg, Germany},
+  month = 	  {September},
+}
+
+@InProceedings{PERMIS2007,
+  author = 	  {R. Lakaemper and A. N{\"u}chter and N. Adluru and L. J. Latecki},
+  title = 	  {Performance of 6D LuM and FFS SLAM -- An Example for Comparison using Grid and Pose Based Evaluation Methods},
+  booktitle = {Proceedings of seventh workshop on Performance Metrics for Intelligent Systems (PerMIS '07)},
+  year = 	  {2007},
+  address =   {Washington D.C., USA,},
+  month = 	  {August},
+}
+
+@InProceedings{RA2007_1,
+  author = 	  {A. Bartel and F. Meyer and C. Sinke and T. Wiemann and A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{Real-Time Outdoor Trail Detection on a Mobile Robot}},
+  booktitle = {Proceedings of the 13th IASTED International Conference on Robotics and Applications (RA '07)},
+  pages = 	  {477--482},
+  year = 	  {2007},
+  address =   {W{\"u}rzburg, Germany},
+  month = 	  {August},
+}
+
+@InProceedings{RA2007_2,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{6D SLAM with Cached k-d tree Search}},
+  booktitle = {Proceedings of the 13th IASTED International Conference on Robotics and Applications (RA '07)},
+  pages = 	  {181--186},
+  year = 	  {2007},
+  address =   {W{\"u}rzburg, Germany},
+  month = 	  {August},
+}
+
+@InProceedings{3DIM2007,
+   author = "A. N{\"u}chter and K. Lingemann and J. Hertzberg",
+   title = "{C}ached $k$-d tree search for {ICP} {A}lgorithms",
+   booktitle = "Proceedings of the 6th IEEE International Conference on Recent Advances in 3D Digital Imaging and Modeling (3DIM '07)",
+   pages = 	  {419--426},
+   month = "August",
+   year = "2007",
+   address = "Montreal, QC, Canada",
+}
+
+@InProceedings{ICRA2007,
+  author = 	  {G. Indiveri and A. N{\"u}chter and K. Lingemann},
+  title = 	  {High Speed Differential Drive Mobile Robot Path Following Control With Bounded Wheel Speed Commands},
+  booktitle = {Proceedings of the IEEE International Conference Robotics and Automation (ICRA '07)},
+  address =   {Rome, Italy},
+  pages = "2202--2207",
+  month = "April",
+  year = 	  {2007},
+}
+
+@InProceedings{ICRA2007WS,
+  author = 	  {S. Stiene and A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {An Experiment in Semantic Correction of Sensor Data},
+  booktitle = {Proceedings Workshop on Semantic Information in Robotics at the IEEE International Conference Robotics and Automation (ICRA '07)},
+  month = "April",
+  address =   {Rome, Italy},
+  year = 	  {2007},
+}
+
+@Article{RT2007,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{6D SLAM with Kurt3D}},
+  journal = 	  {Robotics Today, Society of Manufacturing Engineers, First Quater},
+  year = 		  {2007},
+  volume = 	  {20},
+  number = 	  {1},
+  month = 	  {April},
+}
+
+@InProceedings{WCAA2007,
+  author = 	  {L. Kunze and K. Lingemann and A. N{\"u}chter and J. Hertzberg},
+  title = 	  {{Salient Visual Features to Help Close the Loop in 6D SLAM}},
+  booktitle = {Proceedings of the ICVS Workshop on Computational Attention \& Applications (WCAA '07)},
+  month = "March",
+  address = "Bielefeld, Germany",
+  year = 	  "2007",
+}
+
+@InProceedings{NF2007,
+  author = 	  {J. Steger and R. M{\"a}rtin and K. Lingemann and A. N{\"u}chter and J. Hertzberg and P. K{\"o}nig},
+  title = 	  {{Assessing stereo matching algorithms using ground-truth disparity maps of natural scenes}},
+  booktitle = {Proceedings of the 7th Meeting of the German Neuroscience Society / 31th G{\"o}ttingen Neurobiology Conference, Neuroforum 2007},
+  year = "2007",
+  month = "March",
+  address = "G{\"o}ttingen, Germany"
+}
+
+
+@InProceedings{CCNCV2007,
+  author = 	  {J. Steger and R. M{\"a}rtin and K. Lingemann and A. N{\"u}chter and J. Hertzberg and P. K{\"o}nig},
+  title = 	  {{Laser range scans of natural scenes for the evaluation of stereo-matching algorithms}},
+  booktitle = {Poster at ICVS Workshop From Computational Cognitive Neuroscience to Computer Vision (CCNCV '07)},
+  address = "Bielefeld, Germany",
+  month = "March",
+  year = 	  "2007",
+}
+
+@InProceedings{3DTage2007,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{Algorithmen zur Erstellung virtueller 3D-Welten mit mobilen Robotern}},
+  booktitle = {Photogrammetrie Laserscanning Optische 3D-Messtechnik, Beitr{\"a}ge der Oldenburger 3D-Tage 2007, Fachhochschule Oldenburg/Ostfr./Whv.},
+  month = "January",
+  year = 	  {2007},
+}
+
+% --- 2006 ---
+
+@Book{DISS2006,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {Semantische dreidimensionale Karten f{\"u}r autonome mobile Roboter},
+  publisher = 	  {Infinix / Aka Verlag },
+  year = 		  {2006},
+  number = 	  {303},
+  series = 	  {DISKI, Dissertationen zur k{\"u}nstlichen Intelligenz},
+  address =   {Berlin, Germany},
+  month = 	  {November},
+}
+
+@Proceedings{3DEnvCog2006,
+  title = 	  {Robotic 3D Environment Cognition, Workshop at the International Conference Spatial Cognition},
+  year = 		  {2006},
+  editor = 	  {A. N{\"u}chter and K. Lingemann and O. Wulf},
+  address =   {Bremen, Germany},
+  month = 	  {September},
+  publisher = {(Online Proceedings)},
+}
+
+@InProceedings{3DEnvCog2006_1,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{6D SLAM with Kurt3D}},
+  booktitle = {{Robotic 3D Environment Cognition, Workshop at the International Conference Spatial Cognition}},
+  year = 	  {2006},
+  address =   {Bremen, Germany},
+  month = 	  {September},
+}
+
+@inproceedings{SSRR2006,
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann},
+	Booktitle = {Proceedings of the IEEE International Workshop on Safety, Security and Rescue Robotics (SSRR '06)},
+     Title = {{Heuristic-Based Laser Scan Matching for Outdoor 6D SLAM}},
+	Month = {August},
+	Address = {Gaithersburg, Maryland},
+	Year = {2006},
+}
+
+@inproceedings{3DPVT2006,
+   author = {S. Stiene and K. Lingemann and A. N{\"u}chter and J. Hertzberg},
+   title = {{Contour-based Object Detection in Range Images}},
+   booktitle = {Proceedings of the 3rd IEEE International Symposium on 3D Data Processing, Visualization and Transmission (3DPVT '06)},
+    month = {June},
+    year = {2006}
+}
+
+@inproceedings{SRMED2006,
+   author = {S. Albrecht and J. Hertzberg and K. Lingemann and A. N{\"u}chter and J. Sprickerhof and S. Stiene},
+   title = {{Device Level Simulation of Kurt3D Rescue Robots}},
+   booktitle = {Proceedings of the 3rd International Workshop on Synthetic Simulation and Robotics to Mitigate Earthquake Disaster (SRMED 2006)},
+   month = {June},
+   year = {2006}
+}
+
+@techreport{TDP2006,
+	Address = {Bremen, Germany},
+	Author = {K. Lingemann and A. N{\"u}chter and O. Wulf and H. Surmann and K. Perv{\"o}lz and J. Hertzberg and B. Wagner and T. Christaller},
+	Institution = {{Team Description Paper, Rescue Robot League Competition}},
+	Month = {June},
+	Title = {{RoboCupRescue - Robot League Team, Team Deutschland1}},
+	Year = {2006}
+}
+
+@InProceedings{ISR2006,
+  author = "A. N{\"u}chter and K. Lingemann and J. Hertzberg",
+  title = {{Extracting Drivable Surfaces in Outdoor 6D SLAM}},
+  booktitle = "Proceedings of the 37rd International Symposium on Robotics (ISR '06) and Robotik 2006",
+  month = "May",
+  year = "2006",
+  address = "Munich, Germany"
+}
+
+@article{KI2006,
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and O. Wulf and B. Wagner and K. Perv{\"o}lz and H. Surmann and T. Christaller},
+	Journal = {KI -- K{\"u}nstliche Intelligenz},
+	Title = {{The RoboCup Rescue Team Deutschland1}},
+     Number = {2},
+     Pages  = {24--29},
+	Year = {2006}
+}
+
+@TechReport{ELROB2006,
+  author = 	  {A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+  title = 	  {{Kurt3D -- A Mobile Robot for 3D Mapping of Environments}},
+  institution =  {ELROB},
+  year = 		  {2006},
+  address =   {Hammelburg, Germany},
+  month = 	  {May},
+}
+
+
+@Article{CGTA_2006,
+  author = 	  {S. P. Fekete and R. Klein and A. N{\"u}chter},
+  title = 	  {Online searching with an autonomous robot},
+  journal = 	  {Computational Geometry: Theory and Applications (CGTA)},
+  year = 		  {2006},
+  volume = 	  {34},
+  number = 	  {2},
+  pages = 	  {102--115},
+  month = 	  {May},
+}
+
+% --- 2005 ---
+
+
+@Article{PATENT2005,
+  author = 	  {K. Lingemann and H. Surmann and A. N{\"u}chter and J. Hertzberg},
+  title = 	  {Verfahren zur Ermittlung der Position und Orientierung eines navigierenden Systems},
+  journal = 	  {Patentblatt},
+  year = 		  {2005},
+  key = 	       {Offenlegungsschrift DE 10 2004 015 111 A1 2005.10.20},
+  volume = 	  {125},
+  number = 	  {42},
+  publisher = 	  {Deutsches Patentamt},
+  month = 	  {October},
+}
+
+@Article{CVIU_2005,
+  author = 	  {S. Frintrop and E. Rome and A. N{\"u}chter and H. Surmann},
+  title = 	  {A Bimodal Laser-Based Attention System},
+  journal = 	  {Journal Computer Vision and Image Understanding (CVIU), Special Issue on Attention and Performance in Computer Vision},
+  year = 		  {2005},
+  volume = 	  {100},
+  number = 	  {1-2},
+  pages = 	  {124--151},
+  month = 	  {October / November},
+}
+
+@Article{it2005,
+   author = {H. Surmann and K. Perv{\"o}lz and A. N{\"u}chter and K. Lingemann and J. Hertzberg and M. Hennig},
+   title  = {{Simultaneous Mapping and Localization of Rescue Environments}},
+   Journal = {it- Information Technology},
+   volume = {47},
+   year = {2005},
+   pages = {282--291},
+   publisher = {Oldenbourg press}
+}
+
+@inproceedings{KI2005,
+	Address = {Koblenz, Germany},
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann},
+	Booktitle = {KI 2005: Advances in Artificial Intelligence. 28th Annual German Conference on AI, Proceedings Springer LNAI vol. 3698},
+	Month = {September},
+	Pages = {304--319},
+	Title = {{H}euristic-{B}ased {L}aser {S}can {M}atching for {O}utdoor {6D} {SLAM}},
+	Year = {2005}}
+
+@inproceedings{RIIA2005,
+	Address = {Bonn, Germany},
+	Author = {J. Hertzberg and K. Lingemann and A. N{\"u}chter},
+	Booktitle = {Informatik 2005 -- Informatik LIVE, vol.1 (Beitr{\"a}ge der 35. Jahrestagung der Gesellschaft f{\"u}r Informatik, Bonn)},
+	Month = {September},
+	Pages = {158--162},
+	Title = {{USARSIM -- Game-Engines in der Robotik-Lehre}},
+	Year = {2005}
+}
+
+@inproceedings{ECMR2005,
+	Address = {Ancona, Italy},
+	Author = {K. Lingemann and A. N{\"u}chter and J. Hertzberg and H. Surmann},
+	Booktitle = {Proceedings of the Second European Conference on Mobile Robotics (ECMR '05)},
+	Month = {September},
+	Pages = {218--223},
+	Title = {{A}bout the {C}ontrol of {H}igh {S}peed {M}obile {I}ndoor {R}obots},
+	Year = {2005}
+}
+
+@inproceedings{ICAR2005_2,
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann},
+	Booktitle = {Proceedings of the 12th IEEE International Conference on Advanced Robotics (ICAR '05)},
+	Month = {July},
+	Pages = {242--249},
+	Title = {{6D SLAM} with {A}pproximate {D}ata {A}ssociation},
+	Year = {2005}
+}
+
+@inproceedings{ICAR2005_1,
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann},
+	Booktitle = {Proceedings of the 12th IEEE International Conference on Advanced Robotics (ICAR '05)},
+	Month = {July},
+	Pages = {665--672},
+	Title = {{A}ccurate {O}bject {L}ocalization in {3D} {L}aser {R}ange {S}cans},
+	Year = {2005}
+}
+
+@techreport{TDP2005,
+	Address = {Osaka, Japan},
+	Author = {H. Surmann and K. Lingemann and A. N{\"u}chter and M. Hennig and K. Perv{\"o}lz and O. Wulf and J. Hertzberg and B. Wagner and T. Christaller},
+	Institution = {Team Description Paper, Rescue Robot League Competition},
+	Month = {July},
+	Title = {{RoboCupRescue - Robot League Team, Team Deutschland1}},
+	Year = {2005}}
+
+@inproceedings{ROBOCUP2005,
+	Address = {Osaka, Japan},
+	Author = {A. N{\"u}chter and O. Wulf and K. Lingemann and J. Hertzberg and B. Wagner and H. Surmann},
+	Booktitle = {Proceedings of the RoboCup International Symposium},
+	Month = {June},
+	Title = {{3D} {M}apping with {S}emantic {K}nowledge},
+	Year = {2005}
+}
+
+@inproceedings{SSRR2005,
+	Address = {Kobe, Japan},
+	Author = {A. N{\"u}chter and K. Lingemann and J. Hertzberg and H. Surmann and K. Perv{\"o}lz and M. Hennig and K. R. Tiruchinapalli and R. Worst and T. Christaller},
+	Booktitle = {Proceedings of the IEEE International Workshop on Safety, Security and Rescue Robotics (SSRR '05)},
+	Month = {June},
+	Pages = {158--163},
+	Title = {{M}apping of {R}escue {E}nvironments with {Kurt3D}},
+	Year = {2005}
+}
+
+@article{RAS2005,
+	Author = {K. Lingemann and A. N{\"u}chter and J. Hertzberg and H. Surmann},
+	Journal = {Journal Robotics and Autonomous Systems (JRAS)},
+	Title = {High-{S}peed {L}aser {L}ocalization for {M}obile {R}obots},
+	Volume = {51},
+     Number = {4},
+	Year = {2005},
+     Pages = {275--296}
+}
+
+@InProceedings{ICRA2005,
+  author = 	  {S. Mitri and S. Frintrop and K. Perv{\"o}lz and H. Surmann and A. N{\"u}chter},
+  title = 	  {{Robust Object Detection at Regions of Interest with an Application in Ball Recognition}},
+  booktitle = {Proceedings of the IEEE International Conference Robotics and Automation (ICRA '05)},
+  pages = 	  {126--131},
+  year = 	  {2005},
+  address =   {Barcelona, Spain},
+  month = 	  {April},
+}
+
+% --- 2004 ---
+
+@inproceedings{IROS2004_1,
+	Address = {Sendai, Japan},
+	Author = {S. Frintrop and A. N{\"u}chter and H. Surmann and J. Hertzberg},
+	Booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '04)},
+	Month = {September},
+	Pages = {2167--2172},
+	Title = {{S}aliency-based {O}bject {R}ecognition in {3D} {D}ata},
+	Year = {2004}
+}
+
+@inproceedings{IROS2004,
+	Address = {Sendai, Japan},
+	Author = {K. Lingemann and H. Surmann and A. N{\"u}chter and J. Hertzberg},
+	Booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '04)},
+	Month = {September},
+	Pages = {2185--2190},
+	Title = {{I}ndoor and {O}utdoor {L}ocalization for {F}ast {M}obile {R}obots},
+	Year = {2004}
+}
+
+@InProceedings{MECHROB2004,
+  author = 	  {S. Mitri and K. Perv{\"o}lz and H. Surmann and A. N{\"u}chter},
+  title = 	  {{Fast Color-Independent Ball Detection for Mobile Robots}},
+  booktitle = {Proceedings of the IEEE International Conference Mechatronics and Robotics 2004 (MechRob '04)},
+  pages = 	  {900--905},
+  year = 	  {2004},
+  address =   {Aachen, Germany},
+  month = 	  {September},
+}
+
+@InProceedings{WAFR2004,
+  author = 	  {S. Fekete and R. Klein and A. N{\"u}chter},
+  title = 	  {{Online Searching with an Autononmous Robot}},
+  booktitle = {Algorithmic Foundations of Robotics VI, STAR 17 (Proceedings of the 6th International Workshop on the Algorithmic Foundations of Robotics (WAFR '04))},
+  pages = 	  {139--154},
+  year = 	  {2004},
+  volume = 	  {17},
+  series = 	  {Springer Tracts in Advanced Robotics},
+  address =   {Zeist/Utrecht, The Netherlands},
+  month = 	  {July},
+}
+
+@techreport{TDP2004,
+	Address = {Portugal},
+     Author  = {H. Surmann and R. Worst and M. Hennig and K. Lingemann and A. N{\"u}chter and K. Perv{\"o}lz and K. Raj Tiruchinapalli and T. Christaller and J. Hertzberg},
+	Institution = {Team Description Paper, Rescue Robot League Competition},
+	Month = {July},
+	Title = {{RoboCupRescue - Robot League Team, Team Kurt3D}},
+	Year = {2004}}
+
+@inproceedings{IAV2004,
+	Address = {Lisbon, Portugal},
+	Author = {H. Surmann and A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+	Booktitle = {Proceedings of the 5th IFAC Symposium on Intelligent Autonomous Vehicles (IAV '04)},
+	Month = {July},
+	Title = {{6D SLAM} {A} {P}reliminary {R}eport on {C}losing the {L}oop in {S}ix {D}imensions},
+	Year = {2004}}
+
+@InProceedings{SOCG2004,
+  author = 	  {S. Fekete and R. Klein and A. N{\"u}chter},
+  title = 	  {{Searching with an Autonomous Robot}},
+  booktitle = {Proccedings of the 20th ACM Annual Symposium on Computational Geometry (SoCG '04)},
+  pages = 	  {449--450},
+  year = 	  {2004},
+  address =   {New York, U.S.A.},
+  month = 	  {June},
+}
+
+@InProceedings{ROBOTIK2004,
+  author = 	  {K. Perv{\"o}lz and A. N{\"u}chter and H. Surmann and J. Hertzberg},
+  title = 	  {{Automatic Reconstruction of Colored 3D Models}},
+  booktitle = {Proceedings of Robotik 2004, VDI-Berichte 1841},
+  pages = 	  {215--222},
+  year = 	  {2004},
+  series = 	  {VDI-Berichte 1841},
+  address =   {Munich, Germany},
+  month = 	  {June},
+}
+
+@InProceedings{WAPCV2004,
+  author = 	  {S. Frintrop and A. N{\"u}chter and H. Surmann},
+  title = 	  {{Visual Attention for Object Recognition in Spatial 3D Data}},
+  booktitle = {Proceedings of 2nd International Workshop on Attention and Performance in Computational Vision (WAPCV '04)},
+series = {Revised Selected Papers Series: Lecture Notes in Computer Science, Vol. 3368},
+  year = 	  {2004},
+  editor = 	  {L. Paletta and J. K. Tsotsos and E. Rome and G. Humphreys},
+  address =   {Prague, Czech Republic},
+  month = 	  {May},
+}
+
+@inproceedings{ICRA2004,
+	Address = {New Orleans, USA},
+	Author = {A. N{\"u}chter and H. Surmann and K. Lingemann and J. Hertzberg and S. Thrun},
+	Booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '04)},
+	Month = {April},
+	Pages = {1998--2003},
+	Title = {{6D SLAM} with an {A}pplication in {A}utonomous {M}ine {M}apping},
+	Year = {2004}}
+
+@InProceedings{MRNV2004,
+  author = 	  {D. Giel and S. Frey and A. Thelen and J. Bongartz and P. Hering and A. N\"{u}chter and H. Surmann and K. Lingemann and J. Hertzberg},
+  title = 	  {{Ultra-fast Holographic Recording and Automatic 3D Scan Matching of Living Human Faces}},
+  booktitle = {Proceedings of the Scientific Workshop Medical Robotics, Navigation and Visualization (MRNV '04)},
+  month = "March",
+  year = 	  {2004},
+  address =   {Remagen, Germany},
+}
+
+@InProceedings{IAS2004,
+  author = "A. N{\"u}chter and H. Surmann and J. Hertzberg",
+  title = "{A}utomatic {C}lassification of {O}bjects in {3D} {L}aser {R}ange {S}cans",
+  booktitle = "Proceedings of the 8th Conference on Intelligent Autonomous Systems (IAS '04)",
+  month = "March",
+  year = "2004",
+  pages = "963--970",
+  address = "Amsterdam, The Netherlands"
+}
+
+@InProceedings{TWK2004,
+  author = 	  {S. Frintrop and E. Rome and A. N{\"u}chter and H. Surmann},
+  title = 	  {{Focussing Object Recognition on Regions of Interest}},
+  booktitle = {Proceedings of the 7. T{\"u}bingen Perception Conference (TWK '04)},
+  pages = 	  {67},
+  year = 	  {2004},
+  editor = 	  {H. B{\"u}lthoff and H. A. Mallot and R. Ulrich and F. A. Wichmann},
+  address =   {T{\"u}bingen, Germany},
+  month = 	  {February},
+}
+
+% --- 2003 ---
+
+@InProceedings{IT2003,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{Schnelle Visualisierung von Radialen 3D-Laserscans}},
+  booktitle = {Proceedings of the 5. Fachwissenschaftlicher Informatikkongress - Informatiktage 2003},
+  pages = 	  {243--246},
+  year = 	  {2003},
+  address =   {Bad Schussenried, Germany},
+  month = 	  {November},
+}
+
+@article{RAAS2003,
+  author = "H. Surmann and A. N{\"u}chter and J. Hertzberg",
+  title = "{A}n autonomous mobile robot with a {3D} laser range finder for {3D} exploration and digitalization of indoor environments",
+  journal = "Journal Robotics and Autonomous Systems (JRAS)",
+  volume = "45",
+  number = "3--4",
+  month = "December",
+  year = "2003",
+  pages = "181--198",
+}
+
+@inproceedings{VMV2003,
+	Address = {Munich, Germany},
+	Author = {A. N{\"u}chter and H. Surmann and K. Lingemann and J. Hertzberg},
+	Booktitle = {Proceedings of the of the 8th International Fall Workshop Vision, Modeling, and Visualization (VMV '03)},
+	Month = {November},
+	Pages = {215--222},
+	Title = {{S}emantic {S}cene {A}nalysis of {S}canned {3D} {I}ndoor {E}nvironments},
+	Year = {2003}}
+
+@article{ERCIM,
+   author = {H. Surmann and A. N{\"u}chter and K. Lingemann and J. Hertzberg},
+   title  = {{Kurt3D - An Autonomous Mobile Robot for Modeling the World in 3D}},
+   Journal = {ERCIM NEWS},
+   volume = {55},
+   pages = {24--25},
+   month = {October},
+   year = {2003}
+}
+
+@InProceedings{3DIM2003,
+   author = "A. N{\"u}chter and H. Surmann and J. Hertzberg",
+   title = "{A}utomatic {M}odel {R}efinement for {3D} {R}econstruction with {M}obile {R}obots",
+   booktitle = "Proceedings of the 4th IEEE International Conference on Recent Advances in 3D Digital Imaging and Modeling (3DIM '03)",
+   month = "October",
+   year = "2003",
+   address = "Banff, Canada",
+   pages = "394--401",
+}
+
+@inproceedings{KI2003,
+	Address = {Hamburg, Germany},
+	Author = {A. N{\"u}chter and H. Surmann and K. Lingemann and J. Hertzberg},
+	Booktitle = {KI 2003: Advances in Artificial Intelligence. 26th Annual German Conference on AI, Proceedings Springer LNAI vol. 2821},
+	Month = {September},
+	Pages = {550--564},
+	Title = {{C}onsistent {3D} {M}odel {C}onstruction with {A}utonomous {M}obile {R}obots},
+	Year = {2003}}
+
+@InProceedings{ICAR2003,
+   author = "A. N{\"u}chter and H. Surmann and J. Hertzberg",
+   title = "{P}lanning {R}obot {M}otion for {3D} {D}igitalization of {I}ndoor {E}nvironments",
+   booktitle = "Proceedings of the 11th IEEE International Conference on Advanced Robotics (ICAR '03)",
+   month = "June",
+   year = "2003",
+   address = "Coimbra, Portugal",
+   pages = "222--227",
+}
+
+
+@InProceedings{ICVS2003,
+  author = 	  {S. Frintrop and E. Rome and A. N{\"u}chter and H. Surmann},
+  title = 	  {{An Attentive, Multi-modal Laser Eye}},
+  booktitle = {Proceedings of the third International Conference on Computer Vision Systems (ICVS '03)},
+  pages = 	  {202--211},
+  year = 	  {2003},
+  editor = 	  {J. Crowley and J. H. Piater and M. Vincze and L. Paletta},
+  address =   {Graz, Austria},
+  month = 	  {April},
+}
+
+@InProceedings{WAPCV2003,
+  author = 	  {S. Frintrop and E. Rome and A. N{\"u}chter and H. Surmann},
+  title = 	  {{Applying Attentional Mechanisms to Bi-modal 3D Laser Data}},
+  booktitle = {Proecceings of the International Workshop on Attention and Performance in Computer Vision (WAPCV '03)},
+  pages = 	  {25--30},
+  year = 	  {2003},
+  editor = 	  {L. Paletta and G. W. Humphreys and and R. B. Fisher},
+  address =   {Graz, Austria},
+  month = 	  {April},
+}
+
+@InProceedings{TWK2003,
+  author = 	  {S. Frintrop and E. Rome and A. N{\"u}chter and H. Surmann},
+  title = 	  {{Visuelle Aufmerksamkeitsmechanismen auf bimodalen Laserdaten}},
+  booktitle = {Beitr{\"a}ge zur 6. T{\"u}binger Wahrnehmungskonferenz (TWK '03)},
+  pages = 	  {100},
+  year = 	  {2003},
+  address =   {T{\"u}bingen, Germnay},
+  month = 	  {Februrary},
+}
+
+@Book{REPORT2003,
+  author = 	  {H. Surmann and A. N{\"u}chter and J. Hertzberg},
+  title = 	  {{Autonomous Mobile Robots for 3D Digitalization of Indoor Environments}},
+  publisher = 	  {GMD - Forschungszentrum Informationstechnik GmbH},
+  year = 		  {2003},
+  series = 	  {GMD Report 147},
+  address =   {Sankt Augustin, Germany},
+}
+
+% --- 2002 ---
+
+@InProceedings{IT2002,
+  author = "A. N{\"u}chter",
+  title  = "{Autonome Exploration und 3D-Modellierung der Umgebung eines Roboters}",
+  booktitle = "Tagungsband zum 4. Fachwissenschaftlichen Informatikkongress - Informatiktage 2001",
+  month     = "November",
+  year      = "2003",
+  pages     = "64--68",
+  address   = "Bad Schussenried, Germany"
+}
+
+@Book{REPORT2002,
+  author    = "A. N{\"u}chter",
+  title     = {{Autonome Exploration und Modellierung von 3D-Umgebungen}},
+  publisher = "GMD - Forschungszentrum Informationstechnik GmbH",
+  address   = "Sankt Augustin, Germany",
+  series = 	  {GMD Report 157},
+  month     = "July",
+  year      = "2002",
+}
+
+@MastersThesis{DIPLOM2002,
+  author = 	  {A. N{\"u}chter},
+  title = 	  {{Autonome Exploration und Modellierung von 3D-Umgebungen}},
+  school = 	  {Universit{\"a}t Bonn},
+  year = 		  {2002},
+  month = 	  {July},
+}
+
+% --- 2001 ---
+
+@InProceedings{IT2001,
+  author = "A. N{\"u}chter and K. Lingemann",
+  title  = "Ein 3{D}-{L}aserscanner f{\"u}r autonome mobile {R}oboter",
+  booktitle = "Tagungsband zum 3. Fachwissenschaftlichen Informatikkongress - Informatiktage 2001",
+  month     = "November",
+  year      = "2001",
+  pages     = "89--92",
+  address   = "Bad Schussenried, Germany"
+}
+
+@InProceedings{VMV2001,
+  author = "H. Surmann and K. Lingemann and A. N{\"u}chter and J. Hertzberg",
+  title = "{F}ast acquiring and analysis of three dimensional laser range data",
+  booktitle = "Proceedings of the 6th International Fall Workshop Vision, Modeling, and Visualization (VMV '01)",
+  month = "November",
+  year = "2001",
+  pages = "59--66",
+  address = "Stuttgart, Germany"
+}
+
+@InProceedings{ISR2001,
+  author = "H. Surmann and K. Lingemann and A. N{\"u}chter and J. Hertzberg",
+  title = "A 3{D} laser range finder for autonomous mobile robots",
+  booktitle = "Proceedings of the 32nd International Symposium on Robotics (ISR '01)",
+  month = "April",
+  year = "2001",
+  pages = "153--158",
+  address = "Seoul, Korea"
+}
+
+@Book{REPORT2001,
+  author    = "H. Surmann and K. Lingemann and A. N{\"u}chter and J. Hertzberg",
+  title     = "Aufbau eines 3D--Laserscanners f{\"u}r autonome mobile Roboter, GMD Report 126",
+  publisher = "GMD - Forschungszentrum Informationstechnik GmbH",
+  address   = "Sankt Augustin",
+  month     = "March",
+  year      = "2001",
+  series    = "GMD-Report 126",
+}
+
+@MISC{slam6d,
+  author = {A. N{\"u}chter and K. Lingemann},
+  title = {{6D SLAM} Software},
+  howpublished = {\url{http://slam6d.sourceforge.net/}},
+  year = {2011}
+}
+
+@MISC{3Dreposiotry,
+  author = {K. Lingemann and A. N{\"u}chter},
+  title = {{Robotic 3D Scan Repository}},
+  howpublished = {\url{http://kos.informatik.uni-osnabrueck.de/3Dscans/}},
+  year = {2011}
+}
+@article{surmann2003autonomous,
+  title={{An autonomous mobile robot with a 3D laser range finder for 3D exploration and digitalization of indoor environments}},
+  author={Surmann, H. and N{\"u}chter, A. and Hertzberg, J.},
+  journal={Robotics and Autonomous Systems},
+  volume={45},
+  number={3-4},
+  pages={181--198},
+  issn={0921-8890},
+  year={2003},
+  publisher={Elsevier}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

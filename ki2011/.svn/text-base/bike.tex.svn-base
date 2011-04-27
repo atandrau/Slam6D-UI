@@ -1,0 +1,55 @@
+\begin{longtable}{ccc}
+\caption[Bike2]{Bicycle}\\
+
+\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\tablename\ \thetable{} -- continued from previous page}} \\
+\multicolumn{1}{c}{\textbf{Error}} &
+\multicolumn{1}{c}{\textbf{Rotation}} &
+\multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endhead
+
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\endlastfoot
+
+	$435.0$ & 0 180 0 & \includegraphics{models/ea0a059d61a031ec56d3d9a8b35aa5f0.jpg}\\
+	$998.0$ & 0 0 0 & \includegraphics{models/a261f02f3b35d91c27cf09974d21d512.jpg}\\
+	$1367.0$ & 0 90 0 & \includegraphics{models/4d573d1cad3e4f1bd1c3445dc1f4e2d8.jpg}\\
+	$1487.0$ & 0 90 0 & \includegraphics{models/4fd8e8522a431781924dd6806b28c0a2.jpg}\\
+	$1792.0$ & 0 180 0 & \includegraphics{models/9dfb09bbadf812938640da3b661bbd47.jpg}\\
+	$1942.0$ & 0 180 0 & \includegraphics{models/ba6d5ca808f9256b5d73d1a881eecffe.jpg}\\
+	$1998.0$ & 0 90 0 & \includegraphics{models/f2261c1a79bca158518b1280d372ad0.jpg}\\
+	$2013.0$ & 0 180 0 & \includegraphics{models/aacacc18b0c113cdc5faf243487795a9.jpg}\\
+	$2072.0$ & 0 0 0 & \includegraphics{models/cca6c4bfb4783f9b9b984eae74f50e74.jpg}\\
+	$2144.0$ & 0 180 0 & \includegraphics{models/9204d031b90bb1b7ab3afca41d91a979.jpg}\\
+	$2223.0$ & 0 90 0 & \includegraphics{models/2387679c5e32f661bb2f9d688cb2d03b.jpg}\\
+	$2424.0$ & 0 180 0 & \includegraphics{models/c62748a2dfb2180457bddb0555abd2d6.jpg}\\
+	$2430.0$ & 0 0 0 & \includegraphics{models/a7554de7ada3163fbec38f8cdf3f0f2c.jpg}\\
+	$2519.0$ & 0 180 0 & \includegraphics{models/123b60c985681d96f4b49b5dc2122679.jpg}\\
+	$2592.0$ & 0 0 0 & \includegraphics{models/3367035ad6d2a90578d501f2f6330e38.jpg}\\
+	$2626.0$ & 0 180 0 & \includegraphics{models/d91f0a79ac9cb669710acdca960819e1.jpg}\\
+	$2715.0$ & 0 270 0 & \includegraphics{models/1216ceda12b5be39ef26788e12723325.jpg}\\
+	$2765.0$ & 0 270 0 & \includegraphics{models/6519f783ad51fc1b60045f34a0b87bc2.jpg}\\
+	$2856.0$ & 0 0 0 & \includegraphics{models/2b3eb4f263c1cd4411e775bae7b1bd2a.jpg}\\
+	$2911.0$ & 0 0 0 & \includegraphics{models/97bb8c467f0efadaf2b5d20b1742ee75.jpg}\\
+	$2964.0$ & 0 90 0 & \includegraphics{models/36ec966d46cac52b3418bfca910d4bb5.jpg}\\
+	$2978.0$ & 0 0 0 & \includegraphics{models/5e4fe8a57130744dece0b0a75f5fc9f6.jpg}\\
+	$2995.0$ & 0 180 0 & \includegraphics{models/239fe133a3563391878dd6a23d35bf46.jpg}\\
+	$2998.0$ & 0 90 0 & \includegraphics{models/dc3880e3293446d716abfdeb07e0bb15.jpg}\\
+	$3196.0$ & 0 90 0 & \includegraphics{models/fa405742d4dd5df3d2ecba6917cc63.jpg}\\
+	$3277.0$ & 0 0 0 & \includegraphics{models/8225e5cdd6752e03d201085e80edb26a.jpg}\\
+	$3964.0$ & 0 0 0 & \includegraphics{models/634653f3bb7f591634d8ad024e30db0d.jpg}\\
+	$4009.0$ & 0 180 0 & \includegraphics{models/3166fe5dfd5a6b4c3082fedfd6ecea13.jpg}\\
+	$4327.0$ & 0 90 0 & \includegraphics{models/6ebbae1144fb1180ae682533f3f1d4dd.jpg}\\
+	$4521.0$ & 0 270 0 & \includegraphics{models/42033a4ac101ad56c75d4807332ef3ed.jpg}\\
+	$4803.0$ & 0 90 0 & \includegraphics{models/bf24822b4c810da6792c8e724b009309.jpg}\\
+	$5357.0$ & 0 90 0 & \includegraphics{models/4d42c75f74042ec5659b09df1bf6411d.jpg}\\
+	$5515.0$ & 0 90 0 & \includegraphics{models/3fc8c2f0268b8384a4114db3d849def.jpg}\\
+	$6901.0$ & 0 90 0 & \includegraphics{models/b59f17da9faa3626263d42fd20fa3ddf.jpg}\\
+	$6973.0$ & 0 270 0 & \includegraphics{models/3b29ba382b785ea7da5f845acc060d52.jpg}\\
+	$8415.0$ & 0 0 0 & \includegraphics{models/35c553f6a4abe52498a754607d664cbe.jpg}\\
+\end{longtable}

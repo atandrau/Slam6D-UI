@@ -1,0 +1,1829 @@
+@inproceedings{Remondino:2009,
+  author      = "F. Remondino and S. El-Hakim and S. Girardi and A. Rizzi and S. Benedetti and L. Gonzo",
+  title       = "{3D Virtual Reconstruction and Visualization of Complex Architectures - The 3D-ARCH Project}",
+  booktitle   = "Proceedings of International Society for Photogrammetry and Remote Sensing (ISPRS '09)",
+  month       = "February",
+  year        = "2009",
+  address     = "Trento, Italy"
+}
+
+@inproceedings{Tangelder:2004,
+  author      = "Johan W.H. Tangelder and Remco C. Veltkamp",
+  title       = "{A Survey of Content Based 3D Shape Retrieval Methods}",
+  booktitle   = "Proceedings of International Conference of Shape Modeling and Applications (SMI '04)",
+  month       = "June",
+  year        = "2004",
+  address     = "Genova, Italy"
+} 
+
+@book{Russell:1995,
+  author    = "S. Russell and P. Norvig",
+  title     = "{Artificial Intelligence, A Modern Approach}",
+  year      = "2003",
+  publisher = "Pearson Education, Inc.",
+  address   = "Upper Saddle River, New Jersey 07458"
+}
+
+@inproceedings{Horn:1987,
+  author    = "Berthold K. P. Horn",
+  title     = "{Closed-form solution of absolute orientation using unit quaternions}",
+  booktitle = "Journal of the Optical Society of America A, vol. 4, page 629",
+  month     = "April",
+  year      = "1987",
+  address   = "Washington D.C., USA"
+}
+
+@inproceedings{Kestler:2000,
+  author    = "Hans A. Kestler and Stefan Sablatnog and Steffen Simon and Stefan Enderle and Axel Baune and Gerhard K. Kraetzschmar and Friedhelm Schwenker and Gunther Palm",
+  title     = "{Concurrent Object Identification and Localization for a Mobile Robot}",
+  booktitle = "International Journal of Intelligent Systems, vol. 14",
+  month     = "March",
+  year      = "2000",
+  address   = "Trier, Germany"
+}
+
+@inproceedings{Lai:2010,
+  author    = "Kevin Lai and Dieter Fox",
+  title     = "{Object Recognition in 3D Point Clouds Using Web Data and Domain Adaptation}",
+  booktitle = "The International Journal of Robotics Research (IJRR '10)",
+  month     = "May",
+  year      = "2010",
+  address   = "USA"
+}
+
+@inproceedings{Hebert:1999,
+  author    = "Andrew E. Johnson and Martial Hebert",
+  title     = "{Using Spin Images for Efficient Object Recognition in Cluttered 3D Scenes}",
+  booktitle = "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 21, no. 5, page 433",
+  month     = "May",
+  year      = "1999",
+  address   = "USA"
+}
+
+@inproceedings{Nuchter:2008,
+  author    = "Andreas Nuechter and Joachim Hertzberg",
+  title     = "{Towards semantic maps for mobile robots}",
+  booktitle = "Robotics and Autonomous Systems 56, page 915 - 926 ('08)",
+  month     = "August",
+  year      = "2008",
+  address   = "Trier, Germany" 
+}
+
+@inproceedings{Borrmann:2010,
+  author    = "Dorit Borrmann and Jan Elseberg and Shaan S. Rauniyar and Andreas Nuechter",
+  title     = "{Lifelong 3D Mapping - Monitoring with a 3D Scanner}",
+  booktitle = "In Proceeding of the IEEE/RSJ IROS Workshop on Robotics for Environmental Monitoring",
+  month     = "October",
+  year      = "2010",
+  address   = "Taipei, Taiwan"
+}
+
+@article{Riegl,
+    author  = "Riegl Laser Measurement Systems",
+    title   = "Scanner Basic Configuration",
+    year    = "2010",
+}
+
+@inproceedings{Beetz:2010,
+  author    = "Michael Beetz and Moritz Tenorth and Alexander Perzylo and Reinhard Lafrenz",
+  title     = "{A Knowledge Representation Language for RoboEarth (presentation)}",
+  booktitle = "In Proceedings of the IEEE/RSJ 2010 International Conference on Intelligent Robots and Systems, Workshops and Tutorials, IROS 2010",
+  month     = "October",
+  year      = "2010",
+  address   = "Taipei, Taiwan"
+}
+
+@inproceedings{Zweigle:2010,
+  author    = "Oliver Zweigle ands Kai Haussermann",
+  title     = "{Wrokshop IROS 2010 - Towards a World Wide Web for Robots (presentation)}",
+  booktitle = "In Proceedings of the IEEE/RSJ 2010 International Conference on Intelligent Robots and Systems, Workshops and Tutorials, IROS 2010",
+  month     = "October",
+  year      = "2010",
+  address   = "Taipei, Taiwan"
+}
+
+@inproceedings{Stiene:2006,
+  author    = "Stefan Stiene and Kai Lingemann and Andreas Nuchter and Joachim Hertzberg",
+  title     = "{Contour-Based Object Detection in Range Images}",
+  booktitle = "In Proceedings of the Third International Symposium on 3D Data Processing, Visualization and Transmission, 3DPVT '06",
+  month     = "June",
+  address   = "Chapel Hill, NC",
+  year      = "2006"
+}
+
+@Misc{COM241,
+  author = 	  {{Commission of the European Communities}},
+  title = 	  {{Addressing the challenge of energy efficiency through Information and Communication Technologies}},
+  howpublished = {Communications from the Commisison to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions, COM(2008) 241 final},
+  month = 	  {May},
+  year = 	  {2008},
+  OPTnote = 	  {http://www.terena.org/activities/tf-msp/documents/EU_addressing_energy_issues_through_ICT_com_2008_241_1_en.pdf},
+}
+
+@InProceedings{QSplat_2000,
+  author = 	  {Szymon Rusinkiewicz and Marc Levoy},
+  title = 	  {{QSplat: A Multiresolution Point Rendering System for Large Meshes}},
+  booktitle = {Proceedings of the ACM SIGGRAPH},
+  OPTpages = 	  {},
+  year = 	  {2000},
+}
+
+@Article{Frisken_2002,
+  author = 	  {Sarah F- Frisken and Ronald N. Perry},
+  title = 	  {{Simple and Efficient Traversal Methods for Quadtrees and Octrees}},
+  journal = 	  {Journal of Graphics Tools},
+  year = 		  {2002},
+  volume = 	  {7},
+  number = 	  {3},
+}
+
+@article{Knoll_2009,
+  author = {Knoll, Aaron M. and Wald, Ingo and Hansen, Charles D.},
+  title = {Coherent multiresolution isosurface ray tracing},
+  journal = {Visual Computing.},
+  volume = {25},
+  issue = {3},
+  month = {February},
+  year = {2009},
+  pages = {209--225},
+  numpages = {17},
+  address = {Secaucus, NJ, USA},
+}
+
+@article{Meagher_1982,
+  author = "Donald Meagher",
+  title = {Geometric modeling using octree encoding},
+  journal = "Computer Graphics and Image Processing",
+  volume = "19",
+  number = "2",
+  pages = "129 - 147",
+  year = "1982",
+}
+
+@INPROCEEDINGS{Knoll_2006, 
+  author={Knoll, A. and Wald, I. and Parker, S. and Hansen, C.}, 
+  booktitle={Proceedings of the IEEE Symposium on Interactive Ray Tracing},
+  title={Interactive Isosurface Ray Tracing of Large Octree Volumes}, 
+  year={2006}, 
+  month={September}, 
+  pages={115--124}, 
+}
+
+@inproceedings{Wurm_2010,
+  author    = "K. M. Wurm and A. Hornung and M. Bennewitz and C. Stachniss and W. Burgard",
+  title     = "{OctoMap: A Probabilistic, Flexible, and Compact 3D Map Representation for Robotic Systems}",
+  booktitle = "{Proceedings of the IEEE ICRA Workshop on Best Practice in 3D Perception and Modeling for Mobile Manipulation}", 
+  year      = "2010",
+  address   = "Anchorage, AK, USA",
+}
+
+@Article{Roth_1982,
+  author = 	  {Scott D. Roth},
+  title = 	  {Ray Casting for Modeling Solids},
+  journal = 	  {Computer Graphics and Image Processing},
+  year = 		  {1982},
+  volume = 	  {18},
+  pages = 	  {109--144},
+  month = 	  {February},
+}
+
+@article{Gervautz_1990,
+ author = {M. Gervauts and W. Purgathofer},
+ title = "{A simple method for color quantization: octree quantization}",
+ journal = {Graphics Gems I},
+ year = {1990},
+ pages = "287--293",
+ editor = {A. Glassner},
+}
+
+@article{Gobbetti_2008,
+ author = {Gobbetti, Enrico and Marton, Fabio and Iglesias, Guiti and Jose, Antonio},
+ title = {A single-pass GPU ray casting framework for interactive out-of-core rendering of massive volumetric datasets},
+ journal = {Visual Computing},
+ volume = {24},
+ issue = {7},
+ month = {July},
+ year = {2008},
+ pages = {797--806},
+ address = {Secaucus, NJ, USA},
+} 
+
+@article{Bielack_2005,
+  author = "J. Bielak amd O. Ghattas and E. J. Kim",
+  title = "{Parallel octree-based finite element method for large-scale earthquake ground motion simulation}",
+  journal = "Computer Modeling in Engineering and Sciences",
+  volume = "10",
+  number = "2",
+  pages = "99 -- 112",
+  year = "2005",
+}
+
+@inproceedings{Laine_2010,
+ author = {Laine, Samuli and Karras, Tero},
+ title = {Efficient sparse voxel octrees},
+ booktitle = {Proceedings of the ACM SIGGRAPH symposium on Interactive 3D Graphics and Games (I3D '10)},
+ year = {2010},
+ location = {Washington, D.C.},
+ pages = {55--63},
+ numpages = {9},
+ OPTdoi = {http://doi.acm.org/10.1145/1730804.1730814},
+ acmid = {1730814},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+
+@InProceedings{Kern_2009,
+  author = 	  {Fredie Kern and Michael Pospis and Olaf Pr{\"u}mm},
+  title = 	  {{Das Datenaustauschformat Binary Pointcloud (BPC) f{\"u}r TLS-Punktwolken}},
+  booktitle = {Photogrammetrie Laserscanning Optische 3D-Messtechnik, Beitr{\"a}ge der Oldenburger 3D-Tage},
+  pages = 	  {20--30},
+  year = 	  {2009},
+  editor = 	  {Luhmann/M{\"u}ller},
+  address =   {Oldenburg, Germany},
+  month = 	  {February},
+  publisher = {Wichmann},
+}
+
+@Article{Samberg_2007,
+  author = 	  {A. Samberg},
+  title = 	  {{An Implementation of the ASPRS LAS Standard}},
+  journal = 	  {ISPRS},
+  year = 		  {2007},
+  volume = 	  {Volume XXXVI, Part 3/W52},
+  pages = 	  {363--372},
+}
+
+@Article{Birk_2010,
+  author = 	  {Andreas Birk},
+  title = 	  {A Quantitative Assessment of Structural Errors in Grid Maps},
+  journal = 	  {Autonomous Robots},
+  year = 		  {2010},
+  number = 	  {},
+  pages = 	  {187--196},
+}
+
+@Article{Snavely_2006,
+  author = 	  {Noah Snavely and Steven M. Seitz and Richard Szeliski},
+  title = 	  {{Photo Tourism: Exploring image collections in 3D}}, 
+  journal = 	  {ACM Transactions on Graphics (Proceedings of SIGGRAPH '06)},
+  year = 		  {2006},
+}
+
+@Article{Snavely_2007,
+  author = 	  {Noah Snavely and Steven M. Seitz and Richard Szeliski},
+  title = 	  {{Modeling the World from Internet Photo Collections}},
+  journal = 	  {International Journal of Computer Vision (IJCV)},
+  year = 		  {2007},
+}
+
+
+@Article{Lowe_2004,
+  author = 	  {David G. Lowe},
+  title = 	  {Distinctive Image Features from Scale-Invariant Keypoints},
+  journal = 	  {International Journal of Computer Vision (IJCV)},
+  year = 		  {2004},
+  volume = 	  {60},
+  number = 	  {2},
+  pages = 	  {91--110},
+}
+
+@Article{Brown_2007,
+  author = 	  {Matthew Brown and David Lowe},
+  title = 	  {Automatic Panoramic Image Stitching using Invariant Features},
+  journal = 	  {International Journal of Computer Vision (IJCV)},
+  year = 		  {2007},
+  volume = 	  {74},
+  number = 	  {1},
+  month = 	  {August},
+}
+
+@InProceedings{Triggs_1999,
+  author = 	  {B. Triggs; P. McLauchlan and R. Hartley and A. Fitzgibbon},
+  title = 	  {Bundle Adjustment -- A Modern Synthesis},
+  booktitle = {Proceedings of the International Workshop on Vision Algorithms at the 7th International Conference of Computer Vision (ICCV '99)},
+  pages = 	  {298--372},
+  year = 	  {1999},
+  month = 	  {September},
+  publisher = {Springer},
+}
+@Book{Hartley2004,
+    author = "Hartley, R.~I. and Zisserman, A.",
+    title = "Multiple View Geometry in Computer Vision",
+    edition = "Second",
+    year = "2004",
+    publisher = "Cambridge University Press, ISBN: 0521540518"
+} 
+
+@Article{Lourakis_2009,
+  author = 	  {M. I. A. Lourakis and A. A. Argyros},
+  title = 	  {SBA: A Software Package for Generic Sparse Bundle Adjustment},
+  journal = 	  {ACM Transactions on Mathematical Software},
+  year = 		  {2009},
+  volume = 	  {36},
+  number = 	  {1},
+  pages = 	  {1--30},
+}
+
+@Article{Furukawa_2009,
+  author = 	  {Yasutaka Furukawa and Jean Ponce},
+  title = 	  {Accurate, Dense, and Robust Multi-View Stereopsis},
+  journal = 	  {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year = 		  {2009},
+}
+
+@InProceedings{Furukawa_2007,
+  author = 	  {Yasutaka Furukawa and Jean Ponce},
+  title = 	  {Accurate, Dense, and Robust Multi-View Stereopsis},
+  booktitle = {Proccedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR ' 07)},
+  year = 	  {2007},
+  month = 	  {July},
+}
+
+@Article{Bay_2008,
+  author = 	  {Herbert Bay and Andreas Ess and Tinne Tuytelaars and Luc Van Gool},
+  title = 	  {SURF: Speeded Up Robust Features},
+  journal = 	  {Computer Vision and Image Understanding (CVIU)},
+  year = 		  {2008},
+  volume = 	  {110},
+  number = 	  {3},
+  pages = 	  {346--359},
+}
+
+@inproceedings{Agrawal_2008,
+   author = {Agrawal, Motilal and Konolige, Kurt and Blas, Morten},
+   title = {CenSurE: Center Surround Extremas for Realtime Feature Detection and Matching},
+   booktitle = {Proceedings of the 10th European Conference on Computer Vision (ECCV '08)},
+   series = {Lecture Notes in Computer Science},
+   editor = {Forsyth, David and Torr, Philip and Zisserman, Andrew},
+   publisher = {Springer Berlin / Heidelberg},
+   pages = {102--115},
+   volume = {5305},
+   year = {2008}
+}
+
+
+
+@Article{SparView2010,
+  author = 	  {Sam Pfeiffe},
+  title = 	  {ESRI brings 3D together with GIS and security},
+  journal = 	  {SparView},
+  year = 		  {2010},
+  volume = 	  {8},
+  number = 	  {12},
+}
+
+@inproceedings{neumann:2008,
+  author = "Bernd Neumann",
+  title = "{Bayesian Compositional Hierarchies -- A Probabilistic Structure for Scene Interpretation}",
+  booktitle = "Proceedings of the Dagstuhl seminar Logic and Probability for Scene Interpretation",
+  number = "08091",
+  year = "2008", 
+}
+
+@misc{kif,
+  author = "{Knowledge Interchange Format (KIF)}",
+  howpublished  = "\url{http://www.ksl.stanford.edu/knowledge-sharing/kif}",
+  year = {2011},
+}
+
+@misc{daml,
+  author   = "{The DARPA Agent Markup Language Homepage}",
+  howpublished  = "\url{http://www.daml.org}",
+  year = {2011},  
+}
+
+@misc{topicmaps,
+  author   = "{TopicMaps.Org}",
+  howpublished  = "\url{http://www.topicmaps.org}",
+  year = {2011},
+}
+
+@article{flogic,
+  title   = "{Logical Foundations of Object-Oriented and Frame-Based Languages}",
+  author = "{Michael Kifer and Georg Lausen and James Wu}",
+  journal = "Journal of the Association for Computing Machinery",
+  year = "1995",
+  month = "May",
+}
+
+@misc{fact,
+  author   = "{FaCT++ DL reasoner}",
+  howpublished  = "\url{http://code.google.com/p/factplusplus}",
+  year = {2011},
+}
+
+
+
+@Misc{WWWheatflux,
+  author = 	  {{Heat flux -- Wikipedia, the free encyclopedia}},
+  title     = {\url{http://en.wikipedia.org/wiki/Heat_flux}},
+  year = 	  {2011},
+}
+
+@MISC{WWWbundler,
+  author = {{Bundler: Structure from Motion (SfM) for Unordered Image Collections}},
+  title = {\url{http://phototour.cs.washington.edu/bundler/}},
+  year = {2011}
+}
+
+@MISC{WWWrobocup,
+  author = {{The RoboCup Federation}},
+  title = {\url{http://www.robocup.org/}},
+  year = {2011}
+}
+
+@MISC{WWWelrob,
+  author = {FGAN},
+  title = {\url{http://www.elrob.org/}},
+  year = {2009}
+}
+
+@misc{WWWROS,
+  author   = "{ROS.org}",
+  howpublished  = "\url{http://www.ros.org/}",
+ year = {2011}
+}
+
+@MISC{WWWzuerich,
+  author = {{Reconstruction of the city model ``Z{\"u}rich um 1800''}},
+  title = {\url{http://www.photogrammetry.ethz.ch/research/zurich_relief/index.html}},
+  year = {2007}
+}
+
+@MISC{WWWperu,
+  author = {{Photogrammetric Reconstruction of the Geoglyphs of Nasca and Palpa}},
+  title = {\url{http://www.photogrammetry.ethz.ch/research/peru/index.html}},
+  year = {2007}
+}
+
+
+@inproceedings{Pauly:2005,
+  author = "M. Pauly and N. J. Mitra and J. Giesen and L. Guibas and M. Gross",
+  title = "Example-Based 3D Scan Completion",
+  booktitle = "Proocedings of the 3rd Eurographics Symposium on Geometry Processing",
+  volume = "255",
+  year = "2005",
+  publisher = {Eurographics Association},
+  address = {Aire-la-Ville, Switzerland},
+}
+
+@ARTICLE{Schnabel:2007,
+  author = {R. Schnabel and R. Wahl and R. Klein},
+  title = "{Efficient RANSAC for Point-Cloud Shape Detection}",
+  journal = {Computer Graphics Forum},
+  year = {2007},
+}
+
+@article{Fischler_1981,
+  author    = "M. A. Fischler and R. C. Bolles",
+  title     = "{Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography}",
+  journal   = "Communications of the ACM",
+  year      = "1981",
+  volume    = "24",
+  pages     = "381 -- 395",
+}
+
+@inproceedings{Rabbani:2005,
+  title = "Efficient Hough Transform for Autonomous Detection of Cylinders in Point Clouds",
+  author = "Tahir Rabbani and Frank van den Heuvel",
+  booktitle = "ISPRS Workshop Laser Scanning",
+  year = "2005",
+}
+
+@MISC{Hough:1962,
+  author = {Paul V. C. Hough},
+  title = "{Method and Means for Recognizing Complex Patterns}",
+  howpublished = {US Patent 3069654},
+  month = {December},
+  year = {1962},
+}
+
+@inproceedings{Hudelot:2005,
+  author = "C. Hudelot and N. Maillot and M. Thonnat",
+  title = "Symbol grounding for semantic image interpretation : From image data to semantics",
+  booktitle = "Proceedings of the Workshop on Semantic Knowledge in Computer Vision, (ICCV '05)",
+  year = "2005",
+  address = "Beijing, China",
+}
+
+@ARTICLE{Johnson:1999,
+    author = {Andrew E. Johnson and Martial Hebert},
+    title = {Using Spin Images for Efficient Object Recognition in Cluttered 3D Scenes},
+    journal = {IEEE Transactions of Pattern Analysis and Machine Intelligence (TPAMI)},
+    year = {1999},
+    volume = {21},
+    number = {5},
+    pages = {433--449}
+}
+
+@MASTERSTHESIS{bentel_2007,
+  author = {Katrin Bentel},
+  title = {{Detektion vertikaler Strukturen in bodengest{\"u}tzten LiDAR Daten}},
+  school = {Universit{\"a}t Stuttgart},
+  year = {2007},
+  type = {Studienarbeit 961},
+  owner = {jan},
+  timestamp = {2007.12.11}
+}
+
+@article{Ding:2002b,
+  author = "Ying Ding and Schubert Foo",
+  title = "Ontology research and development. Part 2 -- a review of ontology mapping and evolving",
+  journal = "Journal of Information Science",
+  volume = "28",
+  number = "5",
+  pages = "375--388",
+  year = "2002",
+}
+
+@ARTICLE{Uschold:1996,
+    author = {Mike Uschold and Michael Gr{\"u}ninger},
+    title = {Ontologies: Principles, Methods and Applications},
+    journal = {Knowledge Engineering Review},
+    year = {1996},
+    volume = {11},
+    pages = {93--136}
+}
+
+@InBook{Gat1998,
+  author =        {E. Gat},
+  title =         {Artifical Intelligence and Mobile Robots: Case Studies of Successful Robot Systems},
+  chapter =       {On three-layer archtitectures},
+  publisher =     {MIT Press},
+  year =                  {1998},
+  address =   {Cambridge},
+  pages =         {195--210},
+}
+
+@INPROCEEDINGS{Triebel_2006,
+  author = {R. Triebel and P. Pfaff and W. Burgard},
+  title = {{Multi-Level Surface Maps for Outdoor Terrain Mapping and Loop Closing}},
+  booktitle = {Proceedings of the International Conference on Intelligent Robots and Systems (IROS '06)},
+  year = {2006}
+}
+
+@inproceedings{Cyr:2001,
+  author = "Christopher M. Cyr and Benjamin B. Kimia",
+  title = "3D Object Recognition Using Shape Similarity-Based Aspect Graph",
+  booktitle = "Proceedings of the 8th International Conference on Computer Vision (ICCV '01)",
+  publisher = "IEEE Computer Society Press",
+  address = "Vancouver, Canada",
+  month = "July",
+  year = "2001",
+}
+
+@article{Cyr:2004,
+  author = "Christopher M. Cyr and Benjamin B. Kimia",
+  title = "A Similarity-Based Aspect Graph Approach to 3D Object Recognition",
+  journal = "International Journal of Computer Vision",
+  publisher = "Springer",
+  volume = "57",
+  number = "1",
+  year = "2004",
+}
+
+
+
+@InProceedings{Huber:2004,
+  author = 	  {Daniel Huber and Anuj Kapuria and Raghavendra Donamukkala and Martial Hebert},
+  title = 	  {Parts-Based 3D Object Classification},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR '04)},
+  pages = 	  {82--89},
+  year = 	  {2004},
+  volume = 	  {2},
+  address = {Los Alamitos, CA, USA},
+}
+
+
+@inproceedings{Sundar:2003,
+  address = {Washington, DC, USA},
+  author = {H. Sundar and D. Silver and N. Gagvani and S. Dickinson},
+  booktitle = {Proceedings of the Shape Modeling International (SMI '03)},
+  publisher = {IEEE Computer Society},
+  title = {Skeleton Based Shape Matching and Retrieval},
+  url = {http://portal.acm.org/citation.cfm?id=830339&dl=},
+  year = 2003,
+  keywords = {shape-matching},
+  description = {Skeleton Based Shape Matching and Retrieval},
+  isbn = {0-7695-1909-1},
+}
+
+@article{Zuckerberger:2002,
+  title = "Polyhedral surface decomposition with applications",
+  author = "Emanoil Zuckerberger and Ayellet Tal and Shymon Shlafman",
+  journal = "Computers and Graphics",
+  volume = "26",
+  number = "5",
+  year = "2002",
+  pages = "733--743",
+}
+
+@inproceedings{Li:2007,
+  author = "Xinju J. Li and  Igor Guskov",
+  title = "3D object recognition from range images using pyramid
+matching",
+  booktitle = "Proceedings of ICCV'07 Workshop on 3D Representation for Recognition (3DRR '07)",
+  year = "2007",
+  pages =  "1--6",
+}
+
+@InProceedings{Triebel:2007,
+  author = {Rudolph Triebel and Richard Schmidt and \'Oscar Mart\'inez Mozos and Wolfram Burgard},
+  title = {Instance-based AMN Classification for Improved Object Recognition in 2{D} and 3{D} Laser Raneg
+Data},
+  booktitle = {"Proceedings of the International Joint Conference on Artificial Intelligence (IJCA '07)"},
+  year =  {2007},
+}
+
+@INPROCEEDINGS{Lai:2009,
+  author = "Kevin Lai and Dieter Fox",
+  TITLE     = {3{D} laser scan classification using web data and domain adaptation},
+  BOOKTITLE = {Proceedings of Robotics: Science and Systems (RSS '09)},
+  YEAR      = {2009},
+  ADDRESS   = {Seattle, USA},
+  MONTH     = {June},
+}
+
+@INPROCEEDINGS{Koertgen:2003,
+    author = {Marcel K\"{o}rtgen and Marcin Novotni and Reinhard Klein},
+    title = {3D shape matching with 3D shape contexts},
+    booktitle = {In The 7th Central European Seminar on Computer Graphics},
+    year = {2003}
+}
+
+@article{Lee:2007,
+  author = "Tim K. Lee and Mark S. Drew",
+  title = "3D Object Recognition by Eigen-Scale-Space of Contours",
+  journal = "Lecture Notes in Computer Science",
+  year = "2007",
+  publisher = "Springer",
+}
+
+@inproceedings{Ohbuchi:2003,
+ author = {Ohbuchi, Ryutarou and Takei, Tsuyoshi},
+ title = {Shape-Similarity Comparison of 3D Models Using Alpha Shapes},
+ booktitle = {Proceedings of the 11th Pacific Conference on Computer Graphics and Applications (PG '03)},
+ year = {2003},
+ isbn = {0-7695-2028-6},
+ pages = {293},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+
+@article{Osada:2002,
+   author = {Osada, Robert and Funkhouser, Thomas and Chazelle, Bernard and Dobkin, David},
+ title = {Shape distributions},
+ journal = {ACM Transactions on Graphics},
+ volume = {21},
+ number = {4},
+ year = {2002},
+ issn = {0730-0301},
+ pages = {807--832},
+ doi = {http://doi.acm.org/10.1145/571647.571648},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@inproceedings{Ohbuchi:2002,
+ author = {Ohbuchi, Ryutarou and Otagiri, Tomo and Ibato, Masatoshi and Takei, Tsuyoshi},
+ title = {Shape-Similarity Search of Three-Dimensional Models Using Parameterized Statistics},
+ booktitle = {Proceedings of the 10th Pacific Conference on Computer Graphics and Applications (PG '02)},
+ year = {2002},
+ isbn = {0-7695-1784-6},
+ pages = {265},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ }
+
+@article{Tangelder:2008,
+  title = "A survey of content based 3D shape retrieval methods",
+  author = "Johan W. H. Tangelder and Remco C. Veltkamp",
+  journal = "Multimedia Tools and Applications",
+  volume = "39",
+  number = "3",
+  month = "September",
+  year = "2008",
+  publisher = "Springer Netherlands",
+}
+
+@misc{dolce,
+  author = "Claudio Masolo and Stefano Borgo and Aldo Gangemi and Nicola Guarino and Alessandro Oltramari",
+  title = "Ontologies library (final)",
+  howpublished = "WonderWeb Deliverable D18, ISTC-CNR",
+  address = "Padova, Italy",
+  month = "December",
+  year = "2003",
+}
+
+@INPROCEEDINGS{Hois:2006b,
+    author = {Joana Hois and Kerstin Schill and John A. Bateman},
+    title = {Integrating Uncertain Knowledge in a Domain Ontology for Room Concept Classifications},
+    booktitle = {The Twenty-sixth SGAI International Conference on Innovative Techniques and Applications of Artificial Intelligence, Research and Development in Intelligent Systems},
+    year = {2006},
+    publisher = {Springer-Verlag}
+}
+
+@INPROCEEDINGS{Hois:2006a,
+    author = {Joana Hois and Michael W\"{u}nstel and John A. Bateman and Thomas R\"{o}fer},
+    title = {Dialog-based 3D-image recognition using a domain ontology},
+    booktitle = {Proceedings of the International Conference on Spatial Cognition},
+    year = {2006},
+    pages = {24--28}
+}
+
+@inproceedings{Modayil:2007,
+  author = "Modayil, J. and Kuipers, B.",
+  title = "Autonomous Development of a Grounded Object Ontology by a Learning Robot",
+  booktitle = "Proceedings of the Twenty-Second Conference on Artificial Intelligence (AAAI '07)",
+  year = "2007",
+}
+
+
+@inproceedings{pittarello:2006,
+ author = {Pittarello, Fabio and De Faveri, Alessandro},
+ title = {Semantic description of 3D environments: a proposal based on web standards},
+ booktitle = {Proceedings of the eleventh international conference on 3D web technology (Web3D '06)},
+ year = {2006},
+ isbn = {1-59593-336-0},
+ pages = {85--95},
+ location = {Columbia, Maryland},
+ doi = {http://doi.acm.org/10.1145/1122591.1122603},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+
+@misc{swrl,
+  author   = "{SWRL: A Semantic Web Rule Language Combining OWL and RuleML}",
+  howpublished  = "\url{http://www.w3.org/Submission/SWRL}",
+  year = {2011},
+}
+
+@misc{racerpro,
+  author   = "{Racer Systems GmbH {\&} C. KG}",
+  howpublished  = "\url{http://racer-systems.com}",
+  year = {2011},
+}
+
+@misc{pellet,
+  author   = "{Pellet: OWL 2 Reasoner for Java}",
+  howpublished  = "\url{http://pellet.owldl.com}",
+  year = {2011},
+}
+
+@misc{owl2,
+  author   = "{OWL 2 Web Ontology Language}",
+  howpublished  = "\url{http://www.w3.org/TR/owl2-profiles}",
+  year = {2011},
+}
+
+@misc{semanticweb,
+  author = "{W3C Semantic Web Activity}",
+  howpublished = "{http://www.w3.org/2001/sw/}",
+  year = {2011},
+}
+
+@inproceedings{neumann:2009,
+  author = "Wilfried Bohlken and Bernd Neumann",
+  title = "Generation of Rules from Ontologies for High-level
+Scene Interpretation",
+  booktitle = "Proc. International Symposium RuleML",
+  year = "2009",
+  pages = "93--107",
+}
+
+@inproceedings{neumann:2007,
+  author = "Johannes Hartz and Bernd Neumann",
+  title = "Learning a Knowledge Base of Ontological Concepts for High-Level Scene Interpretation",
+  booktitle = "International Conference on Machine Learning and Applications",
+  address = "Cincinnati (Ohio, USA)",
+  month = "December",
+  year = "2007",
+}
+
+@article{Ding:2002a,
+  author = "Ying Ding and Schubert Foo",
+  title = "Ontology research and development. Part 1 -- a review of ontology generation",
+  journal = "Journal of Information Science",
+  volume = "28",
+  number = "2",
+  pages = "123--136",
+  year = "2002",
+}
+
+@article{vanHeijst:1997,
+ author = {van Heijst, G. and Schreiber, A. Th. and Wielinga, B. J.},
+ title = {Using explicit ontologies in KBS development},
+ journal = {International Journal of Human-Computer Studies},
+ volume = {46},
+ number = {2-3},
+ year = {1997},
+ pages = {183--292},
+ publisher = {Academic Press, Inc.},
+ address = {Duluth, MN, USA},
+ }
+
+@inproceedings{pittarello:2005,
+  author = "Pittarello, F. and Fogli, D.",
+  title = "Modelling complex user experiences in distributed interaction environments",
+  booktitle = "Proceedings of DMS 2005: 11th international Conference on Distributed Multimedia Systems",
+  year = "2005",
+  pages = "184--189",
+}
+
+@inproceedings{mitchell:1977,
+  author = "Mitchell, T. M.",
+  title = "Version spaces: A candidate elimination approach for rule learning",
+  booktitle = "Proccedings of the International Conference on Artificial Intelligence",
+  pages = "305--310",
+  year = "1977",
+}
+
+
+@article{Noy:2004,
+  author = "Nalaya F. Noy",
+  title = "Semantic Integration: A Survey of Ontology-Based Approaches",
+  year = "2004",
+  journal = "SIGMOD Record",
+  volume = "33",
+  number = "4",
+  month = "December",
+}
+
+@INPROCEEDINGS{Carbelles_2009,
+   author = "M. Cabrelles and S. Galcera and S. Navarro and J. L. Lerma and T. Akasheh and N. Haddad",
+   title = "Integration of 3D laser scanning, photogrammetry and thermography to record architectural monuments",
+   booktitle = "Proceedings of the 22nd CIPA Symposium",
+   year = "2009",
+  month = "October",
+ address = {Kyoto, Japan},
+   }
+
+@INPROCEEDINGS{Navarro_2009, 
+  author = {Navarro, S. and Segui, A.E. and Portales, C. and Lerma, J.L. and Akasheh, T. and Haddad, N.}, 
+  booktitle = {Proceedings of the 15th International Conference on Virtual Systems and Multimedia (VSMM '09)},
+  title = {Integration of TLS Data and Non-metric Imagery to Improve Photo Models and Recording -- A Case Study on Djin Block No. 9, Petra (Jordan)}, 
+  address = {Vienna, Austria},
+  year = {2009}, 
+  month = {September},
+  pages = {58--63}, 
+}
+
+
+@INPROCEEDINGS{Zhang_1999,
+    author = {Zhengyou Zhang},
+    title = {Flexible camera calibration by viewing a plane from unknown orientations},
+    booktitle = {Proceedings of the Seventh International Conference on Computer Vision (ICCV '99)},
+    year = {1999},
+    address = {Kerkyra, Greece},
+    month = {Spetember},
+    pages = {666--673}
+}
+
+@INPROCEEDINGS{Heikkila_1997,
+  author={Heikkila, J. and Silven, O.},
+  booktitle={Proceedings of the International Conference on Computer Vision and Pattern Recognition (CVPR '97)},
+  title={A four-step camera calibration procedure with implicit image correction},
+  year={1997},
+  month={June},
+  addresss = {San Juan, Puerto Rico},
+  pages={1106--1112},
+}
+
+@ARTICLE{Tsai_1987,
+  author={Tsai, R.},
+  journal={IEEE Transactions on Robotics and Automation (TRA)},
+  title={A versatile camera calibration technique for high-accuracy 3D machine vision metrology using off-the-shelf TV cameras and lenses},
+  year={1987},
+  month={August},
+  volume={3},
+  number={4},
+  pages={323--344},
+}
+
+@INPROCEEDINGS{Luhmann_2010,
+   author = "Thomas Luhmann and Julia Ohm, Johannes Piechel and Thorsten Roelfs",
+   title = "Geometric Calibration of Thermographic Cameras",
+   booktitle = "International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, Part V, Commission V Symposium",
+   volume = "38",
+   address = "Newcastle upon Tyne, UK",
+    pages = "410--416",
+   year = 2010,
+   url = "http://www.isprs.org/proceedings/XXXVIII/part5/papers/133.pdf"
+}
+
+@INPROCEEDINGS{Karsten_1999,
+   author = "J. Karsten",
+   title = "Stereoscopic mapping with thermal infrared images",
+   booktitle = "Proceedings of the IEEE 1999 International Geoscience and Remote Sensing Symposium (IGARSS '99)",
+   volume = "1",
+    pages = "580--582",
+   year = "1999",
+   url = "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=773571"
+}
+
+@INPROCEEDINGS{Hoegner_2007,
+  author = {Hoegner, L. and Stilla, U.},
+  booktitle = {Proceedings of the Urban Remote Sensing Joint Event (URS '07)},
+  title = {Texture extraction for building models from IR sequences of urban areas},
+  year = {2007},
+  month = {April},
+  address = {Paris, France},
+  pages = {1--6},
+}
+
+
+@INPROCEEDINGS{Prakash_2006, 
+  author={Prakash, S. and Pei Yean Lee and Caelli, T.},
+  booktitle={Proceedings of the 9th International Conference on Control, Automation, Robotics and Vision (ICARCV '06) },
+  title = {3D Mapping of Surface Temperature Using Thermal Stereo},
+  year = {2006},
+  address = {Singapure},
+  month = {December},
+  pages={1--4},
+}
+
+@article{Prakash_and_Lee_2006,
+  author = {Surya Prakash and Pei Yean Lee and Terry Caelli and Tim Raupach},
+  title = {Robust thermal camera calibration and 3D mapping of object surface temperatures},
+  journal = {Proccedings of the SPIE (The International Society for Optical Engineering)},
+  year = {2006},
+  volume = {6205},
+  number = {1}
+}
+
+@INPROCEEDINGS{Se_2001,
+  author = {S. Se and D. Lowe and J. Little},
+  title = {Local and Global Localization for Mobile Robots using Visual Landmarks},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent obots and Systems (IROS '01)},
+  year = {2001},
+  address = {Hawaii, USA},
+  month = {October}
+}
+
+@INCOLLECTION{ThrunMapping_2002,
+  author = {S. Thrun},
+  title = {Robotic Mapping: A Survey},
+  booktitle = {Exploring Artificial Intelligence in the New Millenium},
+  publisher = {Morgan Kaufmann},
+  year = {2002},
+  editor = {Lakemeyer, G. and Nebel, B.}
+}
+
+@INPROCEEDINGS{Frese_2001,
+  author = {U. Frese and G. Hirzinger},
+  title = {{S}imultaneous Localization and Mapping -- A Discussion},
+  booktitle = {Proceedings of the IJCAI Workshop on Reasoning with Uncertainty in Robotics},
+  year = {2001},
+  pages = {17 -- 26},
+  address = {Seattle, USA},
+  month = {August}
+}
+
+@ARTICLE{Thrun_1998,
+  author = {S. Thrun and W. Burgard and D. Fox},
+  title = {A probabilistic approach to concurrent mapping and localization for mobile robots},
+  journal = {Machine Learning},
+  year = {1998},
+  volume = {31},
+  pages = {29 -- 53},
+  number = {5},
+  month = {October}
+}
+
+@ARTICLE{ThrunLiu_2004,
+  author = {S. Thrun and Y. Liu and D. Koller and A. Y. Ng and Z. Ghahramani and H. F. Durrant-Whyte},
+  title = {Simultaneous Localization and Mapping with Sparse Extended Information Filters},
+  journal = {Machine Learning and Autonomous Robots},
+  year = {2004},
+  volume = {23},
+  pages = {693 -- 716},
+  number = {7 -- 8},
+  month = {July/August}
+}
+
+@INPROCEEDINGS{Thrun_2000,
+  author = {S. Thrun and D. Fox and W. Burgard},
+  title = {A real-time algorithm for mobile robot mapping with application to multi robot and 3{D} mapping},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '00)},
+  year = {2000},
+  address = {San Francisco, CA, USA},
+  month = {April}
+}
+
+@ARTICLE{Lu_1997,
+  author = {F. Lu and E. Milios},
+  title = {{Globally Consistent Range Scan Alignment for Environment Mapping}},
+  journal = {Autonomous Robots},
+  year = {1997},
+  volume = {4},
+  pages = {333 -- 349},
+  number = {4},
+  month = {October}
+}
+
+@PHDTHESIS{brenner_2000,
+  author = {Brenner, Claus},
+  title = {{Dreidimensionale Geb{\"a}uderekonstruktion aus digitalen Oberfl{\"a}chenmodellen und Grundrissen}},
+  school = {Universit{\"a}t Stuttgart},
+  year = {2000},
+  keywords = {building},
+}
+
+@INPROCEEDINGS{grisetti05,
+  author = {Grisetti, G. and Stachniss, C. and Burgard, W.},
+  title = {Improving Grid-based SLAM with Rao-Blackwellized Particle Filters by Adaptive Proposals and Selective Resampling},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '05)},
+  year = {2005},
+  pages = {2443--2448},
+  address = {Barcelona, Spain}
+}
+
+@ARTICLE{Dissanayake:2001,
+  author = {M. W. M. Gamini Dissanayake and Paul Newman and Steven Clark and Hugh F. Durrant-Whyte},
+  title = {A solution to the Simultaneous Localization and Map Building ({SLAM}) problem},
+  journal = {IEEE Transaction on Robotics and Automation (TRA)},
+  year = {2001},
+  volume = {17},
+  pages = {229-241},
+  number = {3},
+  month = {June},
+}
+
+@ARTICLE{Hoffmann2002,
+  author = {F. Hoffmann and Chr. Icking and R. Klein and K. Kriegel},
+  title = {The Polygon Exploration Problem},
+  journal = {SIAM Journal on Computing},
+  year = {2002},
+  volume = {31},
+  pages = {577--600},
+  number = {2},
+}
+
+@InProceedings{Folkesson:2003,
+  title        = "Outdoor {E}xploration and {SLAM} using a {C}ompressed {F}ilter",
+  author       = "J. Folkesson and H. Christensen",
+  booktitle    = "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '03)",
+  year         = "2003",
+  month        = "September",
+  address      = "Taipei, Taiwan",
+  pages        = "419--426",
+}
+
+@InProceedings{stachniss05isrr,
+  author =	 {Stachniss, C. and Mart\'{i}nez-Mozos, O. and
+                  Rottmann, A. and Burgard, W.},
+  title =	 {Semantic Labeling of Places},
+  booktitle =	 {Proceedings of the International Symposium of Robotics Research (ISRR '05)},
+  year =	 {2005},
+  address =	 {San Francisco, CA, USA},
+}
+
+
+
+@InProceedings{stachniss06icra,
+  author =	 {Stachniss, C. and Mart\'{i}nez-Mozos, O. and Burgard, W.},
+  title =	 {Speeding-Up Multi-Robot Exploration by Considering Semantic Place Information},
+  booktitle =	 {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '06)},
+  year =	 {2006},
+  address =	 {Orlando, FL, USA},
+  pages =	 {1692--1697},
+}
+
+@ARTICLE{Galindoa_2008,
+  author = {Cipriano Galindoa and Juan-Antonio Fernandez-Madrigala and Javier Gonzaleza and Alessandro Saffiottib},
+  title = {Robot task planning using semantic maps},
+  journal = {Journal Robotics and Autonomous Systems (JRAS)},
+  year = {2008},
+  volume = {56},
+  pages = {915--926},
+  number = {11},
+  month = {November}
+}
+
+@Article{Kestler_2000,
+  author =        {H. A. Kestler and S. Sablatn{\"o}g and S. Simon and S. Enderle and A. Baune and G. K. Kraetzschmar and F. Schwenker and G. Palm},
+  title =         {{C}oncurrent {O}bject {I}dentification and {L}ocalization for a {M}obile {R}obot},
+  journal =       {KI -- K{\"u}nstliche Intelligenz},
+  pages        = "23--29",
+  year =                  {2000},
+  month =         {April},
+}
+
+@InProceedings{Iocchi_2007,
+  author =        {L. Iocchi and S. Pellegrini},
+  title =         {BUILDING 3D MAPS WITH SEMANTIC ELEMENTS INTEGRATING 2D LASER, STEREO VISION AND IMU ON A MOBILE ROBOT},
+  booktitle = {Proceedings of the 2nd ISPRS International Workshop ``3D Virtual Reconstruction and Visualization of Complex Architectures'' (3DARCH '07)},
+  year =          {2007},
+  address =   {Zurich, Switzerland},
+  month =         {July},
+}
+
+@inproceedings{Dornhege_2007c,
+   author = {C. Dornhege and A. Kleiner},
+   title = {Behavior maps for online planning of obstacle negotiation and climbing on rough terrain},
+   booktitle = {Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems {(IROS '07)}},
+   address = {San Diego, CA, USA},
+   year = {2007},
+}
+
+@InProceedings{Anguelov_2002,
+  author =        {D. Anguelov and R. Biswas and D. Koller and B. Limketkai and S. Sanner and S. Thrun},
+  title =         {{L}earning hierarchical object maps of non-stationary environments with mobile robots},
+  booktitle = {Proceedings of the 18th Conference Uncertainty in AI (UAI '02)},
+  year =          {2002},
+  address =   {Edmonton, Alberta, Canada},
+  month =         {August},
+}
+
+@InProceedings{Anguelov_2005,
+  author = {D. Anguelov and B. Taskar and V. Chatalbashev and D. Koller and D. Gupta and G. Heitz and A. Ng},
+  title =         { Discriminative learning of markov random fields for segmentation of 3d scan data},
+  booktitle = {Proceedings of the International Conference on Computer Vision and Pattern Recognition (CVPR '05)},
+  year =          {2005},
+  pages = {169--176},
+}
+
+@InProceedings{Hetzel_2001,
+  author = {G. Hetzel and B. Leibe and P. Levi and B. Schiele},
+  title =         {3d object recognition from range images using local feature histograms},
+  booktitle = {Proceedings of the International Conference on Computer Vision and Pattern Recognition (CVPR '01)},
+  year =          {2001},
+  pages = {394--399},
+}
+
+@InProceedings{Biswas_2002,
+  author =        {R. Biswas and B. Limketkai and S. Sanner and S. Thrun},
+  title =         {{T}owards object mapping in dynamic environments with mobile robots},
+  booktitle = {Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS '02)},
+  address =   {Lausanne, Switzerland},
+  month =         {September},
+  year = {2002},
+}
+
+@InProceedings{LLF05,
+  author =        {B. Limketkai and L. Liao and D. Fox},
+  title =         {Relational Object Maps for Mobile Robots},
+  booktitle = {Proceedings of the 19th International Joint Conference on Artificial Intelligence (IJCAI '05)},
+  year =          {2005},
+  address =   {Edinburgh, Scottland},
+}
+
+
+@InProceedings{GSC+05,
+  author =        {C. Galindo and A. Saffiotti and S. Coradeschi and P. Buschka and J.A. Fernandez-Madrigal and J. Gonzalez},
+  title =         {Multi-Hierarchical Semantic Maps for Mobile Robotics},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '05)},
+  pages =         {3492--3497},
+  year =          {2005},
+  address =   {Edmonton, Canada},
+}
+
+@PROCEEDINGS {gruenEA:95,
+    title = {Automatic Extraction of Man-Made Objects from Aerial and Space Images},
+    year = 1995,
+    editor = {A. Gr{\"u}n and O. K{\"u}bler and P. Agouris},
+    publisher = {Birkh{\"a}user, Basel}
+}
+
+@PROCEEDINGS {gruenEA:97,
+    title = {Automatic Extraction of Man-Made Objects from Aerial and Space Images (II)},
+    year = 1997,
+    editor = {A. Gr{\"u}n and E. Baltsavias and O. Henricsson},
+    publisher = {Birkh{\"a}user, Basel}
+}
+
+@PROCEEDINGS {baltEA:01,
+    title = {Automatic Extraction of Man-Made Objects from Aerial and Satellite Images (III)},
+    year = 2001,
+    editor = {E. Baltsavias and A. Gr{\"u}n and  and L. Van Gool},
+    publisher = {Balkema Publishers, Netherlands}
+}
+
+@ARTICLE {mayer:99,
+    author = {H. Mayer},
+    title = {Automatic object extraction from aerial imagery -- a survey focusing on buildings},
+    journal = {Computer Vision and Image Understanding},
+    year = 1999,
+    volume = 74,
+    number = 2,
+    pages = {138--149}
+}
+
+
+@article{brenner:05,
+  title={{Building reconstruction from images and laser scanning}},
+  author={Brenner, C.},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
+  volume={6},
+  number={3-4},
+  pages={187--198},
+  issn={0303-2434},
+  year={2005},
+  publisher={Elsevier}
+}
+
+
+@ARTICLE {rottensteinerEA:05,
+    author = {F. Rottensteiner and J. Trinder and S. Clode and K. Kubik},
+    title = {Using the {D}empster-{S}hafer method for the fusion of {LIDAR} data and multi-spectral images for building detection},
+    journal = {Information fusion},
+    year = 2005,
+    volume = 6,
+    number = {4},
+    pages = {283--300}
+}
+
+
+@ARTICLE {secordZakhor:07,
+    author = {J. Secord and A. Zakhor},
+    title = {Tree Detection in Urban Regions Using Aerial Lidar and Image Data},
+    journal = {IEEE Geoscience and Remote Sensing Letters},
+    year = {2007},
+    volume = 4,
+    number = 2,
+    pages = {196--200}
+}
+
+@INPROCEEDINGS {malletEA:08,
+    author = {C. Mallet and U. Soergel and F. Bretar},
+    title = {Analysis of full-waveform {LIDAR} data for classification of urban areas},
+    booktitle = {International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences Vol. 37, Part B3a},
+    year = 2008,
+    pages = {85--91}
+}
+
+@ARTICLE {rutzingerEA:08,
+    author = {M. Rutzinger and B. H{\"o}fle and M. Hollaus and N. Pfeifer},
+    title = {Object-Based Point Cloud Analysis of Full-Waveform Airborne Laser Scanning Data for Urban Vegetation Classification},
+    journal = {Sensors},
+    volume = 8,
+    number = {8},
+    year = 2008,
+    pages = {4505--4528}
+}
+
+@INPROCEEDINGS {vosselmanEA:04,
+    author = {G. Vosselman and B. G. H. Gorte and G. Sithole},
+    title = {Change detection for updating medium scale maps using laser altimetry},
+    booktitle = {International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol. 35, Part B3, Istanbul, Turkey},
+    pages = {207--212},
+    year = 2004
+}
+
+@INPROCEEDINGS {rottensteiner:06,
+    author = {F. Rottensteiner},
+    title = {Consistent estimation of building parameters considering geometric regularities by soft constraints},
+    booktitle = {Proceedings Photogrammetric Computer Vision, International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol. 36, Part 3, Bonn, Germany},
+    pages = {13--18},
+    year = 2006
+}
+
+@INPROCEEDINGS{vermaEA:06,
+   author={V. Verma and R. Kumar and S. Hsu},
+   title={{3D} Building Detection and Modeling from Aerial {LIDAR} Data},
+   booktitle={Proceedings of the {IEEE} Computer Society Conference on Computer Vision and Pattern Recognition ({CVPR}'06)},
+   year={2006},
+   pages = {2213--2220}
+}
+
+@ARTICLE {lafargeEA:08,
+    author = {F. Lafarge and X. Descombes and J. Zerubia and M. Pierrot-Deseilligny},
+    title = {Automatic building extraction from {DEM}s using an object approach and application to the {3D}-city modeling},
+    journal = {ISPRS Journal of Photogrammetry \& Remote Sensing},
+    volume = 63,
+    number = 3,
+    year = 2008,
+    pages = {365--381}
+}
+
+@ARTICLE {ripperda:08,
+    author = {N. Ripperda},
+    title = {Grammar Based Facade Reconstruction using {RjMCMC}},
+    journal = {Photogrammetrie Fernerkundung Geoinformation (PFG)},
+    volume = 2,
+    number = {2008},
+    year = 2008,
+    pages = {83-92}
+}
+
+@CONFERENCE{Parish2001,
+  author = {Y.I.H. Parish and P. M\"uller},
+  title = {Procedural Modeling of Cities},
+  booktitle = {ACM SIGGRAPH},
+  year = {2001},
+  editor = {E. Fiume},
+  publisher = {ACM Press}
+}
+
+@ARTICLE{Marvie2005,
+  author = {Jean-Eudes Marvie and Julien Perret and Kadi Bouatouch},
+  title = {The FL-system: A Functional L-System for Procedural Geometric Modeling},
+  journal = {The Visual Computer},
+  year = {2005},
+  volume = {21(5)},
+  pages = {329--339},
+  month = {June}
+}
+
+@INPROCEEDINGS{Alegre2004,
+  author = {Alegre, F. and Dallaert, F.},
+  title = {A Probabilistic Approach to the Semantic Interpretation of Building Facades},
+  booktitle = {International Workshop on Vision Techniques Applied to the Rehabilitation of City Centers.},
+  year = {2004}
+}
+
+@ARTICLE{Mueller2006,
+  author = {Pascal M\"uller and Peter Wonka and Simon Haegler and Andreas Ulmer
+	and Luc van Gool},
+  title = {Procedural Modeling of Buildings},
+  journal = {Proceedings of ACM SIGGRAPH 2006 / ACM Transactions on Graphics},
+  year = {2006},
+  volume = {25},
+  pages = {614--623},
+  number = {3},
+  address = {New York, NY, USA},
+  issn = {0730-0301},
+  publisher = {ACM Press}
+}
+
+@InProceedings{stachniss05aaai,
+   TITLE =       {Mobile Robot Mapping and Localization in Non-Static Environments},
+   AUTHOR =      {Stachniss, C. and Burgard, W.},
+   BOOKTITLE =   {Proceedings of the National Conference on Artificial Intelligence (AAAI '05)},
+   YEAR =        {2005},
+   ADDRESS =     {Pittsburgh, PA, USA},
+}
+
+@Article{vanGool:2007,
+  author = 	  {L. van Gool and G. Zeng and F. van den Borre and P. M{\"u}ller},
+  title = 	  {Towards Mass-Produced Building Models},
+  journal = 	  {International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  year = 		  {2007},
+  volume = 	  {36},
+  number = 	  {3/W49A},
+  pages = 	  {209--220},
+}
+
+@INPROCEEDINGS{vosselmanDijkman:01,
+    author = {G. Vosselman and S. Dijkman},
+    title = {{3D} Building Model Reconstruction from Point Clouds and Ground Plans},
+    booktitle = {Proceedings of the ISPRS workshop on Land Surface Mapping and Characterization Using Laser Altimetry, International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences Vol. 34 Part 3/W4},
+address= {Annapolis, Maryland},
+    year = 2001,
+    editor = {M. A. Hofton},
+    pages = {37--44}
+}
+
+@Article{Reznik:2008,
+  author = 	  {S. Reznik and H. Mayer},
+  title = 	  {Implicit Shape Models, Self-Diagnosis, and Model Selection for 3D Facade Interpretation},
+  journal = 	  {Photogrammetrie -- Fernerkundung -- Geoinformation},
+  year = 		  {2008},
+  number = 	  {3},
+  pages = 	  {187--196},
+}
+
+@InProceedings{Becker:2009,
+  author = 	  {S. Becker and N. Haala},
+  title = 	  {Grammar supported facade reconstruction from mobile LiDAR mapping},
+  booktitle = {ISPRS Workshop on Object Extraction for 3D City Models, Road Databases and Traffic Monitoring},
+  year = 	  {2009},
+}
+
+@Article{Burgard_etal:AI:1999,
+  author =        {W. Burgard and A. Cremers and D. Fox and D. H{\"a}hnel and G. Lakemeyer and W. Steiner and S. Thrun},
+  title =         {Experiences with an Interactive Museum Tour-Guide Robot},
+  journal =     {Artificial Intelligence},
+  year =                  {1999},
+  volume =        {114},
+  number =        {1-2},
+  pages =         {3--55},
+}
+
+@InProceedings{Biber/Duckett:2005,
+  AUTHOR =       {Peter {Biber} and Tom {Duckett}},
+  title =        {{Dynamic Maps for Long-Term Operation of Mobile Service Robots}},
+  BOOKTITLE =    {Proceedings of Robotics: Science and Systems I},
+  MONTH =        {June 8-11},
+  YEAR =         {2005},
+  ADDRESS =      {Cambridge, MA, USA},
+}
+
+@ARTICLE{baltsavias_1999,
+  author = {E. Baltsavias},
+  title = {Airborne laser scanning: existing systems and firms and other resources},
+  journal = {ISPR Journal of Photogrammetry \& Remote Sensing},
+  year = {1999},
+  volume = {54},
+  pages = {164--198},
+  number = {2-3},
+}
+
+@ARTICLE{blais_2004,
+  author = {Blais, F.},
+  title = {Review of 20 Years of Range Sensor Development},
+  journal = {Journal of Electronic Imaging},
+  year = {2004},
+  volume = {13},
+  pages = {231--240},
+  number = {1},
+}
+
+@INPROCEEDINGS{kolbe_2003a,
+  author = {Kolbe, T. H. and Gr{\"o}ger, G.},
+  title = {{Towards unified 3D city models}},
+  booktitle = {Proceedings of the ISPRS Comm. IV Joint Workshop on Challenges in Geospatial Analysis, Integration and Visualization II},
+  year = {2003},
+}
+
+@INPROCEEDINGS{el-hakim_1999,
+  author = {El-Hakim, S.F. and Boulanger, P. and Blais, F. and Beraldin, J.-A.
+        and Roth, G.},
+  title = {Experimental analysis and design considerations of virtual environments creation},
+  booktitle = {SPIE Proceedings Videometrics VI},
+  year = {1999},
+  volume = {3641},
+  pages = {127-138},
+}
+
+@BOOK{o-agta-87,
+  title = {Art Gallery Theorems and Algorithms},
+  publisher = {Oxford University Press},
+  year = {1987},
+  author = {J. O'Rourke},
+  series = {Internat. Series of Monographs on Computer Science},
+  address = {New York, NY},
+  keywords = {visibility, decomposition, covering, partition, geometric graphs},
+  update = {98.11 bibrelex}
+}
+
+@MISC{topp,
+  author = {E.D. Demaine and J.S.B. Mitchell and J. O'Rourke},
+  title = {The Open Problems Project},
+  howpublished = {\url{http://cs.smith.edu/~orourke/TOPP/Welcome.html}},
+  year = {2003}
+}
+
+
+@INPROCEEDINGS{aks-eueo-99,
+  author = {S. Albers and K. Kursawe and S. Schuierer},
+  title = {Exploring Unknown Environments with Obstacles},
+  booktitle = {Proceedings of the 10th ACM-SIAM Symposium on Discrete Algorithms (SODA'99)},
+  year = {1999},
+  pages = {842 -- 843},
+  nickname = {SODA '99},
+  site = {Baltimore},
+}
+
+@INPROCEEDINGS{Gutmann_1999,
+  author = {J.-S. Gutmann and K. Konolidge},
+  title = {Incremental mapping of large cyclic environments},
+  booktitle = {Proceedings of the IEEE International Symposium on Computational Intelligence in Robotics and Automation (CIRA '99)},
+  year = {1999},
+  pages = {318 -- 325},
+  address = {Monterey, CA, USA},
+  month = {March}
+}
+
+@ARTICLE{Yamauchi_1999,
+  author = {B. Yamauchi and A. Schultz and W. Adams},
+  title = {Integrating exploration and localization for mobile robots},
+  journal = {Adaptive Systems},
+  year = {1999},
+  volume = {7},
+  number = {2}
+}
+
+@ARTICLE{Banos_2002,
+  author = {H. H. Gonzalez-Banos and J. C. Latombe},
+  title = {Navigation Strategies for Exploring Indoor Environments},
+  journal = {International Journal of Robotics Research},
+  year = {2002},
+  volume = {21},
+  pages = {829--848},
+  number = {10/11}
+}
+
+@INPROCEEDINGS{Banos_2001,
+  author = {H. Gonzalez-Banos and J. Latombe},
+  title = {A Randomized Art-Gallery Algorithm for Sensor Placement},
+  booktitle = {Proceedings of ACM Symposium on Computational Geometry (SoCG '01)},
+  year = {2001},
+  address = {Medford, MA, USA},
+  month = {June}
+}
+
+@INPROCEEDINGS{Bourgoult_2002,
+  author = {F. Bourgoult and A. A. Makarenko and S.B. Williams and B. Grocholsky and F. Durrant-Whyte},
+  title = {Information Based Adaptive Robotic Exploration},
+  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '02)},
+  year = {2002},
+  address = {Lausanne, Switzerland},
+  month = {October}
+}
+@INPROCEEDINGS{haala_2005,
+  author = {Haala, N.},
+  title = {{Towards Virtual Reality GIS}},
+  booktitle = {Photogrammetric Week '05},
+  year = {2005},
+  pages = {285-294},
+  address = {Heidelberg},
+  publisher = {Wichmann},
+}
+
+
+@INPROCEEDINGS{Moorehead_2001,
+  author = {S. J. Moorehead and R. Simmons and W. L. Whittaker},
+  title = {Autonomous Exploration Using Multiple Sources of Information},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '01)},
+  year = {2001},
+  address = {Seoul, Korea},
+  month = {May}
+}
+
+@MISC{wikipedia:automation,
+  author = {{Automation -- From Wikipedia the free encyclopedia}},
+  title = {\url{http://en.wikipedia.org/wiki/Automation}},
+  year = {2010},
+}
+
+@MISC{WWWopenslam,
+  author = {C. Stachniss and U. Frese and G. Grisetti},
+  title = {\url{http://www.openslam.org/}},
+  year = {2011},
+}
+
+@MISC{WWWrawseeds,
+  author = {{The Rawseeds Project}},
+  title = {\url{http://www.rawseeds.org/home/}},
+  year = {2010},
+}
+
+@MISC{WWWradish,
+  author = {A. Howard and N. Roy},
+  title = {\url{http://radish.sourceforge.net/}},
+  year = {2010},
+}
+
+@MISC{Bouget,
+  author = {J. Y. Bouget},
+  title = {Camera Calibration Toolbox for Matlab, \url{http://www.vision.caltech.edu/bouguetj/calib_doc/}},
+  year = {2010},
+}
+
+@INPROCEEDINGS{kurazume94,
+  author = {R. Kurazume and S. Nagata},
+  title = {{Cooperative Positioning with Multiple Robots}},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '94)},
+  year = {1994},
+  pages = {1250--1257}
+}
+
+@ARTICLE{GIM2007,
+  author = {Lemmens, Mathias},
+  title = {{Terrestrial Laser Scanners}},
+  journal = {GIM International},
+  year = {2007},
+  volume = {21},
+  pages = {52--55},
+  month = {August},
+}
+
+@article{ekman1997exploration,
+  title={{Exploration of polygonal environments using range data}},
+  author={Ekman, A. and Torne, A. and Stromberg, D.},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics, Part B},
+  volume={27},
+  number={2},
+  pages={250--255},
+  year={1997}
+}
+@article{tovar2007distance,
+  title={{Distance-optimal navigation in an unknown environment without sensing distances}},
+  author={Tovar, B. and Murrieta-Cid, R. and LaValle, SM},
+  journal={IEEE Transactions on Robotics},
+  volume={23},
+  number={3},
+  pages={506--518},
+  year={2007}
+}
+@conference{bandyopadhyay2005visibility,
+  title={{Visibility-based exploration in unknown environment containing structured obstacles}},
+  author={Bandyopadhyay, T. and Liu, Z. and Ang, M.H. and Seah, W.K.G.},
+  booktitle={Proceedings of the 12th International Conference on Advanced Robotics (ICAR)},
+  pages={484--491},
+  year={2005}
+}
+@article{gartshore2005exploration,
+  title={{Exploration of an unknown 2D environment using a view improvement strategy}},
+  author={Gartshore, R. and Palmer, P.},
+  journal={Towards Autonomous Robotic Systems},
+  pages={57--64},
+  year={2005}
+}
+@conference{gonzalez2000planning,
+  title={{Planning robot motion strategies for efficient model construction}},
+  author={Gonz{\'a}lez-Ba{\~n}os, H. and Mao, E. and Latombe, J.C. and Murali, TM and Efrat, A.},
+  booktitle={ROBOTICS RESEARCH-INTERNATIONAL SYMPOSIUM-},
+  volume={9},
+  pages={345--352},
+  year={2000},
+  organization={Citeseer}
+}
+@conference{danner2002randomized,
+  title={{Randomized planning for short inspection paths}},
+  author={Danner, T. and Kavraki, L.E.},
+  booktitle={Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International Conference on},
+  volume={2},
+  pages={971--976},
+  isbn={0780358864},
+  year={2002},
+  organization={IEEE}
+}
+@MASTERSTHESIS{Safak2009Master,
+  author = {G{\"o}rkem Safak},
+  title = {{The Art-Gallery Problem: A Survey and an Extension}},
+  school = {Computer Science and
+Engineering, Royal Institute of Technology Stockholm, Sweden},
+  year = {2009},
+}
+@conference{blaer2007data,
+  title={{Data acquisition and view planning for 3-D modeling tasks}},
+  author={Blaer, P.S. and Allen, P.K.},
+  booktitle={Intelligent Robots and Systems, 2007. IROS 2007. IEEE/RSJ International Conference on},
+  pages={417--422},
+  year={2007},
+  organization={IEEE}
+}
+@conference{low2007efficient,
+  title={{Efficient constraint evaluation algorithms for hierarchical next-best-view planning}},
+  author={Low, K.L. and Lastra, A.},
+  booktitle={3D Data Processing, Visualization, and Transmission, Third International Symposium on},
+  pages={830--837},
+  isbn={0769528252},
+  year={2007},
+  organization={IEEE}
+}
+@InProceedings{joho07ams,
+  author    = {Dominik Joho and Cyrill Stachniss 
+               and Patrick Pfaff and Wolfram Burgard},
+  title     = {Autonomous Exploration for 3{D} Map Learning},
+  booktitle = {{A}utonome {M}obile {S}ysteme {(AMS)}},
+  editor    = {Karsten Berns and Tobias Luksch},
+  pages     = {22--28},
+  month     = {October},
+  year      = {2007},
+  publisher = {Springer},
+  address   = {Kaiserslautern, Germany},
+  doi       = {10.1007/978-3-540-74764-2_4},
+  isbn      = {978-3-540-74763-5}
+}
+@conference{guan2006sensor,
+  title={{Sensor-Based Cooperative Multi-Robot 3D Environment Reconstruction}},
+  author={Guan, L.},
+booktitle = {Integrative Paper, UNC Chapel Hill (Fulfilling Master's Degree requirement)},
+  year={2006},
+  publisher={Citeseer}
+}
+@conference{kurazume2009laser,
+  title={{Laser-based geometric modeling using cooperative multiple mobile robots}},
+  author={Kurazume, R. and Noda, Y. and Tobata, Y. and Lingemann, K. and Iwashita, Y. and Hasegawa, T.},
+  booktitle={Robotics and Automation, 2009. ICRA'09. IEEE International Conference on},
+  pages={3200--3205},
+  issn={1050-4729},
+  year={2009},
+  organization={IEEE}
+}
+@conference{kurazume20073d,
+  title={{3D laser measurement system for large scale architectures using multiple mobile robots}},
+  author={Kurazume, R. and Tobata, Y. and Iwashita, Y. and Hasegawa, T.},
+  booktitle={3-D Digital Imaging and Modeling, 2007. 3DIM'07. Sixth International Conference on},
+  pages={91--98},
+  issn={1550-6185},
+  year={2007},
+  organization={IEEE}
+}
+@conference{burgard2002collaborative,
+  title={{Collaborative multi-robot exploration}},
+  author={Burgard, W. and Moors, M. and Fox, D. and Simmons, R. and Thrun, S.},
+  booktitle={Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE International Conference on},
+  volume={1},
+  pages={476--481},
+  isbn={0780358864},
+  year={2002},
+  organization={IEEE}
+}
+@article{burgard2005coordinated,
+  title={{Coordinated multi-robot exploration}},
+  author={Burgard, W. and Moors, M. and Stachniss, C. and Schneider, F.E.},
+  journal={Robotics, IEEE Transactions on},
+  volume={21},
+  number={3},
+  pages={376--386},
+  issn={1552-3098},
+  year={2005},
+  publisher={IEEE}
+}
+@PHDTHESIS{rekleitis2003phd,
+  title={{Cooperative localization and multi-robot exploration}},
+  author={Ioannis Rekleitis},
+  school = {Computer Science, McGill University, Montr\'{e}al, Canada},
+  isbn={0612885674},
+  year={2003},
+}
+@conference{rekleitis2002collaborative,
+  title={{Collaborative exploration for map construction}},
+  author={Rekleitis, I. and Sim, R. and Dudek, G. and Milios, E.},
+  booktitle={Computational Intelligence in Robotics and Automation, 2001. Proceedings 2001 IEEE International Symposium on},
+  pages={296--301},
+  isbn={0780372034},
+  year={2002},
+  organization={IEEE}
+}
+@article{rekleitis2001multi,
+  title={{Multi-robot collaboration for robust exploration}},
+  author={Rekleitis, I. and Dudek, G. and Milios, E.},
+  journal={Annals of Mathematics and Artificial Intelligence},
+  volume={31},
+  number={1},
+  pages={7--40},
+  issn={1012-2443},
+  year={2001},
+  publisher={Springer}
+}
+@conference{rekleitis2002multi,
+  title={{Multi-robot cooperative localization: A study of trade-offs between efficiency and accuracy}},
+  author={Rekleitis, I.M. and Dudek, G. and Milios, E.E.},
+  booktitle={Intelligent Robots and Systems, 2002. IEEE/RSJ International Conference on},
+  volume={3},
+  pages={2690--2695},
+  isbn={0780373987},
+  year={2002},
+  organization={IEEE}
+}
+@inproceedings{Grisetti_2010,
+  author = {G. Grisetti and R. K{\"u}mmerle and C. Stachniss and U. Frese and C. Hertzberg},
+  title = {Hierarchical Optimization on Manifolds for Online 2D and 3D Mapping},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics \& Automation (ICRA '10)},
+  address = {Anchorage, Alaska},
+  year = 2010,
+  url = {http://www.informatik.uni-freiburg.de/~stachnis/pdf/grisetti10icra.pdf}
+}
+
+@article{Grisetti_2009,
+  author = {Grisetti, G. and Stachniss, C.  and Burgard, W.},
+  title = {Non-linear Constraint Network Optimization for Efficient Map Learning},
+  journal = {  	 IEEE Transactions on Intelligent Transportation Systems},
+  year = 2009,
+  volume = 10,
+  number = 3,
+  pages = {428--439},
+  url = {http://www.informatik.uni-freiburg.de/~stachnis/pdf/grisetti09its.pdf}
+}
+
+@article{Fischler:1981,
+ author = {Fischler, M. A. and Bolles, R. C.},
+ title = {Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography},
+ journal = {Commun. ACM},
+ volume = {24},
+ issue = {6},
+ month = {June},
+ year = {1981},
+ pages = {381--395},
+ numpages = {15},
+ acmid = {358692},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{Besl_1992,
+   author = "P. Besl and N. McKay",
+   title = "A method for {R}egistration of 3-{D} {S}hapes",
+   journal = "IEEE Trans. Pattern Analysis and Machine Intelligence (PAMI)",
+   year = "1992",
+   volume = "14",
+   number = "2",
+   pages = "239-256"
+}
+
+@Article{Friedman_1977,
+  author = 	  {J. H. Friedman and J. L. Bentley and R. A. Finkel},
+  title = 	  {An Algorithm for Finding Best Matches in Logarithmic Expected Time},
+  journal = 	  {ACM Transaction on Mathematical Software},
+  year = 		  {1977},
+  volume = 	  {3},
+  number = 	  {3},
+  pages = 	  {209--226},
+  month = 	  {September},
+}
+
+@Article{Arya_1998,
+  author = 	  {S. Arya and D. M. Mount and N. S. Netanyahu and R. Silverman and A. Y. Wu},
+  title = 	  {{A}n {O}ptimal {A}lgorithms for {A}pproximate {N}earest {N}eighbor {S}earching in {F}ixed {D}imensions},
+  journal = 	  {Journal of the ACM},
+  year = 		  {1998},
+  volume = 	  {45},
+  pages = 	  {891--923},
+}

@@ -1,0 +1,37 @@
+\begin{longtable}{ccc}
+\caption[Renault Kangoo]{Renault Kangoo}\\
+
+\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\tablename\ \thetable{} -- continued from previous page}} \\
+\multicolumn{1}{c}{\textbf{Error}} &
+\multicolumn{1}{c}{\textbf{Rotation}} &
+\multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endhead
+
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\endlastfoot
+
+	$98.0$ & 0 0 0 & \includegraphics{models/f1ef33533b18d207d75f7835edfe1dd1.jpg}\\
+	$480.0$ & 0 270 0 & \includegraphics{models/b238de109e2b8655727c10c7e3dc543b.jpg}\\
+	$480.0$ & 0 0 0 & \includegraphics{models/dd64056e3160f6d74cfb219cc72c917c.jpg}\\
+	$513.0$ & 0 270 0 & \includegraphics{models/13289b3906378da7fbeef30fe11d07d1.jpg}\\
+	$523.0$ & 0 270 0 & \includegraphics{models/3106fd51d8c60d43a9f2f113e637c14e.jpg}\\
+	$531.0$ & 0 0 0 & \includegraphics{models/260139ed1aa8394e7972d613ef8dcec9.jpg}\\
+	$538.0$ & 0 270 0 & \includegraphics{models/7e1c183d478a12ecda752c779b659af8.jpg}\\
+	$545.0$ & 0 0 0 & \includegraphics{models/af9d95bf8619c8ed35a40a719029d19.jpg}\\
+	$585.0$ & 0 270 0 & \includegraphics{models/11e7d5280efb61183ec88fcb196b59fe.jpg}\\
+	$730.0$ & 0 270 0 & \includegraphics{models/30e971ea6fceac68f5cb3ca022cf045c.jpg}\\
+	$960.0$ & 0 0 0 & \includegraphics{models/23e8bfa817f81ab448f562dc47c2f557.jpg}\\
+	$1050.0$ & 0 90 0 & \includegraphics{models/42e7ca29c3f58a7668f78fafaaa936eb.jpg}\\
+	$1064.0$ & 0 270 0 & \includegraphics{models/d0bfbe27a484a595fedc706b84ec9c4e.jpg}\\
+	$1072.0$ & 0 270 0 & \includegraphics{models/3a19b2a95205c5eaf20831410ed8dba6.jpg}\\
+	$1352.0$ & 0 0 0 & \includegraphics{models/ae5e896e943fe44fe4fa0d9a98009166.jpg}\\
+	$1425.0$ & 0 0 0 & \includegraphics{models/6c3174f862a5a9a1590ee3f3aa63d479.jpg}\\
+	$2035.0$ & 0 0 0 & \includegraphics{models/3381909e60dd6a5291af0bf49336b8c6.jpg}\\
+	$3218.0$ & 0 270 0 & \includegraphics{models/8766de36a2aca3d46ab70fd3a5dd1e73.jpg}\\
+\end{longtable}

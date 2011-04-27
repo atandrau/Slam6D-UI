@@ -1,0 +1,30 @@
+\begin{longtable}{ccc}
+\caption[Citroen]{Citroen C5}\\
+
+\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\tablename\ \thetable{} -- continued from previous page}} \\
+\multicolumn{1}{c}{\textbf{Error}} &
+\multicolumn{1}{c}{\textbf{Rotation}} &
+\multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endhead
+
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\endlastfoot
+
+	$343.0$ & 0 270 0 & \includegraphics{models/3cbf177f6c65481629604d2278b86154.jpg}\\
+	$361.0$ & 0 270 0 & \includegraphics{models/54454eefe74ee4f63f7e28616073ba48.jpg}\\
+	$384.0$ & 0 180 0 & \includegraphics{models/380e0c29c9ea00e9ce158c6cc0278580.jpg}\\
+	$400.0$ & 0 180 0 & \includegraphics{models/aa55eee19b7061c3c20241b1cae9641d.jpg}\\
+	$425.0$ & 0 180 0 & \includegraphics{models/4ab202639c56360a87f268cb6eb1cd2c.jpg}\\
+	$640.0$ & 0 90 0 & \includegraphics{models/d96266f75485ff0e57c8c6820e098659.jpg}\\
+	$644.0$ & 0 90 0 & \includegraphics{models/5d00b41e61358843ec80c3c6a84c5c28.jpg}\\
+	$658.0$ & 0 0 0 & \includegraphics{models/316be000b3fb1267ac301ac18d4fb5ee.jpg}\\
+	$6818.0$ & 0 180 0 & \includegraphics{models/a7ce685e8df7ded4ea8b5358f6602465.jpg}\\
+	$32820.0$ & 0 90 0 & \includegraphics{models/d24e1c985a1e84da1ba1b165c28c1c45.jpg}\\
+	$56804.0$ & 0 180 0 & \includegraphics{models/ba719ecff172bc7347a3e4c8957c13fd.jpg}\\
+\end{longtable}

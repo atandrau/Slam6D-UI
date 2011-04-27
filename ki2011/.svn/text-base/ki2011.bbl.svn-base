@@ -1,0 +1,65 @@
+\begin{thebibliography}{1}
+
+\bibitem{Beetz:2010}
+Michael Beetz, Moritz Tenorth, Alexander Perzylo, and Reinhard Lafrenz.
+\newblock {A Knowledge Representation Language for RoboEarth (presentation)}.
+\newblock In {\em In Proceedings of the IEEE/RSJ 2010 International Conference
+  on Intelligent Robots and Systems, Workshops and Tutorials, IROS 2010},
+  Taipei, Taiwan, October 2010.
+
+\bibitem{Horn:1987}
+Berthold K.~P. Horn.
+\newblock {Closed-form solution of absolute orientation using unit
+  quaternions}.
+\newblock In {\em Journal of the Optical Society of America A, vol. 4, page
+  629}, Washington D.C., USA, April 1987.
+
+\bibitem{Hebert:1999}
+Andrew~E. Johnson and Martial Hebert.
+\newblock {Using Spin Images for Efficient Object Recognition in Cluttered 3D
+  Scenes}.
+\newblock In {\em IEEE Transactions on Pattern Analysis and Machine
+  Intelligence, vol. 21, no. 5, page 433}, USA, May 1999.
+
+\bibitem{Kestler:2000}
+Hans~A. Kestler, Stefan Sablatnog, Steffen Simon, Stefan Enderle, Axel Baune,
+  Gerhard~K. Kraetzschmar, Friedhelm Schwenker, and Gunther Palm.
+\newblock {Concurrent Object Identification and Localization for a Mobile
+  Robot}.
+\newblock In {\em International Journal of Intelligent Systems, vol. 14},
+  Trier, Germany, March 2000.
+
+\bibitem{Lai:2010}
+Kevin Lai and Dieter Fox.
+\newblock {Object Recognition in 3D Point Clouds Using Web Data and Domain
+  Adaptation}.
+\newblock In {\em The International Journal of Robotics Research (IJRR '10)},
+  USA, May 2010.
+
+\bibitem{Nuchter:2008}
+Andreas Nuechter and Joachim Hertzberg.
+\newblock {Towards semantic maps for mobile robots}.
+\newblock In {\em Robotics and Autonomous Systems 56, page 915 - 926 ('08)},
+  Trier, Germany, August 2008.
+
+\bibitem{Remondino:2009}
+F.~Remondino, S.~El-Hakim, S.~Girardi, A.~Rizzi, S.~Benedetti, and L.~Gonzo.
+\newblock {3D Virtual Reconstruction and Visualization of Complex Architectures
+  - The 3D-ARCH Project}.
+\newblock In {\em Proceedings of International Society for Photogrammetry and
+  Remote Sensing (ISPRS '09)}, Trento, Italy, February 2009.
+
+\bibitem{Stiene:2006}
+Stefan Stiene, Kai Lingemann, Andreas Nuchter, and Joachim Hertzberg.
+\newblock {Contour-Based Object Detection in Range Images}.
+\newblock In {\em In Proceedings of the Third International Symposium on 3D
+  Data Processing, Visualization and Transmission, 3DPVT '06}, Chapel Hill, NC,
+  June 2006.
+
+\bibitem{Tangelder:2004}
+Johan~W.H. Tangelder and Remco~C. Veltkamp.
+\newblock {A Survey of Content Based 3D Shape Retrieval Methods}.
+\newblock In {\em Proceedings of International Conference of Shape Modeling and
+  Applications (SMI '04)}, Genova, Italy, June 2004.
+
+\end{thebibliography}

@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{Hertzberg:2011}
+Sven Albrecht, Thomas Wiemann, , Martin Guenther, and Joachim Hertzberg.
+\newblock {Generating 3D Semantic Environment Models using Ontologies and CAD
+  Model Matching}.
+\newblock In {\em Proceedings of ICRA 2011 workshop: Semantic Perception,
+  Mapping and Exploration, SPME '11}, Shanghai, China, May 2011.
+
+\bibitem{Beetz:2010}
+Michael Beetz, Moritz Tenorth, Alexander Perzylo, and Reinhard Lafrenz.
+\newblock {A Knowledge Representation Language for RoboEarth}.
+\newblock In {\em Proceedings of the IEEE/RSJ 2010 International Conference on
+  Intelligent Robots and Systems, Workshops and Tutorials, IROS 2010}, Taipei,
+  Taiwan, October 2010.
+
+\bibitem{Horn:1987}
+Berthold K.~P. Horn.
+\newblock Closed-form solution of absolute orientation using unit quaternions.
+\newblock {\em Journal of the Optical Society of America}, 4:629, April 1987.
+
+\bibitem{Hebert:1999}
+Andrew~E. Johnson and Martial Hebert.
+\newblock Using spin images for efficient object recognition in cluttered 3d
+  scenes.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  21(5):433, May 1999.
+
+\bibitem{Kestler:2000}
+Hans~A. Kestler, Stefan Sablatnog, Steffen Simon, Stefan Enderle, Axel Baune,
+  Gerhard~K. Kraetzschmar, Friedhelm Schwenker, and Gunther Palm.
+\newblock Concurrent object identification and localization for a mobile robot.
+\newblock {\em International Journal of Intelligent Systems}, 14, March 2000.
+
+\bibitem{Lai:2010}
+Kevin Lai and Dieter Fox.
+\newblock Object recognition in 3d point clouds using web data and domain
+  adaptation.
+\newblock {\em The International Journal of Robotics Research (IJRR '10)}, May
+  2010.
+
+\bibitem{Nuechter:2010}
+Andreas Nuechter, Jan Elseberg, Peter Schneider, and Dietrich Paulus.
+\newblock Study of parameterizations of the rigid body transformations of the
+  scan registration problem.
+\newblock {\em Journal Computer Vision and Image Understanding (CVIU), Elsevier
+  Science}, 114(8):963--980, 2010.
+
+\bibitem{Nuchter:2008}
+Andreas Nuechter and Joachim Hertzberg.
+\newblock Towards semantic maps for mobile robots.
+\newblock {\em Robotics and Autonomous Systems}, 56:915 -- 926, August 2008.
+
+\bibitem{Remondino:2009}
+F.~Remondino, S.~El-Hakim, S.~Girardi, A.~Rizzi, S.~Benedetti, and L.~Gonzo.
+\newblock {3D Virtual Reconstruction and Visualization of Complex Architectures
+  - The 3D-ARCH Project}.
+\newblock In {\em Proceedings of International Society for Photogrammetry and
+  Remote Sensing (ISPRS '09)}, Trento, Italy, February 2009.
+
+\bibitem{Stiene:2006}
+Stefan Stiene, Kai Lingemann, Andreas Nuchter, and Joachim Hertzberg.
+\newblock {Contour-Based Object Detection in Range Images}.
+\newblock In {\em Proceedings of the Third International Symposium on 3D Data
+  Processing, Visualization and Transmission, 3DPVT '06}, Chapel Hill, NC, June
+  2006.
+
+\bibitem{Tangelder:2004}
+Johan~W.H. Tangelder and Remco~C. Veltkamp.
+\newblock {A Survey of Content Based 3D Shape Retrieval Methods}.
+\newblock In {\em Proceedings of International Conference of Shape Modeling and
+  Applications (SMI '04)}, Genova, Italy, June 2004.
+
+\bibitem{Thrun:2005}
+S.~Thrun and M.~Montemerlo.
+\newblock The {GraphSLAM} algorithm with applications to large-scale mapping of
+  urban structures.
+\newblock {\em International Journal on Robotics Research}, 25(5/6):403--430,
+  2005.
+
+\end{thebibliography}

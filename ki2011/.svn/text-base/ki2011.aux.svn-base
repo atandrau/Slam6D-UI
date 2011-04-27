@@ -1,0 +1,100 @@
+\relax 
+\providecommand{\usedref}[1]{\relax}
+\citation{FIXME}
+\citation{FIXME}
+\usedref{model_scan}
+\citation{Remondino:2009,Beetz:2010}
+\citation{Tangelder:2004}
+\citation{Horn:1987}
+\@writefile{toc}{\contentsline {title}{Localizing Google SketchUp Models in Outdoor 3D Scans}{1}}
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Flavia Grosan, Alexandu Tandrau, and Andreas N{\"u}chter}{1}}
+\@writefile{toc}{\contentsline {chapter}{Title goes here again?}{0}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{Nuchter:2008}
+\citation{Kestler:2000}
+\citation{Lai:2010}
+\citation{Hebert:1999}
+\usedref{audia4resampled}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Left: 3D model BMW Z3 found in Google SketchUp Warehouse. Right: Actual car in a 3D laser scan.\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{model_scan}{{1}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}}
+\citation{Stiene:2006}
+\usedref{groundremoved}
+\usedref{segmented_object}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Obtaining Point Clouds from 3D Models}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Audi A4 SketchUp Model before (left) and after (right) sampling.\relax }}{3}}
+\newlabel{audia4resampled}{{2}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Matching Scanned Objects with Generated 3D Point Clouds}{3}}
+\citation{Horn:1987}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Scan with the ground points removed\relax }}{4}}
+\newlabel{groundremoved}{{3}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Left: Segmented Audi A4. Middle: Audi A4 scan and model matched using SICP (magenta model and cyan scan data). Right: Recovered transformation matrix and application to positioning the object in the scan.\relax }}{4}}
+\newlabel{segmented_object}{{4}{4}}
+\usedref{mercedes_trio}
+\usedref{mercedes_results_good}
+\usedref{mercedes_results_bad}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation Metrics}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experiment and Results}{5}}
+\gdef \LT@i {\LT@entry 
+    {5}{73.93187pt}\LT@entry 
+    {5}{102.38463pt}\LT@entry 
+    {1}{124.34796pt}}
+\gdef \LT@ii {\LT@entry 
+    {5}{35.57787pt}\LT@entry 
+    {1}{47.04279pt}\LT@entry 
+    {1}{124.34796pt}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Segmented Mercedes C350 and its best SICP match.\relax }}{6}}
+\newlabel{mercedes_trio}{{5}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mercedes C350 - Best matched models (3)}}{6}}
+\newlabel{mercedes_results_good}{{1}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Mercedes C350}}{6}}
+\newlabel{mercedes_results_bad}{{2}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Segmented Audi A4 and its best SICP match.\relax }}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Segmented Audi A4}}}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Best match}}}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Scan with matched Audi A4}}}{7}}
+\newlabel{audi_trio}{{6}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Segmented Volkswagen Golf and its best SICP match.\relax }}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Segmented Volkswagen Golf}}}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Best match}}}{7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Scan with matched Volkswagen Golf}}}{7}}
+\newlabel{golf_trio}{{7}{7}}
+\usedref{citroen_trio}
+\usedref{mercedes_vs_all}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Segmented Renault Kangoo and its best SICP match.\relax }}{8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Segmented Renault Kangoo}}}{8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Best match}}}{8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Scan with matched Renault Kangoo}}}{8}}
+\newlabel{renault_trio}{{8}{8}}
+\gdef \LT@iii {\LT@entry 
+    {1}{30.31377pt}\LT@entry 
+    {1}{47.04279pt}\LT@entry 
+    {1}{124.34796pt}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Segmented Citroen C5 and its best SICP match.\relax }}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Segmented Citroen C5}}}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Best match}}}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Scan with matched Citroen C5}}}{9}}
+\newlabel{citroen_trio}{{9}{9}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Mercedes C350}}{9}}
+\newlabel{mercedes_vs_all}{{3}{9}}
+\gdef \LT@iv {\LT@entry 
+    {1}{30.31377pt}\LT@entry 
+    {1}{47.04279pt}\LT@entry 
+    {5}{145.06377pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Find Audi A4 in entire scan}}{11}}
+\newlabel{audi_big_scan}{{4}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{11}}
+\bibstyle{plain}
+\bibdata{lit,andreas_publication}
+\bibcite{Beetz:2010}{1}
+\bibcite{Horn:1987}{2}
+\bibcite{Hebert:1999}{3}
+\bibcite{Kestler:2000}{4}
+\bibcite{Lai:2010}{5}
+\bibcite{Nuchter:2008}{6}
+\bibcite{Remondino:2009}{7}
+\bibcite{Russell:1995}{8}
+\bibcite{Stiene:2006}{9}
+\bibcite{Tangelder:2004}{10}

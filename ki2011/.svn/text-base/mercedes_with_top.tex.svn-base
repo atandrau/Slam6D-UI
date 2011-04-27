@@ -1,0 +1,43 @@
+\begin{longtable}{ccc}
+\caption[Mercedes against top models]{Mercedes against top models}\\
+
+\multicolumn{1}{c}{\textbf{Error}} & \multicolumn{1}{c}{\textbf{Rotation}} & \multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\tablename\ \thetable{} -- continued from previous page}} \\
+\multicolumn{1}{c}{\textbf{Error}} &
+\multicolumn{1}{c}{\textbf{Rotation}} &
+\multicolumn{1}{c}{\textbf{Google SketchUp model}} \\
+\endhead
+
+\multicolumn{3}{r}{{Continued on next page}} \\
+\endfoot
+
+\endlastfoot
+
+	$49.0$ & 0 90 0 & \includegraphics{models/1c5a350ea0f55f793fbce9ec40e1f047.jpg}\\
+	$49.0$ & 0 90 0 & \includegraphics{models/689346b4812ead699bdae02f855f706c.jpg}\\
+	$49.0$ & 0 90 0 & \includegraphics{models/875bc6efc7f33c052e877e82c90c24d.jpg}\\
+	$106.0$ & 0 180 0 & \includegraphics{models/48ba3d4afcce62b570a637753420b32.jpg}\\
+	$114.0$ & 0 270 0 & \includegraphics{models/20686840ff4261097d59111fc550b15d.jpg}\\
+	$116.0$ & 0 270 0 & \includegraphics{models/380e0c29c9ea00e9ce158c6cc0278580.jpg}\\
+	$119.0$ & 0 180 0 & \includegraphics{models/4eb9dbe42616e407b112e5ac235c21b7.jpg}\\
+	$125.0$ & 0 270 0 & \includegraphics{models/2521a90182ccc29c253c03b7df20edd5.jpg}\\
+	$127.0$ & 0 270 0 & \includegraphics{models/54454eefe74ee4f63f7e28616073ba48.jpg}\\
+	$211.0$ & 0 180 0 & \includegraphics{models/6af0ad6553d3f42f21f6e2b0f75cf9c4.jpg}\\
+	$225.0$ & 0 180 0 & \includegraphics{models/13390595544e61533a93df79ef2b80ef.jpg}\\
+	$229.0$ & 0 0 0 & \includegraphics{models/3cbf177f6c65481629604d2278b86154.jpg}\\
+	$242.0$ & 0 180 0 & \includegraphics{models/57edc56f42f2c8777c43e431b46e6a91.jpg}\\
+	$245.0$ & 0 90 0 & \includegraphics{models/d9cfad911b26b2ae5690f18c88ad5b9e.jpg}\\
+	$286.0$ & 0 0 0 & \includegraphics{models/15b19ec5da2476aaee71d27e6085cb7a.jpg}\\
+	$307.0$ & 0 0 0 & \includegraphics{models/f1ef33533b18d207d75f7835edfe1dd1.jpg}\\
+	$748.0$ & 0 90 0 & \includegraphics{models/a261f02f3b35d91c27cf09974d21d512.jpg}\\
+	$884.0$ & 0 180 0 & \includegraphics{models/dd64056e3160f6d74cfb219cc72c917c.jpg}\\
+	$1684.0$ & 0 90 0 & \includegraphics{models/b238de109e2b8655727c10c7e3dc543b.jpg}\\
+	$2901.0$ & 0 0 0 & \includegraphics{models/ea0a059d61a031ec56d3d9a8b35aa5f0.jpg}\\
+	$4620.0$ & 0 270 0 & \includegraphics{models/3166fe5dfd5a6b4c3082fedfd6ecea13.jpg}\\
+	$6540.0$ & 0 180 0 & \includegraphics{models/239fe133a3563391878dd6a23d35bf46.jpg}\\
+	$15580.0$ & 0 180 0 & \includegraphics{models/4d42c75f74042ec5659b09df1bf6411d.jpg}\\
+	$20616.0$ & 0 0 0 & \includegraphics{models/4d573d1cad3e4f1bd1c3445dc1f4e2d8.jpg}\\
+\end{longtable}
